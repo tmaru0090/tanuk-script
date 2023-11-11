@@ -1,0 +1,1018 @@
+The system is: Windows - 10.0.19045 - AMD64
+Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+Compiler: C:/Users/daruma/bin/.gcc/mingw32/bin/cc.exe 
+Build flags: 
+Id flags:  
+
+The output was:
+0
+
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.exe"
+
+The C compiler identification is GNU, found in "C:/Users/daruma/nvim-source/cpp/tanuk-script/build/CMakeFiles/3.24.2/CompilerIdC/a.exe"
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+Compiler: C:/Users/daruma/bin/.gcc/mingw32/bin/c++.exe 
+Build flags: 
+Id flags:  
+
+The output was:
+0
+
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.exe"
+
+The CXX compiler identification is GNU, found in "C:/Users/daruma/nvim-source/cpp/tanuk-script/build/CMakeFiles/3.24.2/CompilerIdCXX/a.exe"
+
+Detecting C compiler ABI info compiled with the following output:
+Change Dir: C:/Users/daruma/nvim-source/cpp/tanuk-script/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Users/daruma/bin/.ninja/Ninja/ninja.exe cmTC_4a9cb && [1/2] Building C object CMakeFiles/cmTC_4a9cb.dir/CMakeCCompilerABI.c.obj
+Using built-in specs.
+COLLECT_GCC=C:\Users\daruma\bin\.gcc\mingw32\bin\cc.exe
+Target: i686-w64-mingw32
+Configured with: ../../../src/gcc-12.2.0/configure --host=i686-w64-mingw32 --build=i686-w64-mingw32 --target=i686-w64-mingw32 --prefix=/mingw32 --with-sysroot=/c/buildroot/i686-1220-posix-dwarf-rt_v10-rev0/mingw32 --enable-host-shared --disable-multilib --enable-languages=c,c++,fortran,lto --enable-libstdcxx-time=yes --enable-threads=posix --enable-libgomp --enable-libatomic --enable-lto --enable-graphite --enable-checking=release --enable-fully-dynamic-string --enable-version-specific-runtime-libs --enable-libstdcxx-filesystem-ts=yes --disable-sjlj-exceptions --with-dwarf2 --disable-libstdcxx-pch --disable-libstdcxx-debug --enable-bootstrap --disable-rpath --disable-win32-registry --disable-nls --disable-werror --disable-symvers --with-gnu-as --with-gnu-ld --with-arch=i686 --with-tune=generic --with-libiconv --with-system-zlib --with-gmp=/c/buildroot/prerequisites/i686-w64-mingw32-static --with-mpfr=/c/buildroot/prerequisites/i686-w64-mingw32-static --with-mpc=/c/buildroot/prerequisites/i686-w64-mingw32-static --with-isl=/c/buildroot/prerequisites/i686-w64-mingw32-static --with-pkgversion='i686-posix-dwarf-rev0, Built by MinGW-W64 project' --with-bugurl=https://sourceforge.net/projects/mingw-w64 CFLAGS='-O2 -pipe -fno-ident -I/c/buildroot/i686-1220-posix-dwarf-rt_v10-rev0/mingw32/opt/include -I/c/buildroot/prerequisites/i686-zlib-static/include -I/c/buildroot/prerequisites/i686-w64-mingw32-static/include' CXXFLAGS='-O2 -pipe -fno-ident -I/c/buildroot/i686-1220-posix-dwarf-rt_v10-rev0/mingw32/opt/include -I/c/buildroot/prerequisites/i686-zlib-static/include -I/c/buildroot/prerequisites/i686-w64-mingw32-static/include' CPPFLAGS=' -I/c/buildroot/i686-1220-posix-dwarf-rt_v10-rev0/mingw32/opt/include -I/c/buildroot/prerequisites/i686-zlib-static/include -I/c/buildroot/prerequisites/i686-w64-mingw32-static/include' LDFLAGS='-pipe -fno-ident -L/c/buildroot/i686-1220-posix-dwarf-rt_v10-rev0/mingw32/opt/lib -L/c/buildroot/prerequisites/i686-zlib-static/lib -L/c/buildroot/prerequisites/i686-w64-mingw32-static/lib -Wl,--large-address-aware' LD_FOR_TARGET=/c/buildroot/i686-1220-posix-dwarf-rt_v10-rev0/mingw32/bin/ld.exe --with-boot-ldflags=' -Wl,--disable-dynamicbase -static-libstdc++ -static-libgcc'
+Thread model: posix
+Supported LTO compression algorithms: zlib
+gcc version 12.2.0 (i686-posix-dwarf-rev0, Built by MinGW-W64 project) 
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_4a9cb.dir/CMakeCCompilerABI.c.obj' '-c' '-mtune=generic' '-march=i686' '-dumpdir' 'CMakeFiles/cmTC_4a9cb.dir/'
+ C:/Users/daruma/bin/.gcc/mingw32/bin/../libexec/gcc/i686-w64-mingw32/12.2.0/cc1.exe -quiet -v -iprefix C:/Users/daruma/bin/.gcc/mingw32/bin/../lib/gcc/i686-w64-mingw32/12.2.0/ -D_REENTRANT C:/Users/daruma/bin/.cmake/CMake/share/cmake-3.24/Modules/CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles/cmTC_4a9cb.dir/ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mtune=generic -march=i686 -version -o C:\Users\daruma\AppData\Local\Temp\cc6ywWia.s
+GNU C17 (i686-posix-dwarf-rev0, Built by MinGW-W64 project) version 12.2.0 (i686-w64-mingw32)
+	compiled by GNU C version 12.2.0, GMP version 6.2.1, MPFR version 4.1.0, MPC version 1.2.1, isl version isl-0.25-GMP
+
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+ignoring duplicate directory "C:/Users/daruma/bin/.gcc/mingw32/lib/gcc/../../lib/gcc/i686-w64-mingw32/12.2.0/include"
+ignoring nonexistent directory "C:/buildroot/i686-1220-posix-dwarf-rt_v10-rev0/mingw32D:/a/_temp/msys64/mingw32/lib/gcc/i686-w64-mingw32/12.2.0/../../../../include"
+ignoring duplicate directory "C:/Users/daruma/bin/.gcc/mingw32/lib/gcc/../../lib/gcc/i686-w64-mingw32/12.2.0/include-fixed"
+ignoring duplicate directory "C:/Users/daruma/bin/.gcc/mingw32/lib/gcc/../../lib/gcc/i686-w64-mingw32/12.2.0/../../../../i686-w64-mingw32/include"
+ignoring nonexistent directory "C:/buildroot/i686-1220-posix-dwarf-rt_v10-rev0/mingw32/mingw/include"
+#include "..." search starts here:
+#include <...> search starts here:
+ C:/Users/daruma/bin/.gcc/mingw32/bin/../lib/gcc/i686-w64-mingw32/12.2.0/include
+ C:/Users/daruma/bin/.gcc/mingw32/bin/../lib/gcc/i686-w64-mingw32/12.2.0/include-fixed
+ C:/Users/daruma/bin/.gcc/mingw32/bin/../lib/gcc/i686-w64-mingw32/12.2.0/../../../../i686-w64-mingw32/include
+End of search list.
+GNU C17 (i686-posix-dwarf-rev0, Built by MinGW-W64 project) version 12.2.0 (i686-w64-mingw32)
+	compiled by GNU C version 12.2.0, GMP version 6.2.1, MPFR version 4.1.0, MPC version 1.2.1, isl version isl-0.25-GMP
+
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+Compiler executable checksum: e07563985f5ae3e2188738dd8ca3293f
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_4a9cb.dir/CMakeCCompilerABI.c.obj' '-c' '-mtune=generic' '-march=i686' '-dumpdir' 'CMakeFiles/cmTC_4a9cb.dir/'
+ C:/Users/daruma/bin/.gcc/mingw32/bin/../lib/gcc/i686-w64-mingw32/12.2.0/../../../../i686-w64-mingw32/bin/as.exe -v -o CMakeFiles/cmTC_4a9cb.dir/CMakeCCompilerABI.c.obj C:\Users\daruma\AppData\Local\Temp\cc6ywWia.s
+GNU assembler version 2.38 (i686-w64-mingw32) using BFD version (GNU Binutils) 2.38
+COMPILER_PATH=C:/Users/daruma/bin/.gcc/mingw32/bin/../libexec/gcc/i686-w64-mingw32/12.2.0/;C:/Users/daruma/bin/.gcc/mingw32/bin/../libexec/gcc/;C:/Users/daruma/bin/.gcc/mingw32/bin/../lib/gcc/i686-w64-mingw32/12.2.0/../../../../i686-w64-mingw32/bin/
+LIBRARY_PATH=C:/Users/daruma/bin/.gcc/mingw32/bin/../lib/gcc/i686-w64-mingw32/12.2.0/;C:/Users/daruma/bin/.gcc/mingw32/bin/../lib/gcc/;C:/Users/daruma/bin/.gcc/mingw32/bin/../lib/gcc/i686-w64-mingw32/12.2.0/../../../../i686-w64-mingw32/lib/../lib/;C:/Users/daruma/bin/.gcc/mingw32/bin/../lib/gcc/i686-w64-mingw32/12.2.0/../../../../lib/;C:/Users/daruma/bin/.gcc/mingw32/bin/../lib/gcc/i686-w64-mingw32/12.2.0/../../../../i686-w64-mingw32/lib/;C:/Users/daruma/bin/.gcc/mingw32/bin/../lib/gcc/i686-w64-mingw32/12.2.0/../../../
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_4a9cb.dir/CMakeCCompilerABI.c.obj' '-c' '-mtune=generic' '-march=i686' '-dumpdir' 'CMakeFiles/cmTC_4a9cb.dir/CMakeCCompilerABI.c.'
+[2/2] Linking C executable cmTC_4a9cb.exe
+Using built-in specs.
+COLLECT_GCC=C:\Users\daruma\bin\.gcc\mingw32\bin\cc.exe
+COLLECT_LTO_WRAPPER=C:/Users/daruma/bin/.gcc/mingw32/bin/../libexec/gcc/i686-w64-mingw32/12.2.0/lto-wrapper.exe
+Target: i686-w64-mingw32
+Configured with: ../../../src/gcc-12.2.0/configure --host=i686-w64-mingw32 --build=i686-w64-mingw32 --target=i686-w64-mingw32 --prefix=/mingw32 --with-sysroot=/c/buildroot/i686-1220-posix-dwarf-rt_v10-rev0/mingw32 --enable-host-shared --disable-multilib --enable-languages=c,c++,fortran,lto --enable-libstdcxx-time=yes --enable-threads=posix --enable-libgomp --enable-libatomic --enable-lto --enable-graphite --enable-checking=release --enable-fully-dynamic-string --enable-version-specific-runtime-libs --enable-libstdcxx-filesystem-ts=yes --disable-sjlj-exceptions --with-dwarf2 --disable-libstdcxx-pch --disable-libstdcxx-debug --enable-bootstrap --disable-rpath --disable-win32-registry --disable-nls --disable-werror --disable-symvers --with-gnu-as --with-gnu-ld --with-arch=i686 --with-tune=generic --with-libiconv --with-system-zlib --with-gmp=/c/buildroot/prerequisites/i686-w64-mingw32-static --with-mpfr=/c/buildroot/prerequisites/i686-w64-mingw32-static --with-mpc=/c/buildroot/prerequisites/i686-w64-mingw32-static --with-isl=/c/buildroot/prerequisites/i686-w64-mingw32-static --with-pkgversion='i686-posix-dwarf-rev0, Built by MinGW-W64 project' --with-bugurl=https://sourceforge.net/projects/mingw-w64 CFLAGS='-O2 -pipe -fno-ident -I/c/buildroot/i686-1220-posix-dwarf-rt_v10-rev0/mingw32/opt/include -I/c/buildroot/prerequisites/i686-zlib-static/include -I/c/buildroot/prerequisites/i686-w64-mingw32-static/include' CXXFLAGS='-O2 -pipe -fno-ident -I/c/buildroot/i686-1220-posix-dwarf-rt_v10-rev0/mingw32/opt/include -I/c/buildroot/prerequisites/i686-zlib-static/include -I/c/buildroot/prerequisites/i686-w64-mingw32-static/include' CPPFLAGS=' -I/c/buildroot/i686-1220-posix-dwarf-rt_v10-rev0/mingw32/opt/include -I/c/buildroot/prerequisites/i686-zlib-static/include -I/c/buildroot/prerequisites/i686-w64-mingw32-static/include' LDFLAGS='-pipe -fno-ident -L/c/buildroot/i686-1220-posix-dwarf-rt_v10-rev0/mingw32/opt/lib -L/c/buildroot/prerequisites/i686-zlib-static/lib -L/c/buildroot/prerequisites/i686-w64-mingw32-static/lib -Wl,--large-address-aware' LD_FOR_TARGET=/c/buildroot/i686-1220-posix-dwarf-rt_v10-rev0/mingw32/bin/ld.exe --with-boot-ldflags=' -Wl,--disable-dynamicbase -static-libstdc++ -static-libgcc'
+Thread model: posix
+Supported LTO compression algorithms: zlib
+gcc version 12.2.0 (i686-posix-dwarf-rev0, Built by MinGW-W64 project) 
+COMPILER_PATH=C:/Users/daruma/bin/.gcc/mingw32/bin/../libexec/gcc/i686-w64-mingw32/12.2.0/;C:/Users/daruma/bin/.gcc/mingw32/bin/../libexec/gcc/;C:/Users/daruma/bin/.gcc/mingw32/bin/../lib/gcc/i686-w64-mingw32/12.2.0/../../../../i686-w64-mingw32/bin/
+LIBRARY_PATH=C:/Users/daruma/bin/.gcc/mingw32/bin/../lib/gcc/i686-w64-mingw32/12.2.0/;C:/Users/daruma/bin/.gcc/mingw32/bin/../lib/gcc/;C:/Users/daruma/bin/.gcc/mingw32/bin/../lib/gcc/i686-w64-mingw32/12.2.0/../../../../i686-w64-mingw32/lib/../lib/;C:/Users/daruma/bin/.gcc/mingw32/bin/../lib/gcc/i686-w64-mingw32/12.2.0/../../../../lib/;C:/Users/daruma/bin/.gcc/mingw32/bin/../lib/gcc/i686-w64-mingw32/12.2.0/../../../../i686-w64-mingw32/lib/;C:/Users/daruma/bin/.gcc/mingw32/bin/../lib/gcc/i686-w64-mingw32/12.2.0/../../../
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_4a9cb.exe' '-mtune=generic' '-march=i686' '-dumpdir' 'cmTC_4a9cb.'
+ C:/Users/daruma/bin/.gcc/mingw32/bin/../libexec/gcc/i686-w64-mingw32/12.2.0/collect2.exe -plugin C:/Users/daruma/bin/.gcc/mingw32/bin/../libexec/gcc/i686-w64-mingw32/12.2.0/liblto_plugin.dll -plugin-opt=C:/Users/daruma/bin/.gcc/mingw32/bin/../libexec/gcc/i686-w64-mingw32/12.2.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\Users\daruma\AppData\Local\Temp\cc5hJ8oh.res -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_eh -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-liconv -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_eh -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 --sysroot=C:/buildroot/i686-1220-posix-dwarf-rt_v10-rev0/mingw32 -m i386pe -Bdynamic -o cmTC_4a9cb.exe C:/Users/daruma/bin/.gcc/mingw32/bin/../lib/gcc/i686-w64-mingw32/12.2.0/../../../../i686-w64-mingw32/lib/../lib/crt2.o C:/Users/daruma/bin/.gcc/mingw32/bin/../lib/gcc/i686-w64-mingw32/12.2.0/crtbegin.o -LC:/Users/daruma/bin/.gcc/mingw32/bin/../lib/gcc/i686-w64-mingw32/12.2.0 -LC:/Users/daruma/bin/.gcc/mingw32/bin/../lib/gcc -LC:/Users/daruma/bin/.gcc/mingw32/bin/../lib/gcc/i686-w64-mingw32/12.2.0/../../../../i686-w64-mingw32/lib/../lib -LC:/Users/daruma/bin/.gcc/mingw32/bin/../lib/gcc/i686-w64-mingw32/12.2.0/../../../../lib -LC:/Users/daruma/bin/.gcc/mingw32/bin/../lib/gcc/i686-w64-mingw32/12.2.0/../../../../i686-w64-mingw32/lib -LC:/Users/daruma/bin/.gcc/mingw32/bin/../lib/gcc/i686-w64-mingw32/12.2.0/../../.. CMakeFiles/cmTC_4a9cb.dir/CMakeCCompilerABI.c.obj --out-implib libcmTC_4a9cb.dll.a --major-image-version 0 --minor-image-version 0 -lmingw32 -lgcc -lgcc_eh -lmoldname -lmingwex -lmsvcrt -lkernel32 -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -liconv -lmingw32 -lgcc -lgcc_eh -lmoldname -lmingwex -lmsvcrt -lkernel32 C:/Users/daruma/bin/.gcc/mingw32/bin/../lib/gcc/i686-w64-mingw32/12.2.0/crtend.o
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_4a9cb.exe' '-mtune=generic' '-march=i686' '-dumpdir' 'cmTC_4a9cb.'
+
+
+
+Parsed C implicit include dir info from above output: rv=done
+  found start of include info
+  found start of implicit include info
+    add: [C:/Users/daruma/bin/.gcc/mingw32/bin/../lib/gcc/i686-w64-mingw32/12.2.0/include]
+    add: [C:/Users/daruma/bin/.gcc/mingw32/bin/../lib/gcc/i686-w64-mingw32/12.2.0/include-fixed]
+    add: [C:/Users/daruma/bin/.gcc/mingw32/bin/../lib/gcc/i686-w64-mingw32/12.2.0/../../../../i686-w64-mingw32/include]
+  end of search list found
+  collapse include dir [C:/Users/daruma/bin/.gcc/mingw32/bin/../lib/gcc/i686-w64-mingw32/12.2.0/include] ==> [C:/Users/daruma/bin/.gcc/mingw32/lib/gcc/i686-w64-mingw32/12.2.0/include]
+  collapse include dir [C:/Users/daruma/bin/.gcc/mingw32/bin/../lib/gcc/i686-w64-mingw32/12.2.0/include-fixed] ==> [C:/Users/daruma/bin/.gcc/mingw32/lib/gcc/i686-w64-mingw32/12.2.0/include-fixed]
+  collapse include dir [C:/Users/daruma/bin/.gcc/mingw32/bin/../lib/gcc/i686-w64-mingw32/12.2.0/../../../../i686-w64-mingw32/include] ==> [C:/Users/daruma/bin/.gcc/mingw32/i686-w64-mingw32/include]
+  implicit include dirs: [C:/Users/daruma/bin/.gcc/mingw32/lib/gcc/i686-w64-mingw32/12.2.0/include;C:/Users/daruma/bin/.gcc/mingw32/lib/gcc/i686-w64-mingw32/12.2.0/include-fixed;C:/Users/daruma/bin/.gcc/mingw32/i686-w64-mingw32/include]
+
+
+Parsed C implicit link information from above output:
+  link line regex: [^( *|.*[/\])(ld\.exe|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: C:/Users/daruma/nvim-source/cpp/tanuk-script/build/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command(s):C:/Users/daruma/bin/.ninja/Ninja/ninja.exe cmTC_4a9cb && [1/2] Building C object CMakeFiles/cmTC_4a9cb.dir/CMakeCCompilerABI.c.obj]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=C:\Users\daruma\bin\.gcc\mingw32\bin\cc.exe]
+  ignore line: [Target: i686-w64-mingw32]
+  ignore line: [Configured with: ../../../src/gcc-12.2.0/configure --host=i686-w64-mingw32 --build=i686-w64-mingw32 --target=i686-w64-mingw32 --prefix=/mingw32 --with-sysroot=/c/buildroot/i686-1220-posix-dwarf-rt_v10-rev0/mingw32 --enable-host-shared --disable-multilib --enable-languages=c,c++,fortran,lto --enable-libstdcxx-time=yes --enable-threads=posix --enable-libgomp --enable-libatomic --enable-lto --enable-graphite --enable-checking=release --enable-fully-dynamic-string --enable-version-specific-runtime-libs --enable-libstdcxx-filesystem-ts=yes --disable-sjlj-exceptions --with-dwarf2 --disable-libstdcxx-pch --disable-libstdcxx-debug --enable-bootstrap --disable-rpath --disable-win32-registry --disable-nls --disable-werror --disable-symvers --with-gnu-as --with-gnu-ld --with-arch=i686 --with-tune=generic --with-libiconv --with-system-zlib --with-gmp=/c/buildroot/prerequisites/i686-w64-mingw32-static --with-mpfr=/c/buildroot/prerequisites/i686-w64-mingw32-static --with-mpc=/c/buildroot/prerequisites/i686-w64-mingw32-static --with-isl=/c/buildroot/prerequisites/i686-w64-mingw32-static --with-pkgversion='i686-posix-dwarf-rev0, Built by MinGW-W64 project' --with-bugurl=https://sourceforge.net/projects/mingw-w64 CFLAGS='-O2 -pipe -fno-ident -I/c/buildroot/i686-1220-posix-dwarf-rt_v10-rev0/mingw32/opt/include -I/c/buildroot/prerequisites/i686-zlib-static/include -I/c/buildroot/prerequisites/i686-w64-mingw32-static/include' CXXFLAGS='-O2 -pipe -fno-ident -I/c/buildroot/i686-1220-posix-dwarf-rt_v10-rev0/mingw32/opt/include -I/c/buildroot/prerequisites/i686-zlib-static/include -I/c/buildroot/prerequisites/i686-w64-mingw32-static/include' CPPFLAGS=' -I/c/buildroot/i686-1220-posix-dwarf-rt_v10-rev0/mingw32/opt/include -I/c/buildroot/prerequisites/i686-zlib-static/include -I/c/buildroot/prerequisites/i686-w64-mingw32-static/include' LDFLAGS='-pipe -fno-ident -L/c/buildroot/i686-1220-posix-dwarf-rt_v10-rev0/mingw32/opt/lib -L/c/buildroot/prerequisites/i686-zlib-static/lib -L/c/buildroot/prerequisites/i686-w64-mingw32-static/lib -Wl,--large-address-aware' LD_FOR_TARGET=/c/buildroot/i686-1220-posix-dwarf-rt_v10-rev0/mingw32/bin/ld.exe --with-boot-ldflags=' -Wl,--disable-dynamicbase -static-libstdc++ -static-libgcc']
+  ignore line: [Thread model: posix]
+  ignore line: [Supported LTO compression algorithms: zlib]
+  ignore line: [gcc version 12.2.0 (i686-posix-dwarf-rev0  Built by MinGW-W64 project) ]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_4a9cb.dir/CMakeCCompilerABI.c.obj' '-c' '-mtune=generic' '-march=i686' '-dumpdir' 'CMakeFiles/cmTC_4a9cb.dir/']
+  ignore line: [ C:/Users/daruma/bin/.gcc/mingw32/bin/../libexec/gcc/i686-w64-mingw32/12.2.0/cc1.exe -quiet -v -iprefix C:/Users/daruma/bin/.gcc/mingw32/bin/../lib/gcc/i686-w64-mingw32/12.2.0/ -D_REENTRANT C:/Users/daruma/bin/.cmake/CMake/share/cmake-3.24/Modules/CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles/cmTC_4a9cb.dir/ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mtune=generic -march=i686 -version -o C:\Users\daruma\AppData\Local\Temp\cc6ywWia.s]
+  ignore line: [GNU C17 (i686-posix-dwarf-rev0  Built by MinGW-W64 project) version 12.2.0 (i686-w64-mingw32)]
+  ignore line: [	compiled by GNU C version 12.2.0  GMP version 6.2.1  MPFR version 4.1.0  MPC version 1.2.1  isl version isl-0.25-GMP]
+  ignore line: []
+  ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+  ignore line: [ignoring duplicate directory "C:/Users/daruma/bin/.gcc/mingw32/lib/gcc/../../lib/gcc/i686-w64-mingw32/12.2.0/include"]
+  ignore line: [ignoring nonexistent directory "C:/buildroot/i686-1220-posix-dwarf-rt_v10-rev0/mingw32D:/a/_temp/msys64/mingw32/lib/gcc/i686-w64-mingw32/12.2.0/../../../../include"]
+  ignore line: [ignoring duplicate directory "C:/Users/daruma/bin/.gcc/mingw32/lib/gcc/../../lib/gcc/i686-w64-mingw32/12.2.0/include-fixed"]
+  ignore line: [ignoring duplicate directory "C:/Users/daruma/bin/.gcc/mingw32/lib/gcc/../../lib/gcc/i686-w64-mingw32/12.2.0/../../../../i686-w64-mingw32/include"]
+  ignore line: [ignoring nonexistent directory "C:/buildroot/i686-1220-posix-dwarf-rt_v10-rev0/mingw32/mingw/include"]
+  ignore line: [#include "..." search starts here:]
+  ignore line: [#include <...> search starts here:]
+  ignore line: [ C:/Users/daruma/bin/.gcc/mingw32/bin/../lib/gcc/i686-w64-mingw32/12.2.0/include]
+  ignore line: [ C:/Users/daruma/bin/.gcc/mingw32/bin/../lib/gcc/i686-w64-mingw32/12.2.0/include-fixed]
+  ignore line: [ C:/Users/daruma/bin/.gcc/mingw32/bin/../lib/gcc/i686-w64-mingw32/12.2.0/../../../../i686-w64-mingw32/include]
+  ignore line: [End of search list.]
+  ignore line: [GNU C17 (i686-posix-dwarf-rev0  Built by MinGW-W64 project) version 12.2.0 (i686-w64-mingw32)]
+  ignore line: [	compiled by GNU C version 12.2.0  GMP version 6.2.1  MPFR version 4.1.0  MPC version 1.2.1  isl version isl-0.25-GMP]
+  ignore line: []
+  ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+  ignore line: [Compiler executable checksum: e07563985f5ae3e2188738dd8ca3293f]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_4a9cb.dir/CMakeCCompilerABI.c.obj' '-c' '-mtune=generic' '-march=i686' '-dumpdir' 'CMakeFiles/cmTC_4a9cb.dir/']
+  ignore line: [ C:/Users/daruma/bin/.gcc/mingw32/bin/../lib/gcc/i686-w64-mingw32/12.2.0/../../../../i686-w64-mingw32/bin/as.exe -v -o CMakeFiles/cmTC_4a9cb.dir/CMakeCCompilerABI.c.obj C:\Users\daruma\AppData\Local\Temp\cc6ywWia.s]
+  ignore line: [GNU assembler version 2.38 (i686-w64-mingw32) using BFD version (GNU Binutils) 2.38]
+  ignore line: [COMPILER_PATH=C:/Users/daruma/bin/.gcc/mingw32/bin/../libexec/gcc/i686-w64-mingw32/12.2.0/]
+  ignore line: [C:/Users/daruma/bin/.gcc/mingw32/bin/../libexec/gcc/]
+  ignore line: [C:/Users/daruma/bin/.gcc/mingw32/bin/../lib/gcc/i686-w64-mingw32/12.2.0/../../../../i686-w64-mingw32/bin/]
+  ignore line: [LIBRARY_PATH=C:/Users/daruma/bin/.gcc/mingw32/bin/../lib/gcc/i686-w64-mingw32/12.2.0/]
+  ignore line: [C:/Users/daruma/bin/.gcc/mingw32/bin/../lib/gcc/]
+  ignore line: [C:/Users/daruma/bin/.gcc/mingw32/bin/../lib/gcc/i686-w64-mingw32/12.2.0/../../../../i686-w64-mingw32/lib/../lib/]
+  ignore line: [C:/Users/daruma/bin/.gcc/mingw32/bin/../lib/gcc/i686-w64-mingw32/12.2.0/../../../../lib/]
+  ignore line: [C:/Users/daruma/bin/.gcc/mingw32/bin/../lib/gcc/i686-w64-mingw32/12.2.0/../../../../i686-w64-mingw32/lib/]
+  ignore line: [C:/Users/daruma/bin/.gcc/mingw32/bin/../lib/gcc/i686-w64-mingw32/12.2.0/../../../]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_4a9cb.dir/CMakeCCompilerABI.c.obj' '-c' '-mtune=generic' '-march=i686' '-dumpdir' 'CMakeFiles/cmTC_4a9cb.dir/CMakeCCompilerABI.c.']
+  ignore line: [[2/2] Linking C executable cmTC_4a9cb.exe]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=C:\Users\daruma\bin\.gcc\mingw32\bin\cc.exe]
+  ignore line: [COLLECT_LTO_WRAPPER=C:/Users/daruma/bin/.gcc/mingw32/bin/../libexec/gcc/i686-w64-mingw32/12.2.0/lto-wrapper.exe]
+  ignore line: [Target: i686-w64-mingw32]
+  ignore line: [Configured with: ../../../src/gcc-12.2.0/configure --host=i686-w64-mingw32 --build=i686-w64-mingw32 --target=i686-w64-mingw32 --prefix=/mingw32 --with-sysroot=/c/buildroot/i686-1220-posix-dwarf-rt_v10-rev0/mingw32 --enable-host-shared --disable-multilib --enable-languages=c,c++,fortran,lto --enable-libstdcxx-time=yes --enable-threads=posix --enable-libgomp --enable-libatomic --enable-lto --enable-graphite --enable-checking=release --enable-fully-dynamic-string --enable-version-specific-runtime-libs --enable-libstdcxx-filesystem-ts=yes --disable-sjlj-exceptions --with-dwarf2 --disable-libstdcxx-pch --disable-libstdcxx-debug --enable-bootstrap --disable-rpath --disable-win32-registry --disable-nls --disable-werror --disable-symvers --with-gnu-as --with-gnu-ld --with-arch=i686 --with-tune=generic --with-libiconv --with-system-zlib --with-gmp=/c/buildroot/prerequisites/i686-w64-mingw32-static --with-mpfr=/c/buildroot/prerequisites/i686-w64-mingw32-static --with-mpc=/c/buildroot/prerequisites/i686-w64-mingw32-static --with-isl=/c/buildroot/prerequisites/i686-w64-mingw32-static --with-pkgversion='i686-posix-dwarf-rev0, Built by MinGW-W64 project' --with-bugurl=https://sourceforge.net/projects/mingw-w64 CFLAGS='-O2 -pipe -fno-ident -I/c/buildroot/i686-1220-posix-dwarf-rt_v10-rev0/mingw32/opt/include -I/c/buildroot/prerequisites/i686-zlib-static/include -I/c/buildroot/prerequisites/i686-w64-mingw32-static/include' CXXFLAGS='-O2 -pipe -fno-ident -I/c/buildroot/i686-1220-posix-dwarf-rt_v10-rev0/mingw32/opt/include -I/c/buildroot/prerequisites/i686-zlib-static/include -I/c/buildroot/prerequisites/i686-w64-mingw32-static/include' CPPFLAGS=' -I/c/buildroot/i686-1220-posix-dwarf-rt_v10-rev0/mingw32/opt/include -I/c/buildroot/prerequisites/i686-zlib-static/include -I/c/buildroot/prerequisites/i686-w64-mingw32-static/include' LDFLAGS='-pipe -fno-ident -L/c/buildroot/i686-1220-posix-dwarf-rt_v10-rev0/mingw32/opt/lib -L/c/buildroot/prerequisites/i686-zlib-static/lib -L/c/buildroot/prerequisites/i686-w64-mingw32-static/lib -Wl,--large-address-aware' LD_FOR_TARGET=/c/buildroot/i686-1220-posix-dwarf-rt_v10-rev0/mingw32/bin/ld.exe --with-boot-ldflags=' -Wl,--disable-dynamicbase -static-libstdc++ -static-libgcc']
+  ignore line: [Thread model: posix]
+  ignore line: [Supported LTO compression algorithms: zlib]
+  ignore line: [gcc version 12.2.0 (i686-posix-dwarf-rev0  Built by MinGW-W64 project) ]
+  ignore line: [COMPILER_PATH=C:/Users/daruma/bin/.gcc/mingw32/bin/../libexec/gcc/i686-w64-mingw32/12.2.0/]
+  ignore line: [C:/Users/daruma/bin/.gcc/mingw32/bin/../libexec/gcc/]
+  ignore line: [C:/Users/daruma/bin/.gcc/mingw32/bin/../lib/gcc/i686-w64-mingw32/12.2.0/../../../../i686-w64-mingw32/bin/]
+  ignore line: [LIBRARY_PATH=C:/Users/daruma/bin/.gcc/mingw32/bin/../lib/gcc/i686-w64-mingw32/12.2.0/]
+  ignore line: [C:/Users/daruma/bin/.gcc/mingw32/bin/../lib/gcc/]
+  ignore line: [C:/Users/daruma/bin/.gcc/mingw32/bin/../lib/gcc/i686-w64-mingw32/12.2.0/../../../../i686-w64-mingw32/lib/../lib/]
+  ignore line: [C:/Users/daruma/bin/.gcc/mingw32/bin/../lib/gcc/i686-w64-mingw32/12.2.0/../../../../lib/]
+  ignore line: [C:/Users/daruma/bin/.gcc/mingw32/bin/../lib/gcc/i686-w64-mingw32/12.2.0/../../../../i686-w64-mingw32/lib/]
+  ignore line: [C:/Users/daruma/bin/.gcc/mingw32/bin/../lib/gcc/i686-w64-mingw32/12.2.0/../../../]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_4a9cb.exe' '-mtune=generic' '-march=i686' '-dumpdir' 'cmTC_4a9cb.']
+  link line: [ C:/Users/daruma/bin/.gcc/mingw32/bin/../libexec/gcc/i686-w64-mingw32/12.2.0/collect2.exe -plugin C:/Users/daruma/bin/.gcc/mingw32/bin/../libexec/gcc/i686-w64-mingw32/12.2.0/liblto_plugin.dll -plugin-opt=C:/Users/daruma/bin/.gcc/mingw32/bin/../libexec/gcc/i686-w64-mingw32/12.2.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\Users\daruma\AppData\Local\Temp\cc5hJ8oh.res -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_eh -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-liconv -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_eh -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 --sysroot=C:/buildroot/i686-1220-posix-dwarf-rt_v10-rev0/mingw32 -m i386pe -Bdynamic -o cmTC_4a9cb.exe C:/Users/daruma/bin/.gcc/mingw32/bin/../lib/gcc/i686-w64-mingw32/12.2.0/../../../../i686-w64-mingw32/lib/../lib/crt2.o C:/Users/daruma/bin/.gcc/mingw32/bin/../lib/gcc/i686-w64-mingw32/12.2.0/crtbegin.o -LC:/Users/daruma/bin/.gcc/mingw32/bin/../lib/gcc/i686-w64-mingw32/12.2.0 -LC:/Users/daruma/bin/.gcc/mingw32/bin/../lib/gcc -LC:/Users/daruma/bin/.gcc/mingw32/bin/../lib/gcc/i686-w64-mingw32/12.2.0/../../../../i686-w64-mingw32/lib/../lib -LC:/Users/daruma/bin/.gcc/mingw32/bin/../lib/gcc/i686-w64-mingw32/12.2.0/../../../../lib -LC:/Users/daruma/bin/.gcc/mingw32/bin/../lib/gcc/i686-w64-mingw32/12.2.0/../../../../i686-w64-mingw32/lib -LC:/Users/daruma/bin/.gcc/mingw32/bin/../lib/gcc/i686-w64-mingw32/12.2.0/../../.. CMakeFiles/cmTC_4a9cb.dir/CMakeCCompilerABI.c.obj --out-implib libcmTC_4a9cb.dll.a --major-image-version 0 --minor-image-version 0 -lmingw32 -lgcc -lgcc_eh -lmoldname -lmingwex -lmsvcrt -lkernel32 -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -liconv -lmingw32 -lgcc -lgcc_eh -lmoldname -lmingwex -lmsvcrt -lkernel32 C:/Users/daruma/bin/.gcc/mingw32/bin/../lib/gcc/i686-w64-mingw32/12.2.0/crtend.o]
+    arg [C:/Users/daruma/bin/.gcc/mingw32/bin/../libexec/gcc/i686-w64-mingw32/12.2.0/collect2.exe] ==> ignore
+    arg [-plugin] ==> ignore
+    arg [C:/Users/daruma/bin/.gcc/mingw32/bin/../libexec/gcc/i686-w64-mingw32/12.2.0/liblto_plugin.dll] ==> ignore
+    arg [-plugin-opt=C:/Users/daruma/bin/.gcc/mingw32/bin/../libexec/gcc/i686-w64-mingw32/12.2.0/lto-wrapper.exe] ==> ignore
+    arg [-plugin-opt=-fresolution=C:\Users\daruma\AppData\Local\Temp\cc5hJ8oh.res] ==> ignore
+    arg [-plugin-opt=-pass-through=-lmingw32] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_eh] ==> ignore
+    arg [-plugin-opt=-pass-through=-lmoldname] ==> ignore
+    arg [-plugin-opt=-pass-through=-lmingwex] ==> ignore
+    arg [-plugin-opt=-pass-through=-lmsvcrt] ==> ignore
+    arg [-plugin-opt=-pass-through=-lkernel32] ==> ignore
+    arg [-plugin-opt=-pass-through=-lpthread] ==> ignore
+    arg [-plugin-opt=-pass-through=-ladvapi32] ==> ignore
+    arg [-plugin-opt=-pass-through=-lshell32] ==> ignore
+    arg [-plugin-opt=-pass-through=-luser32] ==> ignore
+    arg [-plugin-opt=-pass-through=-lkernel32] ==> ignore
+    arg [-plugin-opt=-pass-through=-liconv] ==> ignore
+    arg [-plugin-opt=-pass-through=-lmingw32] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_eh] ==> ignore
+    arg [-plugin-opt=-pass-through=-lmoldname] ==> ignore
+    arg [-plugin-opt=-pass-through=-lmingwex] ==> ignore
+    arg [-plugin-opt=-pass-through=-lmsvcrt] ==> ignore
+    arg [-plugin-opt=-pass-through=-lkernel32] ==> ignore
+    arg [--sysroot=C:/buildroot/i686-1220-posix-dwarf-rt_v10-rev0/mingw32] ==> ignore
+    arg [-m] ==> ignore
+    arg [i386pe] ==> ignore
+    arg [-Bdynamic] ==> search dynamic
+    arg [-o] ==> ignore
+    arg [cmTC_4a9cb.exe] ==> ignore
+    arg [C:/Users/daruma/bin/.gcc/mingw32/bin/../lib/gcc/i686-w64-mingw32/12.2.0/../../../../i686-w64-mingw32/lib/../lib/crt2.o] ==> obj [C:/Users/daruma/bin/.gcc/mingw32/bin/../lib/gcc/i686-w64-mingw32/12.2.0/../../../../i686-w64-mingw32/lib/../lib/crt2.o]
+    arg [C:/Users/daruma/bin/.gcc/mingw32/bin/../lib/gcc/i686-w64-mingw32/12.2.0/crtbegin.o] ==> obj [C:/Users/daruma/bin/.gcc/mingw32/bin/../lib/gcc/i686-w64-mingw32/12.2.0/crtbegin.o]
+    arg [-LC:/Users/daruma/bin/.gcc/mingw32/bin/../lib/gcc/i686-w64-mingw32/12.2.0] ==> dir [C:/Users/daruma/bin/.gcc/mingw32/bin/../lib/gcc/i686-w64-mingw32/12.2.0]
+    arg [-LC:/Users/daruma/bin/.gcc/mingw32/bin/../lib/gcc] ==> dir [C:/Users/daruma/bin/.gcc/mingw32/bin/../lib/gcc]
+    arg [-LC:/Users/daruma/bin/.gcc/mingw32/bin/../lib/gcc/i686-w64-mingw32/12.2.0/../../../../i686-w64-mingw32/lib/../lib] ==> dir [C:/Users/daruma/bin/.gcc/mingw32/bin/../lib/gcc/i686-w64-mingw32/12.2.0/../../../../i686-w64-mingw32/lib/../lib]
+    arg [-LC:/Users/daruma/bin/.gcc/mingw32/bin/../lib/gcc/i686-w64-mingw32/12.2.0/../../../../lib] ==> dir [C:/Users/daruma/bin/.gcc/mingw32/bin/../lib/gcc/i686-w64-mingw32/12.2.0/../../../../lib]
+    arg [-LC:/Users/daruma/bin/.gcc/mingw32/bin/../lib/gcc/i686-w64-mingw32/12.2.0/../../../../i686-w64-mingw32/lib] ==> dir [C:/Users/daruma/bin/.gcc/mingw32/bin/../lib/gcc/i686-w64-mingw32/12.2.0/../../../../i686-w64-mingw32/lib]
+    arg [-LC:/Users/daruma/bin/.gcc/mingw32/bin/../lib/gcc/i686-w64-mingw32/12.2.0/../../..] ==> dir [C:/Users/daruma/bin/.gcc/mingw32/bin/../lib/gcc/i686-w64-mingw32/12.2.0/../../..]
+    arg [CMakeFiles/cmTC_4a9cb.dir/CMakeCCompilerABI.c.obj] ==> ignore
+    arg [--out-implib] ==> ignore
+    arg [libcmTC_4a9cb.dll.a] ==> ignore
+    arg [--major-image-version] ==> ignore
+    arg [0] ==> ignore
+    arg [--minor-image-version] ==> ignore
+    arg [0] ==> ignore
+    arg [-lmingw32] ==> lib [mingw32]
+    arg [-lgcc] ==> lib [gcc]
+    arg [-lgcc_eh] ==> lib [gcc_eh]
+    arg [-lmoldname] ==> lib [moldname]
+    arg [-lmingwex] ==> lib [mingwex]
+    arg [-lmsvcrt] ==> lib [msvcrt]
+    arg [-lkernel32] ==> lib [kernel32]
+    arg [-lpthread] ==> lib [pthread]
+    arg [-ladvapi32] ==> lib [advapi32]
+    arg [-lshell32] ==> lib [shell32]
+    arg [-luser32] ==> lib [user32]
+    arg [-lkernel32] ==> lib [kernel32]
+    arg [-liconv] ==> lib [iconv]
+    arg [-lmingw32] ==> lib [mingw32]
+    arg [-lgcc] ==> lib [gcc]
+    arg [-lgcc_eh] ==> lib [gcc_eh]
+    arg [-lmoldname] ==> lib [moldname]
+    arg [-lmingwex] ==> lib [mingwex]
+    arg [-lmsvcrt] ==> lib [msvcrt]
+    arg [-lkernel32] ==> lib [kernel32]
+    arg [C:/Users/daruma/bin/.gcc/mingw32/bin/../lib/gcc/i686-w64-mingw32/12.2.0/crtend.o] ==> obj [C:/Users/daruma/bin/.gcc/mingw32/bin/../lib/gcc/i686-w64-mingw32/12.2.0/crtend.o]
+  remove lib [gcc_eh]
+  remove lib [msvcrt]
+  remove lib [gcc_eh]
+  remove lib [msvcrt]
+  collapse obj [C:/Users/daruma/bin/.gcc/mingw32/bin/../lib/gcc/i686-w64-mingw32/12.2.0/../../../../i686-w64-mingw32/lib/../lib/crt2.o] ==> [C:/Users/daruma/bin/.gcc/mingw32/i686-w64-mingw32/lib/crt2.o]
+  collapse obj [C:/Users/daruma/bin/.gcc/mingw32/bin/../lib/gcc/i686-w64-mingw32/12.2.0/crtbegin.o] ==> [C:/Users/daruma/bin/.gcc/mingw32/lib/gcc/i686-w64-mingw32/12.2.0/crtbegin.o]
+  collapse obj [C:/Users/daruma/bin/.gcc/mingw32/bin/../lib/gcc/i686-w64-mingw32/12.2.0/crtend.o] ==> [C:/Users/daruma/bin/.gcc/mingw32/lib/gcc/i686-w64-mingw32/12.2.0/crtend.o]
+  collapse library dir [C:/Users/daruma/bin/.gcc/mingw32/bin/../lib/gcc/i686-w64-mingw32/12.2.0] ==> [C:/Users/daruma/bin/.gcc/mingw32/lib/gcc/i686-w64-mingw32/12.2.0]
+  collapse library dir [C:/Users/daruma/bin/.gcc/mingw32/bin/../lib/gcc] ==> [C:/Users/daruma/bin/.gcc/mingw32/lib/gcc]
+  collapse library dir [C:/Users/daruma/bin/.gcc/mingw32/bin/../lib/gcc/i686-w64-mingw32/12.2.0/../../../../i686-w64-mingw32/lib/../lib] ==> [C:/Users/daruma/bin/.gcc/mingw32/i686-w64-mingw32/lib]
+  collapse library dir [C:/Users/daruma/bin/.gcc/mingw32/bin/../lib/gcc/i686-w64-mingw32/12.2.0/../../../../lib] ==> [C:/Users/daruma/bin/.gcc/mingw32/lib]
+  collapse library dir [C:/Users/daruma/bin/.gcc/mingw32/bin/../lib/gcc/i686-w64-mingw32/12.2.0/../../../../i686-w64-mingw32/lib] ==> [C:/Users/daruma/bin/.gcc/mingw32/i686-w64-mingw32/lib]
+  collapse library dir [C:/Users/daruma/bin/.gcc/mingw32/bin/../lib/gcc/i686-w64-mingw32/12.2.0/../../..] ==> [C:/Users/daruma/bin/.gcc/mingw32/lib]
+  implicit libs: [mingw32;gcc;moldname;mingwex;kernel32;pthread;advapi32;shell32;user32;kernel32;iconv;mingw32;gcc;moldname;mingwex;kernel32]
+  implicit objs: [C:/Users/daruma/bin/.gcc/mingw32/i686-w64-mingw32/lib/crt2.o;C:/Users/daruma/bin/.gcc/mingw32/lib/gcc/i686-w64-mingw32/12.2.0/crtbegin.o;C:/Users/daruma/bin/.gcc/mingw32/lib/gcc/i686-w64-mingw32/12.2.0/crtend.o]
+  implicit dirs: [C:/Users/daruma/bin/.gcc/mingw32/lib/gcc/i686-w64-mingw32/12.2.0;C:/Users/daruma/bin/.gcc/mingw32/lib/gcc;C:/Users/daruma/bin/.gcc/mingw32/i686-w64-mingw32/lib;C:/Users/daruma/bin/.gcc/mingw32/lib]
+  implicit fwks: []
+
+
+Detecting CXX compiler ABI info compiled with the following output:
+Change Dir: C:/Users/daruma/nvim-source/cpp/tanuk-script/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Users/daruma/bin/.ninja/Ninja/ninja.exe cmTC_10686 && [1/2] Building CXX object CMakeFiles/cmTC_10686.dir/CMakeCXXCompilerABI.cpp.obj
+Using built-in specs.
+COLLECT_GCC=C:\Users\daruma\bin\.gcc\mingw32\bin\c++.exe
+Target: i686-w64-mingw32
+Configured with: ../../../src/gcc-12.2.0/configure --host=i686-w64-mingw32 --build=i686-w64-mingw32 --target=i686-w64-mingw32 --prefix=/mingw32 --with-sysroot=/c/buildroot/i686-1220-posix-dwarf-rt_v10-rev0/mingw32 --enable-host-shared --disable-multilib --enable-languages=c,c++,fortran,lto --enable-libstdcxx-time=yes --enable-threads=posix --enable-libgomp --enable-libatomic --enable-lto --enable-graphite --enable-checking=release --enable-fully-dynamic-string --enable-version-specific-runtime-libs --enable-libstdcxx-filesystem-ts=yes --disable-sjlj-exceptions --with-dwarf2 --disable-libstdcxx-pch --disable-libstdcxx-debug --enable-bootstrap --disable-rpath --disable-win32-registry --disable-nls --disable-werror --disable-symvers --with-gnu-as --with-gnu-ld --with-arch=i686 --with-tune=generic --with-libiconv --with-system-zlib --with-gmp=/c/buildroot/prerequisites/i686-w64-mingw32-static --with-mpfr=/c/buildroot/prerequisites/i686-w64-mingw32-static --with-mpc=/c/buildroot/prerequisites/i686-w64-mingw32-static --with-isl=/c/buildroot/prerequisites/i686-w64-mingw32-static --with-pkgversion='i686-posix-dwarf-rev0, Built by MinGW-W64 project' --with-bugurl=https://sourceforge.net/projects/mingw-w64 CFLAGS='-O2 -pipe -fno-ident -I/c/buildroot/i686-1220-posix-dwarf-rt_v10-rev0/mingw32/opt/include -I/c/buildroot/prerequisites/i686-zlib-static/include -I/c/buildroot/prerequisites/i686-w64-mingw32-static/include' CXXFLAGS='-O2 -pipe -fno-ident -I/c/buildroot/i686-1220-posix-dwarf-rt_v10-rev0/mingw32/opt/include -I/c/buildroot/prerequisites/i686-zlib-static/include -I/c/buildroot/prerequisites/i686-w64-mingw32-static/include' CPPFLAGS=' -I/c/buildroot/i686-1220-posix-dwarf-rt_v10-rev0/mingw32/opt/include -I/c/buildroot/prerequisites/i686-zlib-static/include -I/c/buildroot/prerequisites/i686-w64-mingw32-static/include' LDFLAGS='-pipe -fno-ident -L/c/buildroot/i686-1220-posix-dwarf-rt_v10-rev0/mingw32/opt/lib -L/c/buildroot/prerequisites/i686-zlib-static/lib -L/c/buildroot/prerequisites/i686-w64-mingw32-static/lib -Wl,--large-address-aware' LD_FOR_TARGET=/c/buildroot/i686-1220-posix-dwarf-rt_v10-rev0/mingw32/bin/ld.exe --with-boot-ldflags=' -Wl,--disable-dynamicbase -static-libstdc++ -static-libgcc'
+Thread model: posix
+Supported LTO compression algorithms: zlib
+gcc version 12.2.0 (i686-posix-dwarf-rev0, Built by MinGW-W64 project) 
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_10686.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=generic' '-march=i686' '-dumpdir' 'CMakeFiles/cmTC_10686.dir/'
+ C:/Users/daruma/bin/.gcc/mingw32/bin/../libexec/gcc/i686-w64-mingw32/12.2.0/cc1plus.exe -quiet -v -iprefix C:/Users/daruma/bin/.gcc/mingw32/bin/../lib/gcc/i686-w64-mingw32/12.2.0/ -D_REENTRANT C:/Users/daruma/bin/.cmake/CMake/share/cmake-3.24/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles/cmTC_10686.dir/ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mtune=generic -march=i686 -version -o C:\Users\daruma\AppData\Local\Temp\ccBu4e6h.s
+GNU C++17 (i686-posix-dwarf-rev0, Built by MinGW-W64 project) version 12.2.0 (i686-w64-mingw32)
+	compiled by GNU C version 12.2.0, GMP version 6.2.1, MPFR version 4.1.0, MPC version 1.2.1, isl version isl-0.25-GMP
+
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+ignoring duplicate directory "C:/Users/daruma/bin/.gcc/mingw32/lib/gcc/../../lib/gcc/i686-w64-mingw32/12.2.0/include/c++"
+ignoring duplicate directory "C:/Users/daruma/bin/.gcc/mingw32/lib/gcc/../../lib/gcc/i686-w64-mingw32/12.2.0/include/c++/i686-w64-mingw32"
+ignoring duplicate directory "C:/Users/daruma/bin/.gcc/mingw32/lib/gcc/../../lib/gcc/i686-w64-mingw32/12.2.0/include/c++/backward"
+ignoring duplicate directory "C:/Users/daruma/bin/.gcc/mingw32/lib/gcc/../../lib/gcc/i686-w64-mingw32/12.2.0/include"
+ignoring nonexistent directory "C:/buildroot/i686-1220-posix-dwarf-rt_v10-rev0/mingw32D:/a/_temp/msys64/mingw32/lib/gcc/i686-w64-mingw32/12.2.0/../../../../include"
+ignoring duplicate directory "C:/Users/daruma/bin/.gcc/mingw32/lib/gcc/../../lib/gcc/i686-w64-mingw32/12.2.0/include-fixed"
+ignoring duplicate directory "C:/Users/daruma/bin/.gcc/mingw32/lib/gcc/../../lib/gcc/i686-w64-mingw32/12.2.0/../../../../i686-w64-mingw32/include"
+ignoring nonexistent directory "C:/buildroot/i686-1220-posix-dwarf-rt_v10-rev0/mingw32/mingw/include"
+#include "..." search starts here:
+#include <...> search starts here:
+ C:/Users/daruma/bin/.gcc/mingw32/bin/../lib/gcc/i686-w64-mingw32/12.2.0/include/c++
+ C:/Users/daruma/bin/.gcc/mingw32/bin/../lib/gcc/i686-w64-mingw32/12.2.0/include/c++/i686-w64-mingw32
+ C:/Users/daruma/bin/.gcc/mingw32/bin/../lib/gcc/i686-w64-mingw32/12.2.0/include/c++/backward
+ C:/Users/daruma/bin/.gcc/mingw32/bin/../lib/gcc/i686-w64-mingw32/12.2.0/include
+ C:/Users/daruma/bin/.gcc/mingw32/bin/../lib/gcc/i686-w64-mingw32/12.2.0/include-fixed
+ C:/Users/daruma/bin/.gcc/mingw32/bin/../lib/gcc/i686-w64-mingw32/12.2.0/../../../../i686-w64-mingw32/include
+End of search list.
+GNU C++17 (i686-posix-dwarf-rev0, Built by MinGW-W64 project) version 12.2.0 (i686-w64-mingw32)
+	compiled by GNU C version 12.2.0, GMP version 6.2.1, MPFR version 4.1.0, MPC version 1.2.1, isl version isl-0.25-GMP
+
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+Compiler executable checksum: b52e162feb19f00eafc34deeb0e4f178
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_10686.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=generic' '-march=i686' '-dumpdir' 'CMakeFiles/cmTC_10686.dir/'
+ C:/Users/daruma/bin/.gcc/mingw32/bin/../lib/gcc/i686-w64-mingw32/12.2.0/../../../../i686-w64-mingw32/bin/as.exe -v -o CMakeFiles/cmTC_10686.dir/CMakeCXXCompilerABI.cpp.obj C:\Users\daruma\AppData\Local\Temp\ccBu4e6h.s
+GNU assembler version 2.38 (i686-w64-mingw32) using BFD version (GNU Binutils) 2.38
+COMPILER_PATH=C:/Users/daruma/bin/.gcc/mingw32/bin/../libexec/gcc/i686-w64-mingw32/12.2.0/;C:/Users/daruma/bin/.gcc/mingw32/bin/../libexec/gcc/;C:/Users/daruma/bin/.gcc/mingw32/bin/../lib/gcc/i686-w64-mingw32/12.2.0/../../../../i686-w64-mingw32/bin/
+LIBRARY_PATH=C:/Users/daruma/bin/.gcc/mingw32/bin/../lib/gcc/i686-w64-mingw32/12.2.0/;C:/Users/daruma/bin/.gcc/mingw32/bin/../lib/gcc/;C:/Users/daruma/bin/.gcc/mingw32/bin/../lib/gcc/i686-w64-mingw32/12.2.0/../../../../i686-w64-mingw32/lib/../lib/;C:/Users/daruma/bin/.gcc/mingw32/bin/../lib/gcc/i686-w64-mingw32/12.2.0/../../../../lib/;C:/Users/daruma/bin/.gcc/mingw32/bin/../lib/gcc/i686-w64-mingw32/12.2.0/../../../../i686-w64-mingw32/lib/;C:/Users/daruma/bin/.gcc/mingw32/bin/../lib/gcc/i686-w64-mingw32/12.2.0/../../../
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_10686.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=generic' '-march=i686' '-dumpdir' 'CMakeFiles/cmTC_10686.dir/CMakeCXXCompilerABI.cpp.'
+[2/2] Linking CXX executable cmTC_10686.exe
+Using built-in specs.
+COLLECT_GCC=C:\Users\daruma\bin\.gcc\mingw32\bin\c++.exe
+COLLECT_LTO_WRAPPER=C:/Users/daruma/bin/.gcc/mingw32/bin/../libexec/gcc/i686-w64-mingw32/12.2.0/lto-wrapper.exe
+Target: i686-w64-mingw32
+Configured with: ../../../src/gcc-12.2.0/configure --host=i686-w64-mingw32 --build=i686-w64-mingw32 --target=i686-w64-mingw32 --prefix=/mingw32 --with-sysroot=/c/buildroot/i686-1220-posix-dwarf-rt_v10-rev0/mingw32 --enable-host-shared --disable-multilib --enable-languages=c,c++,fortran,lto --enable-libstdcxx-time=yes --enable-threads=posix --enable-libgomp --enable-libatomic --enable-lto --enable-graphite --enable-checking=release --enable-fully-dynamic-string --enable-version-specific-runtime-libs --enable-libstdcxx-filesystem-ts=yes --disable-sjlj-exceptions --with-dwarf2 --disable-libstdcxx-pch --disable-libstdcxx-debug --enable-bootstrap --disable-rpath --disable-win32-registry --disable-nls --disable-werror --disable-symvers --with-gnu-as --with-gnu-ld --with-arch=i686 --with-tune=generic --with-libiconv --with-system-zlib --with-gmp=/c/buildroot/prerequisites/i686-w64-mingw32-static --with-mpfr=/c/buildroot/prerequisites/i686-w64-mingw32-static --with-mpc=/c/buildroot/prerequisites/i686-w64-mingw32-static --with-isl=/c/buildroot/prerequisites/i686-w64-mingw32-static --with-pkgversion='i686-posix-dwarf-rev0, Built by MinGW-W64 project' --with-bugurl=https://sourceforge.net/projects/mingw-w64 CFLAGS='-O2 -pipe -fno-ident -I/c/buildroot/i686-1220-posix-dwarf-rt_v10-rev0/mingw32/opt/include -I/c/buildroot/prerequisites/i686-zlib-static/include -I/c/buildroot/prerequisites/i686-w64-mingw32-static/include' CXXFLAGS='-O2 -pipe -fno-ident -I/c/buildroot/i686-1220-posix-dwarf-rt_v10-rev0/mingw32/opt/include -I/c/buildroot/prerequisites/i686-zlib-static/include -I/c/buildroot/prerequisites/i686-w64-mingw32-static/include' CPPFLAGS=' -I/c/buildroot/i686-1220-posix-dwarf-rt_v10-rev0/mingw32/opt/include -I/c/buildroot/prerequisites/i686-zlib-static/include -I/c/buildroot/prerequisites/i686-w64-mingw32-static/include' LDFLAGS='-pipe -fno-ident -L/c/buildroot/i686-1220-posix-dwarf-rt_v10-rev0/mingw32/opt/lib -L/c/buildroot/prerequisites/i686-zlib-static/lib -L/c/buildroot/prerequisites/i686-w64-mingw32-static/lib -Wl,--large-address-aware' LD_FOR_TARGET=/c/buildroot/i686-1220-posix-dwarf-rt_v10-rev0/mingw32/bin/ld.exe --with-boot-ldflags=' -Wl,--disable-dynamicbase -static-libstdc++ -static-libgcc'
+Thread model: posix
+Supported LTO compression algorithms: zlib
+gcc version 12.2.0 (i686-posix-dwarf-rev0, Built by MinGW-W64 project) 
+COMPILER_PATH=C:/Users/daruma/bin/.gcc/mingw32/bin/../libexec/gcc/i686-w64-mingw32/12.2.0/;C:/Users/daruma/bin/.gcc/mingw32/bin/../libexec/gcc/;C:/Users/daruma/bin/.gcc/mingw32/bin/../lib/gcc/i686-w64-mingw32/12.2.0/../../../../i686-w64-mingw32/bin/
+LIBRARY_PATH=C:/Users/daruma/bin/.gcc/mingw32/bin/../lib/gcc/i686-w64-mingw32/12.2.0/;C:/Users/daruma/bin/.gcc/mingw32/bin/../lib/gcc/;C:/Users/daruma/bin/.gcc/mingw32/bin/../lib/gcc/i686-w64-mingw32/12.2.0/../../../../i686-w64-mingw32/lib/../lib/;C:/Users/daruma/bin/.gcc/mingw32/bin/../lib/gcc/i686-w64-mingw32/12.2.0/../../../../lib/;C:/Users/daruma/bin/.gcc/mingw32/bin/../lib/gcc/i686-w64-mingw32/12.2.0/../../../../i686-w64-mingw32/lib/;C:/Users/daruma/bin/.gcc/mingw32/bin/../lib/gcc/i686-w64-mingw32/12.2.0/../../../
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_10686.exe' '-shared-libgcc' '-mtune=generic' '-march=i686' '-dumpdir' 'cmTC_10686.'
+ C:/Users/daruma/bin/.gcc/mingw32/bin/../libexec/gcc/i686-w64-mingw32/12.2.0/collect2.exe -plugin C:/Users/daruma/bin/.gcc/mingw32/bin/../libexec/gcc/i686-w64-mingw32/12.2.0/liblto_plugin.dll -plugin-opt=C:/Users/daruma/bin/.gcc/mingw32/bin/../libexec/gcc/i686-w64-mingw32/12.2.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\Users\daruma\AppData\Local\Temp\ccy2utCm.res -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-liconv -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 --sysroot=C:/buildroot/i686-1220-posix-dwarf-rt_v10-rev0/mingw32 -m i386pe -Bdynamic -u ___register_frame_info -u ___deregister_frame_info -o cmTC_10686.exe C:/Users/daruma/bin/.gcc/mingw32/bin/../lib/gcc/i686-w64-mingw32/12.2.0/../../../../i686-w64-mingw32/lib/../lib/crt2.o C:/Users/daruma/bin/.gcc/mingw32/bin/../lib/gcc/i686-w64-mingw32/12.2.0/crtbegin.o -LC:/Users/daruma/bin/.gcc/mingw32/bin/../lib/gcc/i686-w64-mingw32/12.2.0 -LC:/Users/daruma/bin/.gcc/mingw32/bin/../lib/gcc -LC:/Users/daruma/bin/.gcc/mingw32/bin/../lib/gcc/i686-w64-mingw32/12.2.0/../../../../i686-w64-mingw32/lib/../lib -LC:/Users/daruma/bin/.gcc/mingw32/bin/../lib/gcc/i686-w64-mingw32/12.2.0/../../../../lib -LC:/Users/daruma/bin/.gcc/mingw32/bin/../lib/gcc/i686-w64-mingw32/12.2.0/../../../../i686-w64-mingw32/lib -LC:/Users/daruma/bin/.gcc/mingw32/bin/../lib/gcc/i686-w64-mingw32/12.2.0/../../.. CMakeFiles/cmTC_10686.dir/CMakeCXXCompilerABI.cpp.obj --out-implib libcmTC_10686.dll.a --major-image-version 0 --minor-image-version 0 -lstdc++ -lmingw32 -lgcc_s -lgcc -lmoldname -lmingwex -lmsvcrt -lkernel32 -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -liconv -lmingw32 -lgcc_s -lgcc -lmoldname -lmingwex -lmsvcrt -lkernel32 C:/Users/daruma/bin/.gcc/mingw32/bin/../lib/gcc/i686-w64-mingw32/12.2.0/crtend.o
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_10686.exe' '-shared-libgcc' '-mtune=generic' '-march=i686' '-dumpdir' 'cmTC_10686.'
+
+
+
+Parsed CXX implicit include dir info from above output: rv=done
+  found start of include info
+  found start of implicit include info
+    add: [C:/Users/daruma/bin/.gcc/mingw32/bin/../lib/gcc/i686-w64-mingw32/12.2.0/include/c++]
+    add: [C:/Users/daruma/bin/.gcc/mingw32/bin/../lib/gcc/i686-w64-mingw32/12.2.0/include/c++/i686-w64-mingw32]
+    add: [C:/Users/daruma/bin/.gcc/mingw32/bin/../lib/gcc/i686-w64-mingw32/12.2.0/include/c++/backward]
+    add: [C:/Users/daruma/bin/.gcc/mingw32/bin/../lib/gcc/i686-w64-mingw32/12.2.0/include]
+    add: [C:/Users/daruma/bin/.gcc/mingw32/bin/../lib/gcc/i686-w64-mingw32/12.2.0/include-fixed]
+    add: [C:/Users/daruma/bin/.gcc/mingw32/bin/../lib/gcc/i686-w64-mingw32/12.2.0/../../../../i686-w64-mingw32/include]
+  end of search list found
+  collapse include dir [C:/Users/daruma/bin/.gcc/mingw32/bin/../lib/gcc/i686-w64-mingw32/12.2.0/include/c++] ==> [C:/Users/daruma/bin/.gcc/mingw32/lib/gcc/i686-w64-mingw32/12.2.0/include/c++]
+  collapse include dir [C:/Users/daruma/bin/.gcc/mingw32/bin/../lib/gcc/i686-w64-mingw32/12.2.0/include/c++/i686-w64-mingw32] ==> [C:/Users/daruma/bin/.gcc/mingw32/lib/gcc/i686-w64-mingw32/12.2.0/include/c++/i686-w64-mingw32]
+  collapse include dir [C:/Users/daruma/bin/.gcc/mingw32/bin/../lib/gcc/i686-w64-mingw32/12.2.0/include/c++/backward] ==> [C:/Users/daruma/bin/.gcc/mingw32/lib/gcc/i686-w64-mingw32/12.2.0/include/c++/backward]
+  collapse include dir [C:/Users/daruma/bin/.gcc/mingw32/bin/../lib/gcc/i686-w64-mingw32/12.2.0/include] ==> [C:/Users/daruma/bin/.gcc/mingw32/lib/gcc/i686-w64-mingw32/12.2.0/include]
+  collapse include dir [C:/Users/daruma/bin/.gcc/mingw32/bin/../lib/gcc/i686-w64-mingw32/12.2.0/include-fixed] ==> [C:/Users/daruma/bin/.gcc/mingw32/lib/gcc/i686-w64-mingw32/12.2.0/include-fixed]
+  collapse include dir [C:/Users/daruma/bin/.gcc/mingw32/bin/../lib/gcc/i686-w64-mingw32/12.2.0/../../../../i686-w64-mingw32/include] ==> [C:/Users/daruma/bin/.gcc/mingw32/i686-w64-mingw32/include]
+  implicit include dirs: [C:/Users/daruma/bin/.gcc/mingw32/lib/gcc/i686-w64-mingw32/12.2.0/include/c++;C:/Users/daruma/bin/.gcc/mingw32/lib/gcc/i686-w64-mingw32/12.2.0/include/c++/i686-w64-mingw32;C:/Users/daruma/bin/.gcc/mingw32/lib/gcc/i686-w64-mingw32/12.2.0/include/c++/backward;C:/Users/daruma/bin/.gcc/mingw32/lib/gcc/i686-w64-mingw32/12.2.0/include;C:/Users/daruma/bin/.gcc/mingw32/lib/gcc/i686-w64-mingw32/12.2.0/include-fixed;C:/Users/daruma/bin/.gcc/mingw32/i686-w64-mingw32/include]
+
+
+Parsed CXX implicit link information from above output:
+  link line regex: [^( *|.*[/\])(ld\.exe|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: C:/Users/daruma/nvim-source/cpp/tanuk-script/build/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command(s):C:/Users/daruma/bin/.ninja/Ninja/ninja.exe cmTC_10686 && [1/2] Building CXX object CMakeFiles/cmTC_10686.dir/CMakeCXXCompilerABI.cpp.obj]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=C:\Users\daruma\bin\.gcc\mingw32\bin\c++.exe]
+  ignore line: [Target: i686-w64-mingw32]
+  ignore line: [Configured with: ../../../src/gcc-12.2.0/configure --host=i686-w64-mingw32 --build=i686-w64-mingw32 --target=i686-w64-mingw32 --prefix=/mingw32 --with-sysroot=/c/buildroot/i686-1220-posix-dwarf-rt_v10-rev0/mingw32 --enable-host-shared --disable-multilib --enable-languages=c,c++,fortran,lto --enable-libstdcxx-time=yes --enable-threads=posix --enable-libgomp --enable-libatomic --enable-lto --enable-graphite --enable-checking=release --enable-fully-dynamic-string --enable-version-specific-runtime-libs --enable-libstdcxx-filesystem-ts=yes --disable-sjlj-exceptions --with-dwarf2 --disable-libstdcxx-pch --disable-libstdcxx-debug --enable-bootstrap --disable-rpath --disable-win32-registry --disable-nls --disable-werror --disable-symvers --with-gnu-as --with-gnu-ld --with-arch=i686 --with-tune=generic --with-libiconv --with-system-zlib --with-gmp=/c/buildroot/prerequisites/i686-w64-mingw32-static --with-mpfr=/c/buildroot/prerequisites/i686-w64-mingw32-static --with-mpc=/c/buildroot/prerequisites/i686-w64-mingw32-static --with-isl=/c/buildroot/prerequisites/i686-w64-mingw32-static --with-pkgversion='i686-posix-dwarf-rev0, Built by MinGW-W64 project' --with-bugurl=https://sourceforge.net/projects/mingw-w64 CFLAGS='-O2 -pipe -fno-ident -I/c/buildroot/i686-1220-posix-dwarf-rt_v10-rev0/mingw32/opt/include -I/c/buildroot/prerequisites/i686-zlib-static/include -I/c/buildroot/prerequisites/i686-w64-mingw32-static/include' CXXFLAGS='-O2 -pipe -fno-ident -I/c/buildroot/i686-1220-posix-dwarf-rt_v10-rev0/mingw32/opt/include -I/c/buildroot/prerequisites/i686-zlib-static/include -I/c/buildroot/prerequisites/i686-w64-mingw32-static/include' CPPFLAGS=' -I/c/buildroot/i686-1220-posix-dwarf-rt_v10-rev0/mingw32/opt/include -I/c/buildroot/prerequisites/i686-zlib-static/include -I/c/buildroot/prerequisites/i686-w64-mingw32-static/include' LDFLAGS='-pipe -fno-ident -L/c/buildroot/i686-1220-posix-dwarf-rt_v10-rev0/mingw32/opt/lib -L/c/buildroot/prerequisites/i686-zlib-static/lib -L/c/buildroot/prerequisites/i686-w64-mingw32-static/lib -Wl,--large-address-aware' LD_FOR_TARGET=/c/buildroot/i686-1220-posix-dwarf-rt_v10-rev0/mingw32/bin/ld.exe --with-boot-ldflags=' -Wl,--disable-dynamicbase -static-libstdc++ -static-libgcc']
+  ignore line: [Thread model: posix]
+  ignore line: [Supported LTO compression algorithms: zlib]
+  ignore line: [gcc version 12.2.0 (i686-posix-dwarf-rev0  Built by MinGW-W64 project) ]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_10686.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=generic' '-march=i686' '-dumpdir' 'CMakeFiles/cmTC_10686.dir/']
+  ignore line: [ C:/Users/daruma/bin/.gcc/mingw32/bin/../libexec/gcc/i686-w64-mingw32/12.2.0/cc1plus.exe -quiet -v -iprefix C:/Users/daruma/bin/.gcc/mingw32/bin/../lib/gcc/i686-w64-mingw32/12.2.0/ -D_REENTRANT C:/Users/daruma/bin/.cmake/CMake/share/cmake-3.24/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles/cmTC_10686.dir/ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mtune=generic -march=i686 -version -o C:\Users\daruma\AppData\Local\Temp\ccBu4e6h.s]
+  ignore line: [GNU C++17 (i686-posix-dwarf-rev0  Built by MinGW-W64 project) version 12.2.0 (i686-w64-mingw32)]
+  ignore line: [	compiled by GNU C version 12.2.0  GMP version 6.2.1  MPFR version 4.1.0  MPC version 1.2.1  isl version isl-0.25-GMP]
+  ignore line: []
+  ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+  ignore line: [ignoring duplicate directory "C:/Users/daruma/bin/.gcc/mingw32/lib/gcc/../../lib/gcc/i686-w64-mingw32/12.2.0/include/c++"]
+  ignore line: [ignoring duplicate directory "C:/Users/daruma/bin/.gcc/mingw32/lib/gcc/../../lib/gcc/i686-w64-mingw32/12.2.0/include/c++/i686-w64-mingw32"]
+  ignore line: [ignoring duplicate directory "C:/Users/daruma/bin/.gcc/mingw32/lib/gcc/../../lib/gcc/i686-w64-mingw32/12.2.0/include/c++/backward"]
+  ignore line: [ignoring duplicate directory "C:/Users/daruma/bin/.gcc/mingw32/lib/gcc/../../lib/gcc/i686-w64-mingw32/12.2.0/include"]
+  ignore line: [ignoring nonexistent directory "C:/buildroot/i686-1220-posix-dwarf-rt_v10-rev0/mingw32D:/a/_temp/msys64/mingw32/lib/gcc/i686-w64-mingw32/12.2.0/../../../../include"]
+  ignore line: [ignoring duplicate directory "C:/Users/daruma/bin/.gcc/mingw32/lib/gcc/../../lib/gcc/i686-w64-mingw32/12.2.0/include-fixed"]
+  ignore line: [ignoring duplicate directory "C:/Users/daruma/bin/.gcc/mingw32/lib/gcc/../../lib/gcc/i686-w64-mingw32/12.2.0/../../../../i686-w64-mingw32/include"]
+  ignore line: [ignoring nonexistent directory "C:/buildroot/i686-1220-posix-dwarf-rt_v10-rev0/mingw32/mingw/include"]
+  ignore line: [#include "..." search starts here:]
+  ignore line: [#include <...> search starts here:]
+  ignore line: [ C:/Users/daruma/bin/.gcc/mingw32/bin/../lib/gcc/i686-w64-mingw32/12.2.0/include/c++]
+  ignore line: [ C:/Users/daruma/bin/.gcc/mingw32/bin/../lib/gcc/i686-w64-mingw32/12.2.0/include/c++/i686-w64-mingw32]
+  ignore line: [ C:/Users/daruma/bin/.gcc/mingw32/bin/../lib/gcc/i686-w64-mingw32/12.2.0/include/c++/backward]
+  ignore line: [ C:/Users/daruma/bin/.gcc/mingw32/bin/../lib/gcc/i686-w64-mingw32/12.2.0/include]
+  ignore line: [ C:/Users/daruma/bin/.gcc/mingw32/bin/../lib/gcc/i686-w64-mingw32/12.2.0/include-fixed]
+  ignore line: [ C:/Users/daruma/bin/.gcc/mingw32/bin/../lib/gcc/i686-w64-mingw32/12.2.0/../../../../i686-w64-mingw32/include]
+  ignore line: [End of search list.]
+  ignore line: [GNU C++17 (i686-posix-dwarf-rev0  Built by MinGW-W64 project) version 12.2.0 (i686-w64-mingw32)]
+  ignore line: [	compiled by GNU C version 12.2.0  GMP version 6.2.1  MPFR version 4.1.0  MPC version 1.2.1  isl version isl-0.25-GMP]
+  ignore line: []
+  ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+  ignore line: [Compiler executable checksum: b52e162feb19f00eafc34deeb0e4f178]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_10686.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=generic' '-march=i686' '-dumpdir' 'CMakeFiles/cmTC_10686.dir/']
+  ignore line: [ C:/Users/daruma/bin/.gcc/mingw32/bin/../lib/gcc/i686-w64-mingw32/12.2.0/../../../../i686-w64-mingw32/bin/as.exe -v -o CMakeFiles/cmTC_10686.dir/CMakeCXXCompilerABI.cpp.obj C:\Users\daruma\AppData\Local\Temp\ccBu4e6h.s]
+  ignore line: [GNU assembler version 2.38 (i686-w64-mingw32) using BFD version (GNU Binutils) 2.38]
+  ignore line: [COMPILER_PATH=C:/Users/daruma/bin/.gcc/mingw32/bin/../libexec/gcc/i686-w64-mingw32/12.2.0/]
+  ignore line: [C:/Users/daruma/bin/.gcc/mingw32/bin/../libexec/gcc/]
+  ignore line: [C:/Users/daruma/bin/.gcc/mingw32/bin/../lib/gcc/i686-w64-mingw32/12.2.0/../../../../i686-w64-mingw32/bin/]
+  ignore line: [LIBRARY_PATH=C:/Users/daruma/bin/.gcc/mingw32/bin/../lib/gcc/i686-w64-mingw32/12.2.0/]
+  ignore line: [C:/Users/daruma/bin/.gcc/mingw32/bin/../lib/gcc/]
+  ignore line: [C:/Users/daruma/bin/.gcc/mingw32/bin/../lib/gcc/i686-w64-mingw32/12.2.0/../../../../i686-w64-mingw32/lib/../lib/]
+  ignore line: [C:/Users/daruma/bin/.gcc/mingw32/bin/../lib/gcc/i686-w64-mingw32/12.2.0/../../../../lib/]
+  ignore line: [C:/Users/daruma/bin/.gcc/mingw32/bin/../lib/gcc/i686-w64-mingw32/12.2.0/../../../../i686-w64-mingw32/lib/]
+  ignore line: [C:/Users/daruma/bin/.gcc/mingw32/bin/../lib/gcc/i686-w64-mingw32/12.2.0/../../../]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_10686.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=generic' '-march=i686' '-dumpdir' 'CMakeFiles/cmTC_10686.dir/CMakeCXXCompilerABI.cpp.']
+  ignore line: [[2/2] Linking CXX executable cmTC_10686.exe]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=C:\Users\daruma\bin\.gcc\mingw32\bin\c++.exe]
+  ignore line: [COLLECT_LTO_WRAPPER=C:/Users/daruma/bin/.gcc/mingw32/bin/../libexec/gcc/i686-w64-mingw32/12.2.0/lto-wrapper.exe]
+  ignore line: [Target: i686-w64-mingw32]
+  ignore line: [Configured with: ../../../src/gcc-12.2.0/configure --host=i686-w64-mingw32 --build=i686-w64-mingw32 --target=i686-w64-mingw32 --prefix=/mingw32 --with-sysroot=/c/buildroot/i686-1220-posix-dwarf-rt_v10-rev0/mingw32 --enable-host-shared --disable-multilib --enable-languages=c,c++,fortran,lto --enable-libstdcxx-time=yes --enable-threads=posix --enable-libgomp --enable-libatomic --enable-lto --enable-graphite --enable-checking=release --enable-fully-dynamic-string --enable-version-specific-runtime-libs --enable-libstdcxx-filesystem-ts=yes --disable-sjlj-exceptions --with-dwarf2 --disable-libstdcxx-pch --disable-libstdcxx-debug --enable-bootstrap --disable-rpath --disable-win32-registry --disable-nls --disable-werror --disable-symvers --with-gnu-as --with-gnu-ld --with-arch=i686 --with-tune=generic --with-libiconv --with-system-zlib --with-gmp=/c/buildroot/prerequisites/i686-w64-mingw32-static --with-mpfr=/c/buildroot/prerequisites/i686-w64-mingw32-static --with-mpc=/c/buildroot/prerequisites/i686-w64-mingw32-static --with-isl=/c/buildroot/prerequisites/i686-w64-mingw32-static --with-pkgversion='i686-posix-dwarf-rev0, Built by MinGW-W64 project' --with-bugurl=https://sourceforge.net/projects/mingw-w64 CFLAGS='-O2 -pipe -fno-ident -I/c/buildroot/i686-1220-posix-dwarf-rt_v10-rev0/mingw32/opt/include -I/c/buildroot/prerequisites/i686-zlib-static/include -I/c/buildroot/prerequisites/i686-w64-mingw32-static/include' CXXFLAGS='-O2 -pipe -fno-ident -I/c/buildroot/i686-1220-posix-dwarf-rt_v10-rev0/mingw32/opt/include -I/c/buildroot/prerequisites/i686-zlib-static/include -I/c/buildroot/prerequisites/i686-w64-mingw32-static/include' CPPFLAGS=' -I/c/buildroot/i686-1220-posix-dwarf-rt_v10-rev0/mingw32/opt/include -I/c/buildroot/prerequisites/i686-zlib-static/include -I/c/buildroot/prerequisites/i686-w64-mingw32-static/include' LDFLAGS='-pipe -fno-ident -L/c/buildroot/i686-1220-posix-dwarf-rt_v10-rev0/mingw32/opt/lib -L/c/buildroot/prerequisites/i686-zlib-static/lib -L/c/buildroot/prerequisites/i686-w64-mingw32-static/lib -Wl,--large-address-aware' LD_FOR_TARGET=/c/buildroot/i686-1220-posix-dwarf-rt_v10-rev0/mingw32/bin/ld.exe --with-boot-ldflags=' -Wl,--disable-dynamicbase -static-libstdc++ -static-libgcc']
+  ignore line: [Thread model: posix]
+  ignore line: [Supported LTO compression algorithms: zlib]
+  ignore line: [gcc version 12.2.0 (i686-posix-dwarf-rev0  Built by MinGW-W64 project) ]
+  ignore line: [COMPILER_PATH=C:/Users/daruma/bin/.gcc/mingw32/bin/../libexec/gcc/i686-w64-mingw32/12.2.0/]
+  ignore line: [C:/Users/daruma/bin/.gcc/mingw32/bin/../libexec/gcc/]
+  ignore line: [C:/Users/daruma/bin/.gcc/mingw32/bin/../lib/gcc/i686-w64-mingw32/12.2.0/../../../../i686-w64-mingw32/bin/]
+  ignore line: [LIBRARY_PATH=C:/Users/daruma/bin/.gcc/mingw32/bin/../lib/gcc/i686-w64-mingw32/12.2.0/]
+  ignore line: [C:/Users/daruma/bin/.gcc/mingw32/bin/../lib/gcc/]
+  ignore line: [C:/Users/daruma/bin/.gcc/mingw32/bin/../lib/gcc/i686-w64-mingw32/12.2.0/../../../../i686-w64-mingw32/lib/../lib/]
+  ignore line: [C:/Users/daruma/bin/.gcc/mingw32/bin/../lib/gcc/i686-w64-mingw32/12.2.0/../../../../lib/]
+  ignore line: [C:/Users/daruma/bin/.gcc/mingw32/bin/../lib/gcc/i686-w64-mingw32/12.2.0/../../../../i686-w64-mingw32/lib/]
+  ignore line: [C:/Users/daruma/bin/.gcc/mingw32/bin/../lib/gcc/i686-w64-mingw32/12.2.0/../../../]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_10686.exe' '-shared-libgcc' '-mtune=generic' '-march=i686' '-dumpdir' 'cmTC_10686.']
+  link line: [ C:/Users/daruma/bin/.gcc/mingw32/bin/../libexec/gcc/i686-w64-mingw32/12.2.0/collect2.exe -plugin C:/Users/daruma/bin/.gcc/mingw32/bin/../libexec/gcc/i686-w64-mingw32/12.2.0/liblto_plugin.dll -plugin-opt=C:/Users/daruma/bin/.gcc/mingw32/bin/../libexec/gcc/i686-w64-mingw32/12.2.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\Users\daruma\AppData\Local\Temp\ccy2utCm.res -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-liconv -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 --sysroot=C:/buildroot/i686-1220-posix-dwarf-rt_v10-rev0/mingw32 -m i386pe -Bdynamic -u ___register_frame_info -u ___deregister_frame_info -o cmTC_10686.exe C:/Users/daruma/bin/.gcc/mingw32/bin/../lib/gcc/i686-w64-mingw32/12.2.0/../../../../i686-w64-mingw32/lib/../lib/crt2.o C:/Users/daruma/bin/.gcc/mingw32/bin/../lib/gcc/i686-w64-mingw32/12.2.0/crtbegin.o -LC:/Users/daruma/bin/.gcc/mingw32/bin/../lib/gcc/i686-w64-mingw32/12.2.0 -LC:/Users/daruma/bin/.gcc/mingw32/bin/../lib/gcc -LC:/Users/daruma/bin/.gcc/mingw32/bin/../lib/gcc/i686-w64-mingw32/12.2.0/../../../../i686-w64-mingw32/lib/../lib -LC:/Users/daruma/bin/.gcc/mingw32/bin/../lib/gcc/i686-w64-mingw32/12.2.0/../../../../lib -LC:/Users/daruma/bin/.gcc/mingw32/bin/../lib/gcc/i686-w64-mingw32/12.2.0/../../../../i686-w64-mingw32/lib -LC:/Users/daruma/bin/.gcc/mingw32/bin/../lib/gcc/i686-w64-mingw32/12.2.0/../../.. CMakeFiles/cmTC_10686.dir/CMakeCXXCompilerABI.cpp.obj --out-implib libcmTC_10686.dll.a --major-image-version 0 --minor-image-version 0 -lstdc++ -lmingw32 -lgcc_s -lgcc -lmoldname -lmingwex -lmsvcrt -lkernel32 -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -liconv -lmingw32 -lgcc_s -lgcc -lmoldname -lmingwex -lmsvcrt -lkernel32 C:/Users/daruma/bin/.gcc/mingw32/bin/../lib/gcc/i686-w64-mingw32/12.2.0/crtend.o]
+    arg [C:/Users/daruma/bin/.gcc/mingw32/bin/../libexec/gcc/i686-w64-mingw32/12.2.0/collect2.exe] ==> ignore
+    arg [-plugin] ==> ignore
+    arg [C:/Users/daruma/bin/.gcc/mingw32/bin/../libexec/gcc/i686-w64-mingw32/12.2.0/liblto_plugin.dll] ==> ignore
+    arg [-plugin-opt=C:/Users/daruma/bin/.gcc/mingw32/bin/../libexec/gcc/i686-w64-mingw32/12.2.0/lto-wrapper.exe] ==> ignore
+    arg [-plugin-opt=-fresolution=C:\Users\daruma\AppData\Local\Temp\ccy2utCm.res] ==> ignore
+    arg [-plugin-opt=-pass-through=-lmingw32] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lmoldname] ==> ignore
+    arg [-plugin-opt=-pass-through=-lmingwex] ==> ignore
+    arg [-plugin-opt=-pass-through=-lmsvcrt] ==> ignore
+    arg [-plugin-opt=-pass-through=-lkernel32] ==> ignore
+    arg [-plugin-opt=-pass-through=-lpthread] ==> ignore
+    arg [-plugin-opt=-pass-through=-ladvapi32] ==> ignore
+    arg [-plugin-opt=-pass-through=-lshell32] ==> ignore
+    arg [-plugin-opt=-pass-through=-luser32] ==> ignore
+    arg [-plugin-opt=-pass-through=-lkernel32] ==> ignore
+    arg [-plugin-opt=-pass-through=-liconv] ==> ignore
+    arg [-plugin-opt=-pass-through=-lmingw32] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lmoldname] ==> ignore
+    arg [-plugin-opt=-pass-through=-lmingwex] ==> ignore
+    arg [-plugin-opt=-pass-through=-lmsvcrt] ==> ignore
+    arg [-plugin-opt=-pass-through=-lkernel32] ==> ignore
+    arg [--sysroot=C:/buildroot/i686-1220-posix-dwarf-rt_v10-rev0/mingw32] ==> ignore
+    arg [-m] ==> ignore
+    arg [i386pe] ==> ignore
+    arg [-Bdynamic] ==> search dynamic
+    arg [-u] ==> ignore
+    arg [___register_frame_info] ==> ignore
+    arg [-u] ==> ignore
+    arg [___deregister_frame_info] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTC_10686.exe] ==> ignore
+    arg [C:/Users/daruma/bin/.gcc/mingw32/bin/../lib/gcc/i686-w64-mingw32/12.2.0/../../../../i686-w64-mingw32/lib/../lib/crt2.o] ==> obj [C:/Users/daruma/bin/.gcc/mingw32/bin/../lib/gcc/i686-w64-mingw32/12.2.0/../../../../i686-w64-mingw32/lib/../lib/crt2.o]
+    arg [C:/Users/daruma/bin/.gcc/mingw32/bin/../lib/gcc/i686-w64-mingw32/12.2.0/crtbegin.o] ==> obj [C:/Users/daruma/bin/.gcc/mingw32/bin/../lib/gcc/i686-w64-mingw32/12.2.0/crtbegin.o]
+    arg [-LC:/Users/daruma/bin/.gcc/mingw32/bin/../lib/gcc/i686-w64-mingw32/12.2.0] ==> dir [C:/Users/daruma/bin/.gcc/mingw32/bin/../lib/gcc/i686-w64-mingw32/12.2.0]
+    arg [-LC:/Users/daruma/bin/.gcc/mingw32/bin/../lib/gcc] ==> dir [C:/Users/daruma/bin/.gcc/mingw32/bin/../lib/gcc]
+    arg [-LC:/Users/daruma/bin/.gcc/mingw32/bin/../lib/gcc/i686-w64-mingw32/12.2.0/../../../../i686-w64-mingw32/lib/../lib] ==> dir [C:/Users/daruma/bin/.gcc/mingw32/bin/../lib/gcc/i686-w64-mingw32/12.2.0/../../../../i686-w64-mingw32/lib/../lib]
+    arg [-LC:/Users/daruma/bin/.gcc/mingw32/bin/../lib/gcc/i686-w64-mingw32/12.2.0/../../../../lib] ==> dir [C:/Users/daruma/bin/.gcc/mingw32/bin/../lib/gcc/i686-w64-mingw32/12.2.0/../../../../lib]
+    arg [-LC:/Users/daruma/bin/.gcc/mingw32/bin/../lib/gcc/i686-w64-mingw32/12.2.0/../../../../i686-w64-mingw32/lib] ==> dir [C:/Users/daruma/bin/.gcc/mingw32/bin/../lib/gcc/i686-w64-mingw32/12.2.0/../../../../i686-w64-mingw32/lib]
+    arg [-LC:/Users/daruma/bin/.gcc/mingw32/bin/../lib/gcc/i686-w64-mingw32/12.2.0/../../..] ==> dir [C:/Users/daruma/bin/.gcc/mingw32/bin/../lib/gcc/i686-w64-mingw32/12.2.0/../../..]
+    arg [CMakeFiles/cmTC_10686.dir/CMakeCXXCompilerABI.cpp.obj] ==> ignore
+    arg [--out-implib] ==> ignore
+    arg [libcmTC_10686.dll.a] ==> ignore
+    arg [--major-image-version] ==> ignore
+    arg [0] ==> ignore
+    arg [--minor-image-version] ==> ignore
+    arg [0] ==> ignore
+    arg [-lstdc++] ==> lib [stdc++]
+    arg [-lmingw32] ==> lib [mingw32]
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [-lgcc] ==> lib [gcc]
+    arg [-lmoldname] ==> lib [moldname]
+    arg [-lmingwex] ==> lib [mingwex]
+    arg [-lmsvcrt] ==> lib [msvcrt]
+    arg [-lkernel32] ==> lib [kernel32]
+    arg [-lpthread] ==> lib [pthread]
+    arg [-ladvapi32] ==> lib [advapi32]
+    arg [-lshell32] ==> lib [shell32]
+    arg [-luser32] ==> lib [user32]
+    arg [-lkernel32] ==> lib [kernel32]
+    arg [-liconv] ==> lib [iconv]
+    arg [-lmingw32] ==> lib [mingw32]
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [-lgcc] ==> lib [gcc]
+    arg [-lmoldname] ==> lib [moldname]
+    arg [-lmingwex] ==> lib [mingwex]
+    arg [-lmsvcrt] ==> lib [msvcrt]
+    arg [-lkernel32] ==> lib [kernel32]
+    arg [C:/Users/daruma/bin/.gcc/mingw32/bin/../lib/gcc/i686-w64-mingw32/12.2.0/crtend.o] ==> obj [C:/Users/daruma/bin/.gcc/mingw32/bin/../lib/gcc/i686-w64-mingw32/12.2.0/crtend.o]
+  remove lib [msvcrt]
+  remove lib [msvcrt]
+  collapse obj [C:/Users/daruma/bin/.gcc/mingw32/bin/../lib/gcc/i686-w64-mingw32/12.2.0/../../../../i686-w64-mingw32/lib/../lib/crt2.o] ==> [C:/Users/daruma/bin/.gcc/mingw32/i686-w64-mingw32/lib/crt2.o]
+  collapse obj [C:/Users/daruma/bin/.gcc/mingw32/bin/../lib/gcc/i686-w64-mingw32/12.2.0/crtbegin.o] ==> [C:/Users/daruma/bin/.gcc/mingw32/lib/gcc/i686-w64-mingw32/12.2.0/crtbegin.o]
+  collapse obj [C:/Users/daruma/bin/.gcc/mingw32/bin/../lib/gcc/i686-w64-mingw32/12.2.0/crtend.o] ==> [C:/Users/daruma/bin/.gcc/mingw32/lib/gcc/i686-w64-mingw32/12.2.0/crtend.o]
+  collapse library dir [C:/Users/daruma/bin/.gcc/mingw32/bin/../lib/gcc/i686-w64-mingw32/12.2.0] ==> [C:/Users/daruma/bin/.gcc/mingw32/lib/gcc/i686-w64-mingw32/12.2.0]
+  collapse library dir [C:/Users/daruma/bin/.gcc/mingw32/bin/../lib/gcc] ==> [C:/Users/daruma/bin/.gcc/mingw32/lib/gcc]
+  collapse library dir [C:/Users/daruma/bin/.gcc/mingw32/bin/../lib/gcc/i686-w64-mingw32/12.2.0/../../../../i686-w64-mingw32/lib/../lib] ==> [C:/Users/daruma/bin/.gcc/mingw32/i686-w64-mingw32/lib]
+  collapse library dir [C:/Users/daruma/bin/.gcc/mingw32/bin/../lib/gcc/i686-w64-mingw32/12.2.0/../../../../lib] ==> [C:/Users/daruma/bin/.gcc/mingw32/lib]
+  collapse library dir [C:/Users/daruma/bin/.gcc/mingw32/bin/../lib/gcc/i686-w64-mingw32/12.2.0/../../../../i686-w64-mingw32/lib] ==> [C:/Users/daruma/bin/.gcc/mingw32/i686-w64-mingw32/lib]
+  collapse library dir [C:/Users/daruma/bin/.gcc/mingw32/bin/../lib/gcc/i686-w64-mingw32/12.2.0/../../..] ==> [C:/Users/daruma/bin/.gcc/mingw32/lib]
+  implicit libs: [stdc++;mingw32;gcc_s;gcc;moldname;mingwex;kernel32;pthread;advapi32;shell32;user32;kernel32;iconv;mingw32;gcc_s;gcc;moldname;mingwex;kernel32]
+  implicit objs: [C:/Users/daruma/bin/.gcc/mingw32/i686-w64-mingw32/lib/crt2.o;C:/Users/daruma/bin/.gcc/mingw32/lib/gcc/i686-w64-mingw32/12.2.0/crtbegin.o;C:/Users/daruma/bin/.gcc/mingw32/lib/gcc/i686-w64-mingw32/12.2.0/crtend.o]
+  implicit dirs: [C:/Users/daruma/bin/.gcc/mingw32/lib/gcc/i686-w64-mingw32/12.2.0;C:/Users/daruma/bin/.gcc/mingw32/lib/gcc;C:/Users/daruma/bin/.gcc/mingw32/i686-w64-mingw32/lib;C:/Users/daruma/bin/.gcc/mingw32/lib]
+  implicit fwks: []
+
+
+The system is: Windows - 10.0.19045 - AMD64
+Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+Compiler: C:/Users/daruma/bin/.gcc/mingw32/bin/gcc.exe 
+Build flags: 
+Id flags:  
+
+The output was:
+0
+
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.exe"
+
+The C compiler identification is GNU, found in "C:/Users/daruma/nvim-source/cpp/tanuk-script/build/CMakeFiles/3.24.2/CompilerIdC/a.exe"
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+Compiler: C:/Users/daruma/bin/.gcc/mingw32/bin/g++.exe 
+Build flags: 
+Id flags:  
+
+The output was:
+0
+
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.exe"
+
+The CXX compiler identification is GNU, found in "C:/Users/daruma/nvim-source/cpp/tanuk-script/build/CMakeFiles/3.24.2/CompilerIdCXX/a.exe"
+
+Detecting C compiler ABI info compiled with the following output:
+Change Dir: C:/Users/daruma/nvim-source/cpp/tanuk-script/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Users/daruma/bin/.gcc/mingw32/bin/mingw32-make.exe -f Makefile cmTC_59eea/fast && C:/Users/daruma/bin/.gcc/mingw32/bin/mingw32-make.exe  -f CMakeFiles\cmTC_59eea.dir\build.make CMakeFiles/cmTC_59eea.dir/build
+mingw32-make.exe[1]: Entering directory 'C:/Users/daruma/nvim-source/cpp/tanuk-script/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_59eea.dir/CMakeCCompilerABI.c.obj
+C:\Users\daruma\bin\.gcc\mingw32\bin\gcc.exe   -v -o CMakeFiles\cmTC_59eea.dir\CMakeCCompilerABI.c.obj -c C:\Users\daruma\bin\.cmake\CMake\share\cmake-3.24\Modules\CMakeCCompilerABI.c
+Using built-in specs.
+COLLECT_GCC=C:\Users\daruma\bin\.gcc\mingw32\bin\gcc.exe
+Target: i686-w64-mingw32
+Configured with: ../../../src/gcc-12.2.0/configure --host=i686-w64-mingw32 --build=i686-w64-mingw32 --target=i686-w64-mingw32 --prefix=/mingw32 --with-sysroot=/c/buildroot/i686-1220-posix-dwarf-rt_v10-rev0/mingw32 --enable-host-shared --disable-multilib --enable-languages=c,c++,fortran,lto --enable-libstdcxx-time=yes --enable-threads=posix --enable-libgomp --enable-libatomic --enable-lto --enable-graphite --enable-checking=release --enable-fully-dynamic-string --enable-version-specific-runtime-libs --enable-libstdcxx-filesystem-ts=yes --disable-sjlj-exceptions --with-dwarf2 --disable-libstdcxx-pch --disable-libstdcxx-debug --enable-bootstrap --disable-rpath --disable-win32-registry --disable-nls --disable-werror --disable-symvers --with-gnu-as --with-gnu-ld --with-arch=i686 --with-tune=generic --with-libiconv --with-system-zlib --with-gmp=/c/buildroot/prerequisites/i686-w64-mingw32-static --with-mpfr=/c/buildroot/prerequisites/i686-w64-mingw32-static --with-mpc=/c/buildroot/prerequisites/i686-w64-mingw32-static --with-isl=/c/buildroot/prerequisites/i686-w64-mingw32-static --with-pkgversion='i686-posix-dwarf-rev0, Built by MinGW-W64 project' --with-bugurl=https://sourceforge.net/projects/mingw-w64 CFLAGS='-O2 -pipe -fno-ident -I/c/buildroot/i686-1220-posix-dwarf-rt_v10-rev0/mingw32/opt/include -I/c/buildroot/prerequisites/i686-zlib-static/include -I/c/buildroot/prerequisites/i686-w64-mingw32-static/include' CXXFLAGS='-O2 -pipe -fno-ident -I/c/buildroot/i686-1220-posix-dwarf-rt_v10-rev0/mingw32/opt/include -I/c/buildroot/prerequisites/i686-zlib-static/include -I/c/buildroot/prerequisites/i686-w64-mingw32-static/include' CPPFLAGS=' -I/c/buildroot/i686-1220-posix-dwarf-rt_v10-rev0/mingw32/opt/include -I/c/buildroot/prerequisites/i686-zlib-static/include -I/c/buildroot/prerequisites/i686-w64-mingw32-static/include' LDFLAGS='-pipe -fno-ident -L/c/buildroot/i686-1220-posix-dwarf-rt_v10-rev0/mingw32/opt/lib -L/c/buildroot/prerequisites/i686-zlib-static/lib -L/c/buildroot/prerequisites/i686-w64-mingw32-static/lib -Wl,--large-address-aware' LD_FOR_TARGET=/c/buildroot/i686-1220-posix-dwarf-rt_v10-rev0/mingw32/bin/ld.exe --with-boot-ldflags=' -Wl,--disable-dynamicbase -static-libstdc++ -static-libgcc'
+Thread model: posix
+Supported LTO compression algorithms: zlib
+gcc version 12.2.0 (i686-posix-dwarf-rev0, Built by MinGW-W64 project) 
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\cmTC_59eea.dir\CMakeCCompilerABI.c.obj' '-c' '-mtune=generic' '-march=i686' '-dumpdir' 'CMakeFiles\cmTC_59eea.dir\'
+ C:/Users/daruma/bin/.gcc/mingw32/bin/../libexec/gcc/i686-w64-mingw32/12.2.0/cc1.exe -quiet -v -iprefix C:/Users/daruma/bin/.gcc/mingw32/bin/../lib/gcc/i686-w64-mingw32/12.2.0/ -D_REENTRANT C:\Users\daruma\bin\.cmake\CMake\share\cmake-3.24\Modules\CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles\cmTC_59eea.dir\ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mtune=generic -march=i686 -version -o C:\Users\daruma\AppData\Local\Temp\ccQrUFLX.s
+GNU C17 (i686-posix-dwarf-rev0, Built by MinGW-W64 project) version 12.2.0 (i686-w64-mingw32)
+	compiled by GNU C version 12.2.0, GMP version 6.2.1, MPFR version 4.1.0, MPC version 1.2.1, isl version isl-0.25-GMP
+
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+ignoring duplicate directory "C:/Users/daruma/bin/.gcc/mingw32/lib/gcc/../../lib/gcc/i686-w64-mingw32/12.2.0/include"
+ignoring nonexistent directory "C:/buildroot/i686-1220-posix-dwarf-rt_v10-rev0/mingw32D:/a/_temp/msys64/mingw32/lib/gcc/i686-w64-mingw32/12.2.0/../../../../include"
+ignoring duplicate directory "C:/Users/daruma/bin/.gcc/mingw32/lib/gcc/../../lib/gcc/i686-w64-mingw32/12.2.0/include-fixed"
+ignoring duplicate directory "C:/Users/daruma/bin/.gcc/mingw32/lib/gcc/../../lib/gcc/i686-w64-mingw32/12.2.0/../../../../i686-w64-mingw32/include"
+ignoring nonexistent directory "C:/buildroot/i686-1220-posix-dwarf-rt_v10-rev0/mingw32/mingw/include"
+#include "..." search starts here:
+#include <...> search starts here:
+ C:/Users/daruma/bin/.gcc/mingw32/bin/../lib/gcc/i686-w64-mingw32/12.2.0/include
+ C:/Users/daruma/bin/.gcc/mingw32/bin/../lib/gcc/i686-w64-mingw32/12.2.0/include-fixed
+ C:/Users/daruma/bin/.gcc/mingw32/bin/../lib/gcc/i686-w64-mingw32/12.2.0/../../../../i686-w64-mingw32/include
+End of search list.
+GNU C17 (i686-posix-dwarf-rev0, Built by MinGW-W64 project) version 12.2.0 (i686-w64-mingw32)
+	compiled by GNU C version 12.2.0, GMP version 6.2.1, MPFR version 4.1.0, MPC version 1.2.1, isl version isl-0.25-GMP
+
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+Compiler executable checksum: e07563985f5ae3e2188738dd8ca3293f
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\cmTC_59eea.dir\CMakeCCompilerABI.c.obj' '-c' '-mtune=generic' '-march=i686' '-dumpdir' 'CMakeFiles\cmTC_59eea.dir\'
+ C:/Users/daruma/bin/.gcc/mingw32/bin/../lib/gcc/i686-w64-mingw32/12.2.0/../../../../i686-w64-mingw32/bin/as.exe -v -o CMakeFiles\cmTC_59eea.dir\CMakeCCompilerABI.c.obj C:\Users\daruma\AppData\Local\Temp\ccQrUFLX.s
+GNU assembler version 2.38 (i686-w64-mingw32) using BFD version (GNU Binutils) 2.38
+COMPILER_PATH=C:/Users/daruma/bin/.gcc/mingw32/bin/../libexec/gcc/i686-w64-mingw32/12.2.0/;C:/Users/daruma/bin/.gcc/mingw32/bin/../libexec/gcc/;C:/Users/daruma/bin/.gcc/mingw32/bin/../lib/gcc/i686-w64-mingw32/12.2.0/../../../../i686-w64-mingw32/bin/
+LIBRARY_PATH=C:/Users/daruma/bin/.gcc/mingw32/bin/../lib/gcc/i686-w64-mingw32/12.2.0/;C:/Users/daruma/bin/.gcc/mingw32/bin/../lib/gcc/;C:/Users/daruma/bin/.gcc/mingw32/bin/../lib/gcc/i686-w64-mingw32/12.2.0/../../../../i686-w64-mingw32/lib/../lib/;C:/Users/daruma/bin/.gcc/mingw32/bin/../lib/gcc/i686-w64-mingw32/12.2.0/../../../../lib/;C:/Users/daruma/bin/.gcc/mingw32/bin/../lib/gcc/i686-w64-mingw32/12.2.0/../../../../i686-w64-mingw32/lib/;C:/Users/daruma/bin/.gcc/mingw32/bin/../lib/gcc/i686-w64-mingw32/12.2.0/../../../
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\cmTC_59eea.dir\CMakeCCompilerABI.c.obj' '-c' '-mtune=generic' '-march=i686' '-dumpdir' 'CMakeFiles\cmTC_59eea.dir\CMakeCCompilerABI.c.'
+Linking C executable cmTC_59eea.exe
+C:\Users\daruma\bin\.cmake\CMake\bin\cmake.exe -E cmake_link_script CMakeFiles\cmTC_59eea.dir\link.txt --verbose=1
+C:\Users\daruma\bin\.cmake\CMake\bin\cmake.exe -E rm -f CMakeFiles\cmTC_59eea.dir/objects.a
+C:\Users\daruma\bin\.gcc\mingw32\bin\ar.exe qc CMakeFiles\cmTC_59eea.dir/objects.a @CMakeFiles\cmTC_59eea.dir\objects1.rsp
+C:\Users\daruma\bin\.gcc\mingw32\bin\gcc.exe  -v -Wl,--whole-archive CMakeFiles\cmTC_59eea.dir/objects.a -Wl,--no-whole-archive -o cmTC_59eea.exe -Wl,--out-implib,libcmTC_59eea.dll.a -Wl,--major-image-version,0,--minor-image-version,0 
+Using built-in specs.
+COLLECT_GCC=C:\Users\daruma\bin\.gcc\mingw32\bin\gcc.exe
+COLLECT_LTO_WRAPPER=C:/Users/daruma/bin/.gcc/mingw32/bin/../libexec/gcc/i686-w64-mingw32/12.2.0/lto-wrapper.exe
+Target: i686-w64-mingw32
+Configured with: ../../../src/gcc-12.2.0/configure --host=i686-w64-mingw32 --build=i686-w64-mingw32 --target=i686-w64-mingw32 --prefix=/mingw32 --with-sysroot=/c/buildroot/i686-1220-posix-dwarf-rt_v10-rev0/mingw32 --enable-host-shared --disable-multilib --enable-languages=c,c++,fortran,lto --enable-libstdcxx-time=yes --enable-threads=posix --enable-libgomp --enable-libatomic --enable-lto --enable-graphite --enable-checking=release --enable-fully-dynamic-string --enable-version-specific-runtime-libs --enable-libstdcxx-filesystem-ts=yes --disable-sjlj-exceptions --with-dwarf2 --disable-libstdcxx-pch --disable-libstdcxx-debug --enable-bootstrap --disable-rpath --disable-win32-registry --disable-nls --disable-werror --disable-symvers --with-gnu-as --with-gnu-ld --with-arch=i686 --with-tune=generic --with-libiconv --with-system-zlib --with-gmp=/c/buildroot/prerequisites/i686-w64-mingw32-static --with-mpfr=/c/buildroot/prerequisites/i686-w64-mingw32-static --with-mpc=/c/buildroot/prerequisites/i686-w64-mingw32-static --with-isl=/c/buildroot/prerequisites/i686-w64-mingw32-static --with-pkgversion='i686-posix-dwarf-rev0, Built by MinGW-W64 project' --with-bugurl=https://sourceforge.net/projects/mingw-w64 CFLAGS='-O2 -pipe -fno-ident -I/c/buildroot/i686-1220-posix-dwarf-rt_v10-rev0/mingw32/opt/include -I/c/buildroot/prerequisites/i686-zlib-static/include -I/c/buildroot/prerequisites/i686-w64-mingw32-static/include' CXXFLAGS='-O2 -pipe -fno-ident -I/c/buildroot/i686-1220-posix-dwarf-rt_v10-rev0/mingw32/opt/include -I/c/buildroot/prerequisites/i686-zlib-static/include -I/c/buildroot/prerequisites/i686-w64-mingw32-static/include' CPPFLAGS=' -I/c/buildroot/i686-1220-posix-dwarf-rt_v10-rev0/mingw32/opt/include -I/c/buildroot/prerequisites/i686-zlib-static/include -I/c/buildroot/prerequisites/i686-w64-mingw32-static/include' LDFLAGS='-pipe -fno-ident -L/c/buildroot/i686-1220-posix-dwarf-rt_v10-rev0/mingw32/opt/lib -L/c/buildroot/prerequisites/i686-zlib-static/lib -L/c/buildroot/prerequisites/i686-w64-mingw32-static/lib -Wl,--large-address-aware' LD_FOR_TARGET=/c/buildroot/i686-1220-posix-dwarf-rt_v10-rev0/mingw32/bin/ld.exe --with-boot-ldflags=' -Wl,--disable-dynamicbase -static-libstdc++ -static-libgcc'
+Thread model: posix
+Supported LTO compression algorithms: zlib
+gcc version 12.2.0 (i686-posix-dwarf-rev0, Built by MinGW-W64 project) 
+COMPILER_PATH=C:/Users/daruma/bin/.gcc/mingw32/bin/../libexec/gcc/i686-w64-mingw32/12.2.0/;C:/Users/daruma/bin/.gcc/mingw32/bin/../libexec/gcc/;C:/Users/daruma/bin/.gcc/mingw32/bin/../lib/gcc/i686-w64-mingw32/12.2.0/../../../../i686-w64-mingw32/bin/
+LIBRARY_PATH=C:/Users/daruma/bin/.gcc/mingw32/bin/../lib/gcc/i686-w64-mingw32/12.2.0/;C:/Users/daruma/bin/.gcc/mingw32/bin/../lib/gcc/;C:/Users/daruma/bin/.gcc/mingw32/bin/../lib/gcc/i686-w64-mingw32/12.2.0/../../../../i686-w64-mingw32/lib/../lib/;C:/Users/daruma/bin/.gcc/mingw32/bin/../lib/gcc/i686-w64-mingw32/12.2.0/../../../../lib/;C:/Users/daruma/bin/.gcc/mingw32/bin/../lib/gcc/i686-w64-mingw32/12.2.0/../../../../i686-w64-mingw32/lib/;C:/Users/daruma/bin/.gcc/mingw32/bin/../lib/gcc/i686-w64-mingw32/12.2.0/../../../
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_59eea.exe' '-mtune=generic' '-march=i686' '-dumpdir' 'cmTC_59eea.'
+ C:/Users/daruma/bin/.gcc/mingw32/bin/../libexec/gcc/i686-w64-mingw32/12.2.0/collect2.exe -plugin C:/Users/daruma/bin/.gcc/mingw32/bin/../libexec/gcc/i686-w64-mingw32/12.2.0/liblto_plugin.dll -plugin-opt=C:/Users/daruma/bin/.gcc/mingw32/bin/../libexec/gcc/i686-w64-mingw32/12.2.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\Users\daruma\AppData\Local\Temp\ccxythHh.res -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_eh -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-liconv -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_eh -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 --sysroot=C:/buildroot/i686-1220-posix-dwarf-rt_v10-rev0/mingw32 -m i386pe -Bdynamic -o cmTC_59eea.exe C:/Users/daruma/bin/.gcc/mingw32/bin/../lib/gcc/i686-w64-mingw32/12.2.0/../../../../i686-w64-mingw32/lib/../lib/crt2.o C:/Users/daruma/bin/.gcc/mingw32/bin/../lib/gcc/i686-w64-mingw32/12.2.0/crtbegin.o -LC:/Users/daruma/bin/.gcc/mingw32/bin/../lib/gcc/i686-w64-mingw32/12.2.0 -LC:/Users/daruma/bin/.gcc/mingw32/bin/../lib/gcc -LC:/Users/daruma/bin/.gcc/mingw32/bin/../lib/gcc/i686-w64-mingw32/12.2.0/../../../../i686-w64-mingw32/lib/../lib -LC:/Users/daruma/bin/.gcc/mingw32/bin/../lib/gcc/i686-w64-mingw32/12.2.0/../../../../lib -LC:/Users/daruma/bin/.gcc/mingw32/bin/../lib/gcc/i686-w64-mingw32/12.2.0/../../../../i686-w64-mingw32/lib -LC:/Users/daruma/bin/.gcc/mingw32/bin/../lib/gcc/i686-w64-mingw32/12.2.0/../../.. --whole-archive CMakeFiles\cmTC_59eea.dir/objects.a --no-whole-archive --out-implib libcmTC_59eea.dll.a --major-image-version 0 --minor-image-version 0 -lmingw32 -lgcc -lgcc_eh -lmoldname -lmingwex -lmsvcrt -lkernel32 -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -liconv -lmingw32 -lgcc -lgcc_eh -lmoldname -lmingwex -lmsvcrt -lkernel32 C:/Users/daruma/bin/.gcc/mingw32/bin/../lib/gcc/i686-w64-mingw32/12.2.0/crtend.o
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_59eea.exe' '-mtune=generic' '-march=i686' '-dumpdir' 'cmTC_59eea.'
+mingw32-make.exe[1]: Leaving directory 'C:/Users/daruma/nvim-source/cpp/tanuk-script/build/CMakeFiles/CMakeTmp'
+
+
+
+Parsed C implicit include dir info from above output: rv=done
+  found start of include info
+  found start of implicit include info
+    add: [C:/Users/daruma/bin/.gcc/mingw32/bin/../lib/gcc/i686-w64-mingw32/12.2.0/include]
+    add: [C:/Users/daruma/bin/.gcc/mingw32/bin/../lib/gcc/i686-w64-mingw32/12.2.0/include-fixed]
+    add: [C:/Users/daruma/bin/.gcc/mingw32/bin/../lib/gcc/i686-w64-mingw32/12.2.0/../../../../i686-w64-mingw32/include]
+  end of search list found
+  collapse include dir [C:/Users/daruma/bin/.gcc/mingw32/bin/../lib/gcc/i686-w64-mingw32/12.2.0/include] ==> [C:/Users/daruma/bin/.gcc/mingw32/lib/gcc/i686-w64-mingw32/12.2.0/include]
+  collapse include dir [C:/Users/daruma/bin/.gcc/mingw32/bin/../lib/gcc/i686-w64-mingw32/12.2.0/include-fixed] ==> [C:/Users/daruma/bin/.gcc/mingw32/lib/gcc/i686-w64-mingw32/12.2.0/include-fixed]
+  collapse include dir [C:/Users/daruma/bin/.gcc/mingw32/bin/../lib/gcc/i686-w64-mingw32/12.2.0/../../../../i686-w64-mingw32/include] ==> [C:/Users/daruma/bin/.gcc/mingw32/i686-w64-mingw32/include]
+  implicit include dirs: [C:/Users/daruma/bin/.gcc/mingw32/lib/gcc/i686-w64-mingw32/12.2.0/include;C:/Users/daruma/bin/.gcc/mingw32/lib/gcc/i686-w64-mingw32/12.2.0/include-fixed;C:/Users/daruma/bin/.gcc/mingw32/i686-w64-mingw32/include]
+
+
+Parsed C implicit link information from above output:
+  link line regex: [^( *|.*[/\])(ld\.exe|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: C:/Users/daruma/nvim-source/cpp/tanuk-script/build/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command(s):C:/Users/daruma/bin/.gcc/mingw32/bin/mingw32-make.exe -f Makefile cmTC_59eea/fast && C:/Users/daruma/bin/.gcc/mingw32/bin/mingw32-make.exe  -f CMakeFiles\cmTC_59eea.dir\build.make CMakeFiles/cmTC_59eea.dir/build]
+  ignore line: [mingw32-make.exe[1]: Entering directory 'C:/Users/daruma/nvim-source/cpp/tanuk-script/build/CMakeFiles/CMakeTmp']
+  ignore line: [Building C object CMakeFiles/cmTC_59eea.dir/CMakeCCompilerABI.c.obj]
+  ignore line: [C:\Users\daruma\bin\.gcc\mingw32\bin\gcc.exe   -v -o CMakeFiles\cmTC_59eea.dir\CMakeCCompilerABI.c.obj -c C:\Users\daruma\bin\.cmake\CMake\share\cmake-3.24\Modules\CMakeCCompilerABI.c]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=C:\Users\daruma\bin\.gcc\mingw32\bin\gcc.exe]
+  ignore line: [Target: i686-w64-mingw32]
+  ignore line: [Configured with: ../../../src/gcc-12.2.0/configure --host=i686-w64-mingw32 --build=i686-w64-mingw32 --target=i686-w64-mingw32 --prefix=/mingw32 --with-sysroot=/c/buildroot/i686-1220-posix-dwarf-rt_v10-rev0/mingw32 --enable-host-shared --disable-multilib --enable-languages=c,c++,fortran,lto --enable-libstdcxx-time=yes --enable-threads=posix --enable-libgomp --enable-libatomic --enable-lto --enable-graphite --enable-checking=release --enable-fully-dynamic-string --enable-version-specific-runtime-libs --enable-libstdcxx-filesystem-ts=yes --disable-sjlj-exceptions --with-dwarf2 --disable-libstdcxx-pch --disable-libstdcxx-debug --enable-bootstrap --disable-rpath --disable-win32-registry --disable-nls --disable-werror --disable-symvers --with-gnu-as --with-gnu-ld --with-arch=i686 --with-tune=generic --with-libiconv --with-system-zlib --with-gmp=/c/buildroot/prerequisites/i686-w64-mingw32-static --with-mpfr=/c/buildroot/prerequisites/i686-w64-mingw32-static --with-mpc=/c/buildroot/prerequisites/i686-w64-mingw32-static --with-isl=/c/buildroot/prerequisites/i686-w64-mingw32-static --with-pkgversion='i686-posix-dwarf-rev0, Built by MinGW-W64 project' --with-bugurl=https://sourceforge.net/projects/mingw-w64 CFLAGS='-O2 -pipe -fno-ident -I/c/buildroot/i686-1220-posix-dwarf-rt_v10-rev0/mingw32/opt/include -I/c/buildroot/prerequisites/i686-zlib-static/include -I/c/buildroot/prerequisites/i686-w64-mingw32-static/include' CXXFLAGS='-O2 -pipe -fno-ident -I/c/buildroot/i686-1220-posix-dwarf-rt_v10-rev0/mingw32/opt/include -I/c/buildroot/prerequisites/i686-zlib-static/include -I/c/buildroot/prerequisites/i686-w64-mingw32-static/include' CPPFLAGS=' -I/c/buildroot/i686-1220-posix-dwarf-rt_v10-rev0/mingw32/opt/include -I/c/buildroot/prerequisites/i686-zlib-static/include -I/c/buildroot/prerequisites/i686-w64-mingw32-static/include' LDFLAGS='-pipe -fno-ident -L/c/buildroot/i686-1220-posix-dwarf-rt_v10-rev0/mingw32/opt/lib -L/c/buildroot/prerequisites/i686-zlib-static/lib -L/c/buildroot/prerequisites/i686-w64-mingw32-static/lib -Wl,--large-address-aware' LD_FOR_TARGET=/c/buildroot/i686-1220-posix-dwarf-rt_v10-rev0/mingw32/bin/ld.exe --with-boot-ldflags=' -Wl,--disable-dynamicbase -static-libstdc++ -static-libgcc']
+  ignore line: [Thread model: posix]
+  ignore line: [Supported LTO compression algorithms: zlib]
+  ignore line: [gcc version 12.2.0 (i686-posix-dwarf-rev0  Built by MinGW-W64 project) ]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\cmTC_59eea.dir\CMakeCCompilerABI.c.obj' '-c' '-mtune=generic' '-march=i686' '-dumpdir' 'CMakeFiles\cmTC_59eea.dir\']
+  ignore line: [ C:/Users/daruma/bin/.gcc/mingw32/bin/../libexec/gcc/i686-w64-mingw32/12.2.0/cc1.exe -quiet -v -iprefix C:/Users/daruma/bin/.gcc/mingw32/bin/../lib/gcc/i686-w64-mingw32/12.2.0/ -D_REENTRANT C:\Users\daruma\bin\.cmake\CMake\share\cmake-3.24\Modules\CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles\cmTC_59eea.dir\ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mtune=generic -march=i686 -version -o C:\Users\daruma\AppData\Local\Temp\ccQrUFLX.s]
+  ignore line: [GNU C17 (i686-posix-dwarf-rev0  Built by MinGW-W64 project) version 12.2.0 (i686-w64-mingw32)]
+  ignore line: [	compiled by GNU C version 12.2.0  GMP version 6.2.1  MPFR version 4.1.0  MPC version 1.2.1  isl version isl-0.25-GMP]
+  ignore line: []
+  ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+  ignore line: [ignoring duplicate directory "C:/Users/daruma/bin/.gcc/mingw32/lib/gcc/../../lib/gcc/i686-w64-mingw32/12.2.0/include"]
+  ignore line: [ignoring nonexistent directory "C:/buildroot/i686-1220-posix-dwarf-rt_v10-rev0/mingw32D:/a/_temp/msys64/mingw32/lib/gcc/i686-w64-mingw32/12.2.0/../../../../include"]
+  ignore line: [ignoring duplicate directory "C:/Users/daruma/bin/.gcc/mingw32/lib/gcc/../../lib/gcc/i686-w64-mingw32/12.2.0/include-fixed"]
+  ignore line: [ignoring duplicate directory "C:/Users/daruma/bin/.gcc/mingw32/lib/gcc/../../lib/gcc/i686-w64-mingw32/12.2.0/../../../../i686-w64-mingw32/include"]
+  ignore line: [ignoring nonexistent directory "C:/buildroot/i686-1220-posix-dwarf-rt_v10-rev0/mingw32/mingw/include"]
+  ignore line: [#include "..." search starts here:]
+  ignore line: [#include <...> search starts here:]
+  ignore line: [ C:/Users/daruma/bin/.gcc/mingw32/bin/../lib/gcc/i686-w64-mingw32/12.2.0/include]
+  ignore line: [ C:/Users/daruma/bin/.gcc/mingw32/bin/../lib/gcc/i686-w64-mingw32/12.2.0/include-fixed]
+  ignore line: [ C:/Users/daruma/bin/.gcc/mingw32/bin/../lib/gcc/i686-w64-mingw32/12.2.0/../../../../i686-w64-mingw32/include]
+  ignore line: [End of search list.]
+  ignore line: [GNU C17 (i686-posix-dwarf-rev0  Built by MinGW-W64 project) version 12.2.0 (i686-w64-mingw32)]
+  ignore line: [	compiled by GNU C version 12.2.0  GMP version 6.2.1  MPFR version 4.1.0  MPC version 1.2.1  isl version isl-0.25-GMP]
+  ignore line: []
+  ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+  ignore line: [Compiler executable checksum: e07563985f5ae3e2188738dd8ca3293f]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\cmTC_59eea.dir\CMakeCCompilerABI.c.obj' '-c' '-mtune=generic' '-march=i686' '-dumpdir' 'CMakeFiles\cmTC_59eea.dir\']
+  ignore line: [ C:/Users/daruma/bin/.gcc/mingw32/bin/../lib/gcc/i686-w64-mingw32/12.2.0/../../../../i686-w64-mingw32/bin/as.exe -v -o CMakeFiles\cmTC_59eea.dir\CMakeCCompilerABI.c.obj C:\Users\daruma\AppData\Local\Temp\ccQrUFLX.s]
+  ignore line: [GNU assembler version 2.38 (i686-w64-mingw32) using BFD version (GNU Binutils) 2.38]
+  ignore line: [COMPILER_PATH=C:/Users/daruma/bin/.gcc/mingw32/bin/../libexec/gcc/i686-w64-mingw32/12.2.0/]
+  ignore line: [C:/Users/daruma/bin/.gcc/mingw32/bin/../libexec/gcc/]
+  ignore line: [C:/Users/daruma/bin/.gcc/mingw32/bin/../lib/gcc/i686-w64-mingw32/12.2.0/../../../../i686-w64-mingw32/bin/]
+  ignore line: [LIBRARY_PATH=C:/Users/daruma/bin/.gcc/mingw32/bin/../lib/gcc/i686-w64-mingw32/12.2.0/]
+  ignore line: [C:/Users/daruma/bin/.gcc/mingw32/bin/../lib/gcc/]
+  ignore line: [C:/Users/daruma/bin/.gcc/mingw32/bin/../lib/gcc/i686-w64-mingw32/12.2.0/../../../../i686-w64-mingw32/lib/../lib/]
+  ignore line: [C:/Users/daruma/bin/.gcc/mingw32/bin/../lib/gcc/i686-w64-mingw32/12.2.0/../../../../lib/]
+  ignore line: [C:/Users/daruma/bin/.gcc/mingw32/bin/../lib/gcc/i686-w64-mingw32/12.2.0/../../../../i686-w64-mingw32/lib/]
+  ignore line: [C:/Users/daruma/bin/.gcc/mingw32/bin/../lib/gcc/i686-w64-mingw32/12.2.0/../../../]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\cmTC_59eea.dir\CMakeCCompilerABI.c.obj' '-c' '-mtune=generic' '-march=i686' '-dumpdir' 'CMakeFiles\cmTC_59eea.dir\CMakeCCompilerABI.c.']
+  ignore line: [Linking C executable cmTC_59eea.exe]
+  ignore line: [C:\Users\daruma\bin\.cmake\CMake\bin\cmake.exe -E cmake_link_script CMakeFiles\cmTC_59eea.dir\link.txt --verbose=1]
+  ignore line: [C:\Users\daruma\bin\.cmake\CMake\bin\cmake.exe -E rm -f CMakeFiles\cmTC_59eea.dir/objects.a]
+  ignore line: [C:\Users\daruma\bin\.gcc\mingw32\bin\ar.exe qc CMakeFiles\cmTC_59eea.dir/objects.a @CMakeFiles\cmTC_59eea.dir\objects1.rsp]
+  ignore line: [C:\Users\daruma\bin\.gcc\mingw32\bin\gcc.exe  -v -Wl --whole-archive CMakeFiles\cmTC_59eea.dir/objects.a -Wl --no-whole-archive -o cmTC_59eea.exe -Wl --out-implib libcmTC_59eea.dll.a -Wl --major-image-version 0 --minor-image-version 0 ]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=C:\Users\daruma\bin\.gcc\mingw32\bin\gcc.exe]
+  ignore line: [COLLECT_LTO_WRAPPER=C:/Users/daruma/bin/.gcc/mingw32/bin/../libexec/gcc/i686-w64-mingw32/12.2.0/lto-wrapper.exe]
+  ignore line: [Target: i686-w64-mingw32]
+  ignore line: [Configured with: ../../../src/gcc-12.2.0/configure --host=i686-w64-mingw32 --build=i686-w64-mingw32 --target=i686-w64-mingw32 --prefix=/mingw32 --with-sysroot=/c/buildroot/i686-1220-posix-dwarf-rt_v10-rev0/mingw32 --enable-host-shared --disable-multilib --enable-languages=c,c++,fortran,lto --enable-libstdcxx-time=yes --enable-threads=posix --enable-libgomp --enable-libatomic --enable-lto --enable-graphite --enable-checking=release --enable-fully-dynamic-string --enable-version-specific-runtime-libs --enable-libstdcxx-filesystem-ts=yes --disable-sjlj-exceptions --with-dwarf2 --disable-libstdcxx-pch --disable-libstdcxx-debug --enable-bootstrap --disable-rpath --disable-win32-registry --disable-nls --disable-werror --disable-symvers --with-gnu-as --with-gnu-ld --with-arch=i686 --with-tune=generic --with-libiconv --with-system-zlib --with-gmp=/c/buildroot/prerequisites/i686-w64-mingw32-static --with-mpfr=/c/buildroot/prerequisites/i686-w64-mingw32-static --with-mpc=/c/buildroot/prerequisites/i686-w64-mingw32-static --with-isl=/c/buildroot/prerequisites/i686-w64-mingw32-static --with-pkgversion='i686-posix-dwarf-rev0, Built by MinGW-W64 project' --with-bugurl=https://sourceforge.net/projects/mingw-w64 CFLAGS='-O2 -pipe -fno-ident -I/c/buildroot/i686-1220-posix-dwarf-rt_v10-rev0/mingw32/opt/include -I/c/buildroot/prerequisites/i686-zlib-static/include -I/c/buildroot/prerequisites/i686-w64-mingw32-static/include' CXXFLAGS='-O2 -pipe -fno-ident -I/c/buildroot/i686-1220-posix-dwarf-rt_v10-rev0/mingw32/opt/include -I/c/buildroot/prerequisites/i686-zlib-static/include -I/c/buildroot/prerequisites/i686-w64-mingw32-static/include' CPPFLAGS=' -I/c/buildroot/i686-1220-posix-dwarf-rt_v10-rev0/mingw32/opt/include -I/c/buildroot/prerequisites/i686-zlib-static/include -I/c/buildroot/prerequisites/i686-w64-mingw32-static/include' LDFLAGS='-pipe -fno-ident -L/c/buildroot/i686-1220-posix-dwarf-rt_v10-rev0/mingw32/opt/lib -L/c/buildroot/prerequisites/i686-zlib-static/lib -L/c/buildroot/prerequisites/i686-w64-mingw32-static/lib -Wl,--large-address-aware' LD_FOR_TARGET=/c/buildroot/i686-1220-posix-dwarf-rt_v10-rev0/mingw32/bin/ld.exe --with-boot-ldflags=' -Wl,--disable-dynamicbase -static-libstdc++ -static-libgcc']
+  ignore line: [Thread model: posix]
+  ignore line: [Supported LTO compression algorithms: zlib]
+  ignore line: [gcc version 12.2.0 (i686-posix-dwarf-rev0  Built by MinGW-W64 project) ]
+  ignore line: [COMPILER_PATH=C:/Users/daruma/bin/.gcc/mingw32/bin/../libexec/gcc/i686-w64-mingw32/12.2.0/]
+  ignore line: [C:/Users/daruma/bin/.gcc/mingw32/bin/../libexec/gcc/]
+  ignore line: [C:/Users/daruma/bin/.gcc/mingw32/bin/../lib/gcc/i686-w64-mingw32/12.2.0/../../../../i686-w64-mingw32/bin/]
+  ignore line: [LIBRARY_PATH=C:/Users/daruma/bin/.gcc/mingw32/bin/../lib/gcc/i686-w64-mingw32/12.2.0/]
+  ignore line: [C:/Users/daruma/bin/.gcc/mingw32/bin/../lib/gcc/]
+  ignore line: [C:/Users/daruma/bin/.gcc/mingw32/bin/../lib/gcc/i686-w64-mingw32/12.2.0/../../../../i686-w64-mingw32/lib/../lib/]
+  ignore line: [C:/Users/daruma/bin/.gcc/mingw32/bin/../lib/gcc/i686-w64-mingw32/12.2.0/../../../../lib/]
+  ignore line: [C:/Users/daruma/bin/.gcc/mingw32/bin/../lib/gcc/i686-w64-mingw32/12.2.0/../../../../i686-w64-mingw32/lib/]
+  ignore line: [C:/Users/daruma/bin/.gcc/mingw32/bin/../lib/gcc/i686-w64-mingw32/12.2.0/../../../]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_59eea.exe' '-mtune=generic' '-march=i686' '-dumpdir' 'cmTC_59eea.']
+  link line: [ C:/Users/daruma/bin/.gcc/mingw32/bin/../libexec/gcc/i686-w64-mingw32/12.2.0/collect2.exe -plugin C:/Users/daruma/bin/.gcc/mingw32/bin/../libexec/gcc/i686-w64-mingw32/12.2.0/liblto_plugin.dll -plugin-opt=C:/Users/daruma/bin/.gcc/mingw32/bin/../libexec/gcc/i686-w64-mingw32/12.2.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\Users\daruma\AppData\Local\Temp\ccxythHh.res -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_eh -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-liconv -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_eh -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 --sysroot=C:/buildroot/i686-1220-posix-dwarf-rt_v10-rev0/mingw32 -m i386pe -Bdynamic -o cmTC_59eea.exe C:/Users/daruma/bin/.gcc/mingw32/bin/../lib/gcc/i686-w64-mingw32/12.2.0/../../../../i686-w64-mingw32/lib/../lib/crt2.o C:/Users/daruma/bin/.gcc/mingw32/bin/../lib/gcc/i686-w64-mingw32/12.2.0/crtbegin.o -LC:/Users/daruma/bin/.gcc/mingw32/bin/../lib/gcc/i686-w64-mingw32/12.2.0 -LC:/Users/daruma/bin/.gcc/mingw32/bin/../lib/gcc -LC:/Users/daruma/bin/.gcc/mingw32/bin/../lib/gcc/i686-w64-mingw32/12.2.0/../../../../i686-w64-mingw32/lib/../lib -LC:/Users/daruma/bin/.gcc/mingw32/bin/../lib/gcc/i686-w64-mingw32/12.2.0/../../../../lib -LC:/Users/daruma/bin/.gcc/mingw32/bin/../lib/gcc/i686-w64-mingw32/12.2.0/../../../../i686-w64-mingw32/lib -LC:/Users/daruma/bin/.gcc/mingw32/bin/../lib/gcc/i686-w64-mingw32/12.2.0/../../.. --whole-archive CMakeFiles\cmTC_59eea.dir/objects.a --no-whole-archive --out-implib libcmTC_59eea.dll.a --major-image-version 0 --minor-image-version 0 -lmingw32 -lgcc -lgcc_eh -lmoldname -lmingwex -lmsvcrt -lkernel32 -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -liconv -lmingw32 -lgcc -lgcc_eh -lmoldname -lmingwex -lmsvcrt -lkernel32 C:/Users/daruma/bin/.gcc/mingw32/bin/../lib/gcc/i686-w64-mingw32/12.2.0/crtend.o]
+    arg [C:/Users/daruma/bin/.gcc/mingw32/bin/../libexec/gcc/i686-w64-mingw32/12.2.0/collect2.exe] ==> ignore
+    arg [-plugin] ==> ignore
+    arg [C:/Users/daruma/bin/.gcc/mingw32/bin/../libexec/gcc/i686-w64-mingw32/12.2.0/liblto_plugin.dll] ==> ignore
+    arg [-plugin-opt=C:/Users/daruma/bin/.gcc/mingw32/bin/../libexec/gcc/i686-w64-mingw32/12.2.0/lto-wrapper.exe] ==> ignore
+    arg [-plugin-opt=-fresolution=C:\Users\daruma\AppData\Local\Temp\ccxythHh.res] ==> ignore
+    arg [-plugin-opt=-pass-through=-lmingw32] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_eh] ==> ignore
+    arg [-plugin-opt=-pass-through=-lmoldname] ==> ignore
+    arg [-plugin-opt=-pass-through=-lmingwex] ==> ignore
+    arg [-plugin-opt=-pass-through=-lmsvcrt] ==> ignore
+    arg [-plugin-opt=-pass-through=-lkernel32] ==> ignore
+    arg [-plugin-opt=-pass-through=-lpthread] ==> ignore
+    arg [-plugin-opt=-pass-through=-ladvapi32] ==> ignore
+    arg [-plugin-opt=-pass-through=-lshell32] ==> ignore
+    arg [-plugin-opt=-pass-through=-luser32] ==> ignore
+    arg [-plugin-opt=-pass-through=-lkernel32] ==> ignore
+    arg [-plugin-opt=-pass-through=-liconv] ==> ignore
+    arg [-plugin-opt=-pass-through=-lmingw32] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_eh] ==> ignore
+    arg [-plugin-opt=-pass-through=-lmoldname] ==> ignore
+    arg [-plugin-opt=-pass-through=-lmingwex] ==> ignore
+    arg [-plugin-opt=-pass-through=-lmsvcrt] ==> ignore
+    arg [-plugin-opt=-pass-through=-lkernel32] ==> ignore
+    arg [--sysroot=C:/buildroot/i686-1220-posix-dwarf-rt_v10-rev0/mingw32] ==> ignore
+    arg [-m] ==> ignore
+    arg [i386pe] ==> ignore
+    arg [-Bdynamic] ==> search dynamic
+    arg [-o] ==> ignore
+    arg [cmTC_59eea.exe] ==> ignore
+    arg [C:/Users/daruma/bin/.gcc/mingw32/bin/../lib/gcc/i686-w64-mingw32/12.2.0/../../../../i686-w64-mingw32/lib/../lib/crt2.o] ==> obj [C:/Users/daruma/bin/.gcc/mingw32/bin/../lib/gcc/i686-w64-mingw32/12.2.0/../../../../i686-w64-mingw32/lib/../lib/crt2.o]
+    arg [C:/Users/daruma/bin/.gcc/mingw32/bin/../lib/gcc/i686-w64-mingw32/12.2.0/crtbegin.o] ==> obj [C:/Users/daruma/bin/.gcc/mingw32/bin/../lib/gcc/i686-w64-mingw32/12.2.0/crtbegin.o]
+    arg [-LC:/Users/daruma/bin/.gcc/mingw32/bin/../lib/gcc/i686-w64-mingw32/12.2.0] ==> dir [C:/Users/daruma/bin/.gcc/mingw32/bin/../lib/gcc/i686-w64-mingw32/12.2.0]
+    arg [-LC:/Users/daruma/bin/.gcc/mingw32/bin/../lib/gcc] ==> dir [C:/Users/daruma/bin/.gcc/mingw32/bin/../lib/gcc]
+    arg [-LC:/Users/daruma/bin/.gcc/mingw32/bin/../lib/gcc/i686-w64-mingw32/12.2.0/../../../../i686-w64-mingw32/lib/../lib] ==> dir [C:/Users/daruma/bin/.gcc/mingw32/bin/../lib/gcc/i686-w64-mingw32/12.2.0/../../../../i686-w64-mingw32/lib/../lib]
+    arg [-LC:/Users/daruma/bin/.gcc/mingw32/bin/../lib/gcc/i686-w64-mingw32/12.2.0/../../../../lib] ==> dir [C:/Users/daruma/bin/.gcc/mingw32/bin/../lib/gcc/i686-w64-mingw32/12.2.0/../../../../lib]
+    arg [-LC:/Users/daruma/bin/.gcc/mingw32/bin/../lib/gcc/i686-w64-mingw32/12.2.0/../../../../i686-w64-mingw32/lib] ==> dir [C:/Users/daruma/bin/.gcc/mingw32/bin/../lib/gcc/i686-w64-mingw32/12.2.0/../../../../i686-w64-mingw32/lib]
+    arg [-LC:/Users/daruma/bin/.gcc/mingw32/bin/../lib/gcc/i686-w64-mingw32/12.2.0/../../..] ==> dir [C:/Users/daruma/bin/.gcc/mingw32/bin/../lib/gcc/i686-w64-mingw32/12.2.0/../../..]
+    arg [--whole-archive] ==> ignore
+    arg [CMakeFiles\cmTC_59eea.dir/objects.a] ==> ignore
+    arg [--no-whole-archive] ==> ignore
+    arg [--out-implib] ==> ignore
+    arg [libcmTC_59eea.dll.a] ==> ignore
+    arg [--major-image-version] ==> ignore
+    arg [0] ==> ignore
+    arg [--minor-image-version] ==> ignore
+    arg [0] ==> ignore
+    arg [-lmingw32] ==> lib [mingw32]
+    arg [-lgcc] ==> lib [gcc]
+    arg [-lgcc_eh] ==> lib [gcc_eh]
+    arg [-lmoldname] ==> lib [moldname]
+    arg [-lmingwex] ==> lib [mingwex]
+    arg [-lmsvcrt] ==> lib [msvcrt]
+    arg [-lkernel32] ==> lib [kernel32]
+    arg [-lpthread] ==> lib [pthread]
+    arg [-ladvapi32] ==> lib [advapi32]
+    arg [-lshell32] ==> lib [shell32]
+    arg [-luser32] ==> lib [user32]
+    arg [-lkernel32] ==> lib [kernel32]
+    arg [-liconv] ==> lib [iconv]
+    arg [-lmingw32] ==> lib [mingw32]
+    arg [-lgcc] ==> lib [gcc]
+    arg [-lgcc_eh] ==> lib [gcc_eh]
+    arg [-lmoldname] ==> lib [moldname]
+    arg [-lmingwex] ==> lib [mingwex]
+    arg [-lmsvcrt] ==> lib [msvcrt]
+    arg [-lkernel32] ==> lib [kernel32]
+    arg [C:/Users/daruma/bin/.gcc/mingw32/bin/../lib/gcc/i686-w64-mingw32/12.2.0/crtend.o] ==> obj [C:/Users/daruma/bin/.gcc/mingw32/bin/../lib/gcc/i686-w64-mingw32/12.2.0/crtend.o]
+  remove lib [gcc_eh]
+  remove lib [msvcrt]
+  remove lib [gcc_eh]
+  remove lib [msvcrt]
+  collapse obj [C:/Users/daruma/bin/.gcc/mingw32/bin/../lib/gcc/i686-w64-mingw32/12.2.0/../../../../i686-w64-mingw32/lib/../lib/crt2.o] ==> [C:/Users/daruma/bin/.gcc/mingw32/i686-w64-mingw32/lib/crt2.o]
+  collapse obj [C:/Users/daruma/bin/.gcc/mingw32/bin/../lib/gcc/i686-w64-mingw32/12.2.0/crtbegin.o] ==> [C:/Users/daruma/bin/.gcc/mingw32/lib/gcc/i686-w64-mingw32/12.2.0/crtbegin.o]
+  collapse obj [C:/Users/daruma/bin/.gcc/mingw32/bin/../lib/gcc/i686-w64-mingw32/12.2.0/crtend.o] ==> [C:/Users/daruma/bin/.gcc/mingw32/lib/gcc/i686-w64-mingw32/12.2.0/crtend.o]
+  collapse library dir [C:/Users/daruma/bin/.gcc/mingw32/bin/../lib/gcc/i686-w64-mingw32/12.2.0] ==> [C:/Users/daruma/bin/.gcc/mingw32/lib/gcc/i686-w64-mingw32/12.2.0]
+  collapse library dir [C:/Users/daruma/bin/.gcc/mingw32/bin/../lib/gcc] ==> [C:/Users/daruma/bin/.gcc/mingw32/lib/gcc]
+  collapse library dir [C:/Users/daruma/bin/.gcc/mingw32/bin/../lib/gcc/i686-w64-mingw32/12.2.0/../../../../i686-w64-mingw32/lib/../lib] ==> [C:/Users/daruma/bin/.gcc/mingw32/i686-w64-mingw32/lib]
+  collapse library dir [C:/Users/daruma/bin/.gcc/mingw32/bin/../lib/gcc/i686-w64-mingw32/12.2.0/../../../../lib] ==> [C:/Users/daruma/bin/.gcc/mingw32/lib]
+  collapse library dir [C:/Users/daruma/bin/.gcc/mingw32/bin/../lib/gcc/i686-w64-mingw32/12.2.0/../../../../i686-w64-mingw32/lib] ==> [C:/Users/daruma/bin/.gcc/mingw32/i686-w64-mingw32/lib]
+  collapse library dir [C:/Users/daruma/bin/.gcc/mingw32/bin/../lib/gcc/i686-w64-mingw32/12.2.0/../../..] ==> [C:/Users/daruma/bin/.gcc/mingw32/lib]
+  implicit libs: [mingw32;gcc;moldname;mingwex;kernel32;pthread;advapi32;shell32;user32;kernel32;iconv;mingw32;gcc;moldname;mingwex;kernel32]
+  implicit objs: [C:/Users/daruma/bin/.gcc/mingw32/i686-w64-mingw32/lib/crt2.o;C:/Users/daruma/bin/.gcc/mingw32/lib/gcc/i686-w64-mingw32/12.2.0/crtbegin.o;C:/Users/daruma/bin/.gcc/mingw32/lib/gcc/i686-w64-mingw32/12.2.0/crtend.o]
+  implicit dirs: [C:/Users/daruma/bin/.gcc/mingw32/lib/gcc/i686-w64-mingw32/12.2.0;C:/Users/daruma/bin/.gcc/mingw32/lib/gcc;C:/Users/daruma/bin/.gcc/mingw32/i686-w64-mingw32/lib;C:/Users/daruma/bin/.gcc/mingw32/lib]
+  implicit fwks: []
+
+
+Detecting CXX compiler ABI info compiled with the following output:
+Change Dir: C:/Users/daruma/nvim-source/cpp/tanuk-script/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Users/daruma/bin/.gcc/mingw32/bin/mingw32-make.exe -f Makefile cmTC_1fd15/fast && C:/Users/daruma/bin/.gcc/mingw32/bin/mingw32-make.exe  -f CMakeFiles\cmTC_1fd15.dir\build.make CMakeFiles/cmTC_1fd15.dir/build
+mingw32-make.exe[1]: Entering directory 'C:/Users/daruma/nvim-source/cpp/tanuk-script/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_1fd15.dir/CMakeCXXCompilerABI.cpp.obj
+C:\Users\daruma\bin\.gcc\mingw32\bin\g++.exe   -v -o CMakeFiles\cmTC_1fd15.dir\CMakeCXXCompilerABI.cpp.obj -c C:\Users\daruma\bin\.cmake\CMake\share\cmake-3.24\Modules\CMakeCXXCompilerABI.cpp
+Using built-in specs.
+COLLECT_GCC=C:\Users\daruma\bin\.gcc\mingw32\bin\g++.exe
+Target: i686-w64-mingw32
+Configured with: ../../../src/gcc-12.2.0/configure --host=i686-w64-mingw32 --build=i686-w64-mingw32 --target=i686-w64-mingw32 --prefix=/mingw32 --with-sysroot=/c/buildroot/i686-1220-posix-dwarf-rt_v10-rev0/mingw32 --enable-host-shared --disable-multilib --enable-languages=c,c++,fortran,lto --enable-libstdcxx-time=yes --enable-threads=posix --enable-libgomp --enable-libatomic --enable-lto --enable-graphite --enable-checking=release --enable-fully-dynamic-string --enable-version-specific-runtime-libs --enable-libstdcxx-filesystem-ts=yes --disable-sjlj-exceptions --with-dwarf2 --disable-libstdcxx-pch --disable-libstdcxx-debug --enable-bootstrap --disable-rpath --disable-win32-registry --disable-nls --disable-werror --disable-symvers --with-gnu-as --with-gnu-ld --with-arch=i686 --with-tune=generic --with-libiconv --with-system-zlib --with-gmp=/c/buildroot/prerequisites/i686-w64-mingw32-static --with-mpfr=/c/buildroot/prerequisites/i686-w64-mingw32-static --with-mpc=/c/buildroot/prerequisites/i686-w64-mingw32-static --with-isl=/c/buildroot/prerequisites/i686-w64-mingw32-static --with-pkgversion='i686-posix-dwarf-rev0, Built by MinGW-W64 project' --with-bugurl=https://sourceforge.net/projects/mingw-w64 CFLAGS='-O2 -pipe -fno-ident -I/c/buildroot/i686-1220-posix-dwarf-rt_v10-rev0/mingw32/opt/include -I/c/buildroot/prerequisites/i686-zlib-static/include -I/c/buildroot/prerequisites/i686-w64-mingw32-static/include' CXXFLAGS='-O2 -pipe -fno-ident -I/c/buildroot/i686-1220-posix-dwarf-rt_v10-rev0/mingw32/opt/include -I/c/buildroot/prerequisites/i686-zlib-static/include -I/c/buildroot/prerequisites/i686-w64-mingw32-static/include' CPPFLAGS=' -I/c/buildroot/i686-1220-posix-dwarf-rt_v10-rev0/mingw32/opt/include -I/c/buildroot/prerequisites/i686-zlib-static/include -I/c/buildroot/prerequisites/i686-w64-mingw32-static/include' LDFLAGS='-pipe -fno-ident -L/c/buildroot/i686-1220-posix-dwarf-rt_v10-rev0/mingw32/opt/lib -L/c/buildroot/prerequisites/i686-zlib-static/lib -L/c/buildroot/prerequisites/i686-w64-mingw32-static/lib -Wl,--large-address-aware' LD_FOR_TARGET=/c/buildroot/i686-1220-posix-dwarf-rt_v10-rev0/mingw32/bin/ld.exe --with-boot-ldflags=' -Wl,--disable-dynamicbase -static-libstdc++ -static-libgcc'
+Thread model: posix
+Supported LTO compression algorithms: zlib
+gcc version 12.2.0 (i686-posix-dwarf-rev0, Built by MinGW-W64 project) 
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\cmTC_1fd15.dir\CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=generic' '-march=i686' '-dumpdir' 'CMakeFiles\cmTC_1fd15.dir\'
+ C:/Users/daruma/bin/.gcc/mingw32/bin/../libexec/gcc/i686-w64-mingw32/12.2.0/cc1plus.exe -quiet -v -iprefix C:/Users/daruma/bin/.gcc/mingw32/bin/../lib/gcc/i686-w64-mingw32/12.2.0/ -D_REENTRANT C:\Users\daruma\bin\.cmake\CMake\share\cmake-3.24\Modules\CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles\cmTC_1fd15.dir\ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mtune=generic -march=i686 -version -o C:\Users\daruma\AppData\Local\Temp\ccoJmNjX.s
+GNU C++17 (i686-posix-dwarf-rev0, Built by MinGW-W64 project) version 12.2.0 (i686-w64-mingw32)
+	compiled by GNU C version 12.2.0, GMP version 6.2.1, MPFR version 4.1.0, MPC version 1.2.1, isl version isl-0.25-GMP
+
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+ignoring duplicate directory "C:/Users/daruma/bin/.gcc/mingw32/lib/gcc/../../lib/gcc/i686-w64-mingw32/12.2.0/include/c++"
+ignoring duplicate directory "C:/Users/daruma/bin/.gcc/mingw32/lib/gcc/../../lib/gcc/i686-w64-mingw32/12.2.0/include/c++/i686-w64-mingw32"
+ignoring duplicate directory "C:/Users/daruma/bin/.gcc/mingw32/lib/gcc/../../lib/gcc/i686-w64-mingw32/12.2.0/include/c++/backward"
+ignoring duplicate directory "C:/Users/daruma/bin/.gcc/mingw32/lib/gcc/../../lib/gcc/i686-w64-mingw32/12.2.0/include"
+ignoring nonexistent directory "C:/buildroot/i686-1220-posix-dwarf-rt_v10-rev0/mingw32D:/a/_temp/msys64/mingw32/lib/gcc/i686-w64-mingw32/12.2.0/../../../../include"
+ignoring duplicate directory "C:/Users/daruma/bin/.gcc/mingw32/lib/gcc/../../lib/gcc/i686-w64-mingw32/12.2.0/include-fixed"
+ignoring duplicate directory "C:/Users/daruma/bin/.gcc/mingw32/lib/gcc/../../lib/gcc/i686-w64-mingw32/12.2.0/../../../../i686-w64-mingw32/include"
+ignoring nonexistent directory "C:/buildroot/i686-1220-posix-dwarf-rt_v10-rev0/mingw32/mingw/include"
+#include "..." search starts here:
+#include <...> search starts here:
+ C:/Users/daruma/bin/.gcc/mingw32/bin/../lib/gcc/i686-w64-mingw32/12.2.0/include/c++
+ C:/Users/daruma/bin/.gcc/mingw32/bin/../lib/gcc/i686-w64-mingw32/12.2.0/include/c++/i686-w64-mingw32
+ C:/Users/daruma/bin/.gcc/mingw32/bin/../lib/gcc/i686-w64-mingw32/12.2.0/include/c++/backward
+ C:/Users/daruma/bin/.gcc/mingw32/bin/../lib/gcc/i686-w64-mingw32/12.2.0/include
+ C:/Users/daruma/bin/.gcc/mingw32/bin/../lib/gcc/i686-w64-mingw32/12.2.0/include-fixed
+ C:/Users/daruma/bin/.gcc/mingw32/bin/../lib/gcc/i686-w64-mingw32/12.2.0/../../../../i686-w64-mingw32/include
+End of search list.
+GNU C++17 (i686-posix-dwarf-rev0, Built by MinGW-W64 project) version 12.2.0 (i686-w64-mingw32)
+	compiled by GNU C version 12.2.0, GMP version 6.2.1, MPFR version 4.1.0, MPC version 1.2.1, isl version isl-0.25-GMP
+
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+Compiler executable checksum: b52e162feb19f00eafc34deeb0e4f178
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\cmTC_1fd15.dir\CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=generic' '-march=i686' '-dumpdir' 'CMakeFiles\cmTC_1fd15.dir\'
+ C:/Users/daruma/bin/.gcc/mingw32/bin/../lib/gcc/i686-w64-mingw32/12.2.0/../../../../i686-w64-mingw32/bin/as.exe -v -o CMakeFiles\cmTC_1fd15.dir\CMakeCXXCompilerABI.cpp.obj C:\Users\daruma\AppData\Local\Temp\ccoJmNjX.s
+GNU assembler version 2.38 (i686-w64-mingw32) using BFD version (GNU Binutils) 2.38
+COMPILER_PATH=C:/Users/daruma/bin/.gcc/mingw32/bin/../libexec/gcc/i686-w64-mingw32/12.2.0/;C:/Users/daruma/bin/.gcc/mingw32/bin/../libexec/gcc/;C:/Users/daruma/bin/.gcc/mingw32/bin/../lib/gcc/i686-w64-mingw32/12.2.0/../../../../i686-w64-mingw32/bin/
+LIBRARY_PATH=C:/Users/daruma/bin/.gcc/mingw32/bin/../lib/gcc/i686-w64-mingw32/12.2.0/;C:/Users/daruma/bin/.gcc/mingw32/bin/../lib/gcc/;C:/Users/daruma/bin/.gcc/mingw32/bin/../lib/gcc/i686-w64-mingw32/12.2.0/../../../../i686-w64-mingw32/lib/../lib/;C:/Users/daruma/bin/.gcc/mingw32/bin/../lib/gcc/i686-w64-mingw32/12.2.0/../../../../lib/;C:/Users/daruma/bin/.gcc/mingw32/bin/../lib/gcc/i686-w64-mingw32/12.2.0/../../../../i686-w64-mingw32/lib/;C:/Users/daruma/bin/.gcc/mingw32/bin/../lib/gcc/i686-w64-mingw32/12.2.0/../../../
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\cmTC_1fd15.dir\CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=generic' '-march=i686' '-dumpdir' 'CMakeFiles\cmTC_1fd15.dir\CMakeCXXCompilerABI.cpp.'
+Linking CXX executable cmTC_1fd15.exe
+C:\Users\daruma\bin\.cmake\CMake\bin\cmake.exe -E cmake_link_script CMakeFiles\cmTC_1fd15.dir\link.txt --verbose=1
+C:\Users\daruma\bin\.cmake\CMake\bin\cmake.exe -E rm -f CMakeFiles\cmTC_1fd15.dir/objects.a
+C:\Users\daruma\bin\.gcc\mingw32\bin\ar.exe qc CMakeFiles\cmTC_1fd15.dir/objects.a @CMakeFiles\cmTC_1fd15.dir\objects1.rsp
+C:\Users\daruma\bin\.gcc\mingw32\bin\g++.exe  -v -Wl,--whole-archive CMakeFiles\cmTC_1fd15.dir/objects.a -Wl,--no-whole-archive -o cmTC_1fd15.exe -Wl,--out-implib,libcmTC_1fd15.dll.a -Wl,--major-image-version,0,--minor-image-version,0 
+Using built-in specs.
+COLLECT_GCC=C:\Users\daruma\bin\.gcc\mingw32\bin\g++.exe
+COLLECT_LTO_WRAPPER=C:/Users/daruma/bin/.gcc/mingw32/bin/../libexec/gcc/i686-w64-mingw32/12.2.0/lto-wrapper.exe
+Target: i686-w64-mingw32
+Configured with: ../../../src/gcc-12.2.0/configure --host=i686-w64-mingw32 --build=i686-w64-mingw32 --target=i686-w64-mingw32 --prefix=/mingw32 --with-sysroot=/c/buildroot/i686-1220-posix-dwarf-rt_v10-rev0/mingw32 --enable-host-shared --disable-multilib --enable-languages=c,c++,fortran,lto --enable-libstdcxx-time=yes --enable-threads=posix --enable-libgomp --enable-libatomic --enable-lto --enable-graphite --enable-checking=release --enable-fully-dynamic-string --enable-version-specific-runtime-libs --enable-libstdcxx-filesystem-ts=yes --disable-sjlj-exceptions --with-dwarf2 --disable-libstdcxx-pch --disable-libstdcxx-debug --enable-bootstrap --disable-rpath --disable-win32-registry --disable-nls --disable-werror --disable-symvers --with-gnu-as --with-gnu-ld --with-arch=i686 --with-tune=generic --with-libiconv --with-system-zlib --with-gmp=/c/buildroot/prerequisites/i686-w64-mingw32-static --with-mpfr=/c/buildroot/prerequisites/i686-w64-mingw32-static --with-mpc=/c/buildroot/prerequisites/i686-w64-mingw32-static --with-isl=/c/buildroot/prerequisites/i686-w64-mingw32-static --with-pkgversion='i686-posix-dwarf-rev0, Built by MinGW-W64 project' --with-bugurl=https://sourceforge.net/projects/mingw-w64 CFLAGS='-O2 -pipe -fno-ident -I/c/buildroot/i686-1220-posix-dwarf-rt_v10-rev0/mingw32/opt/include -I/c/buildroot/prerequisites/i686-zlib-static/include -I/c/buildroot/prerequisites/i686-w64-mingw32-static/include' CXXFLAGS='-O2 -pipe -fno-ident -I/c/buildroot/i686-1220-posix-dwarf-rt_v10-rev0/mingw32/opt/include -I/c/buildroot/prerequisites/i686-zlib-static/include -I/c/buildroot/prerequisites/i686-w64-mingw32-static/include' CPPFLAGS=' -I/c/buildroot/i686-1220-posix-dwarf-rt_v10-rev0/mingw32/opt/include -I/c/buildroot/prerequisites/i686-zlib-static/include -I/c/buildroot/prerequisites/i686-w64-mingw32-static/include' LDFLAGS='-pipe -fno-ident -L/c/buildroot/i686-1220-posix-dwarf-rt_v10-rev0/mingw32/opt/lib -L/c/buildroot/prerequisites/i686-zlib-static/lib -L/c/buildroot/prerequisites/i686-w64-mingw32-static/lib -Wl,--large-address-aware' LD_FOR_TARGET=/c/buildroot/i686-1220-posix-dwarf-rt_v10-rev0/mingw32/bin/ld.exe --with-boot-ldflags=' -Wl,--disable-dynamicbase -static-libstdc++ -static-libgcc'
+Thread model: posix
+Supported LTO compression algorithms: zlib
+gcc version 12.2.0 (i686-posix-dwarf-rev0, Built by MinGW-W64 project) 
+COMPILER_PATH=C:/Users/daruma/bin/.gcc/mingw32/bin/../libexec/gcc/i686-w64-mingw32/12.2.0/;C:/Users/daruma/bin/.gcc/mingw32/bin/../libexec/gcc/;C:/Users/daruma/bin/.gcc/mingw32/bin/../lib/gcc/i686-w64-mingw32/12.2.0/../../../../i686-w64-mingw32/bin/
+LIBRARY_PATH=C:/Users/daruma/bin/.gcc/mingw32/bin/../lib/gcc/i686-w64-mingw32/12.2.0/;C:/Users/daruma/bin/.gcc/mingw32/bin/../lib/gcc/;C:/Users/daruma/bin/.gcc/mingw32/bin/../lib/gcc/i686-w64-mingw32/12.2.0/../../../../i686-w64-mingw32/lib/../lib/;C:/Users/daruma/bin/.gcc/mingw32/bin/../lib/gcc/i686-w64-mingw32/12.2.0/../../../../lib/;C:/Users/daruma/bin/.gcc/mingw32/bin/../lib/gcc/i686-w64-mingw32/12.2.0/../../../../i686-w64-mingw32/lib/;C:/Users/daruma/bin/.gcc/mingw32/bin/../lib/gcc/i686-w64-mingw32/12.2.0/../../../
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_1fd15.exe' '-shared-libgcc' '-mtune=generic' '-march=i686' '-dumpdir' 'cmTC_1fd15.'
+ C:/Users/daruma/bin/.gcc/mingw32/bin/../libexec/gcc/i686-w64-mingw32/12.2.0/collect2.exe -plugin C:/Users/daruma/bin/.gcc/mingw32/bin/../libexec/gcc/i686-w64-mingw32/12.2.0/liblto_plugin.dll -plugin-opt=C:/Users/daruma/bin/.gcc/mingw32/bin/../libexec/gcc/i686-w64-mingw32/12.2.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\Users\daruma\AppData\Local\Temp\ccf8vy4k.res -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-liconv -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 --sysroot=C:/buildroot/i686-1220-posix-dwarf-rt_v10-rev0/mingw32 -m i386pe -Bdynamic -u ___register_frame_info -u ___deregister_frame_info -o cmTC_1fd15.exe C:/Users/daruma/bin/.gcc/mingw32/bin/../lib/gcc/i686-w64-mingw32/12.2.0/../../../../i686-w64-mingw32/lib/../lib/crt2.o C:/Users/daruma/bin/.gcc/mingw32/bin/../lib/gcc/i686-w64-mingw32/12.2.0/crtbegin.o -LC:/Users/daruma/bin/.gcc/mingw32/bin/../lib/gcc/i686-w64-mingw32/12.2.0 -LC:/Users/daruma/bin/.gcc/mingw32/bin/../lib/gcc -LC:/Users/daruma/bin/.gcc/mingw32/bin/../lib/gcc/i686-w64-mingw32/12.2.0/../../../../i686-w64-mingw32/lib/../lib -LC:/Users/daruma/bin/.gcc/mingw32/bin/../lib/gcc/i686-w64-mingw32/12.2.0/../../../../lib -LC:/Users/daruma/bin/.gcc/mingw32/bin/../lib/gcc/i686-w64-mingw32/12.2.0/../../../../i686-w64-mingw32/lib -LC:/Users/daruma/bin/.gcc/mingw32/bin/../lib/gcc/i686-w64-mingw32/12.2.0/../../.. --whole-archive CMakeFiles\cmTC_1fd15.dir/objects.a --no-whole-archive --out-implib libcmTC_1fd15.dll.a --major-image-version 0 --minor-image-version 0 -lstdc++ -lmingw32 -lgcc_s -lgcc -lmoldname -lmingwex -lmsvcrt -lkernel32 -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -liconv -lmingw32 -lgcc_s -lgcc -lmoldname -lmingwex -lmsvcrt -lkernel32 C:/Users/daruma/bin/.gcc/mingw32/bin/../lib/gcc/i686-w64-mingw32/12.2.0/crtend.o
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_1fd15.exe' '-shared-libgcc' '-mtune=generic' '-march=i686' '-dumpdir' 'cmTC_1fd15.'
+mingw32-make.exe[1]: Leaving directory 'C:/Users/daruma/nvim-source/cpp/tanuk-script/build/CMakeFiles/CMakeTmp'
+
+
+
+Parsed CXX implicit include dir info from above output: rv=done
+  found start of include info
+  found start of implicit include info
+    add: [C:/Users/daruma/bin/.gcc/mingw32/bin/../lib/gcc/i686-w64-mingw32/12.2.0/include/c++]
+    add: [C:/Users/daruma/bin/.gcc/mingw32/bin/../lib/gcc/i686-w64-mingw32/12.2.0/include/c++/i686-w64-mingw32]
+    add: [C:/Users/daruma/bin/.gcc/mingw32/bin/../lib/gcc/i686-w64-mingw32/12.2.0/include/c++/backward]
+    add: [C:/Users/daruma/bin/.gcc/mingw32/bin/../lib/gcc/i686-w64-mingw32/12.2.0/include]
+    add: [C:/Users/daruma/bin/.gcc/mingw32/bin/../lib/gcc/i686-w64-mingw32/12.2.0/include-fixed]
+    add: [C:/Users/daruma/bin/.gcc/mingw32/bin/../lib/gcc/i686-w64-mingw32/12.2.0/../../../../i686-w64-mingw32/include]
+  end of search list found
+  collapse include dir [C:/Users/daruma/bin/.gcc/mingw32/bin/../lib/gcc/i686-w64-mingw32/12.2.0/include/c++] ==> [C:/Users/daruma/bin/.gcc/mingw32/lib/gcc/i686-w64-mingw32/12.2.0/include/c++]
+  collapse include dir [C:/Users/daruma/bin/.gcc/mingw32/bin/../lib/gcc/i686-w64-mingw32/12.2.0/include/c++/i686-w64-mingw32] ==> [C:/Users/daruma/bin/.gcc/mingw32/lib/gcc/i686-w64-mingw32/12.2.0/include/c++/i686-w64-mingw32]
+  collapse include dir [C:/Users/daruma/bin/.gcc/mingw32/bin/../lib/gcc/i686-w64-mingw32/12.2.0/include/c++/backward] ==> [C:/Users/daruma/bin/.gcc/mingw32/lib/gcc/i686-w64-mingw32/12.2.0/include/c++/backward]
+  collapse include dir [C:/Users/daruma/bin/.gcc/mingw32/bin/../lib/gcc/i686-w64-mingw32/12.2.0/include] ==> [C:/Users/daruma/bin/.gcc/mingw32/lib/gcc/i686-w64-mingw32/12.2.0/include]
+  collapse include dir [C:/Users/daruma/bin/.gcc/mingw32/bin/../lib/gcc/i686-w64-mingw32/12.2.0/include-fixed] ==> [C:/Users/daruma/bin/.gcc/mingw32/lib/gcc/i686-w64-mingw32/12.2.0/include-fixed]
+  collapse include dir [C:/Users/daruma/bin/.gcc/mingw32/bin/../lib/gcc/i686-w64-mingw32/12.2.0/../../../../i686-w64-mingw32/include] ==> [C:/Users/daruma/bin/.gcc/mingw32/i686-w64-mingw32/include]
+  implicit include dirs: [C:/Users/daruma/bin/.gcc/mingw32/lib/gcc/i686-w64-mingw32/12.2.0/include/c++;C:/Users/daruma/bin/.gcc/mingw32/lib/gcc/i686-w64-mingw32/12.2.0/include/c++/i686-w64-mingw32;C:/Users/daruma/bin/.gcc/mingw32/lib/gcc/i686-w64-mingw32/12.2.0/include/c++/backward;C:/Users/daruma/bin/.gcc/mingw32/lib/gcc/i686-w64-mingw32/12.2.0/include;C:/Users/daruma/bin/.gcc/mingw32/lib/gcc/i686-w64-mingw32/12.2.0/include-fixed;C:/Users/daruma/bin/.gcc/mingw32/i686-w64-mingw32/include]
+
+
+Parsed CXX implicit link information from above output:
+  link line regex: [^( *|.*[/\])(ld\.exe|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: C:/Users/daruma/nvim-source/cpp/tanuk-script/build/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command(s):C:/Users/daruma/bin/.gcc/mingw32/bin/mingw32-make.exe -f Makefile cmTC_1fd15/fast && C:/Users/daruma/bin/.gcc/mingw32/bin/mingw32-make.exe  -f CMakeFiles\cmTC_1fd15.dir\build.make CMakeFiles/cmTC_1fd15.dir/build]
+  ignore line: [mingw32-make.exe[1]: Entering directory 'C:/Users/daruma/nvim-source/cpp/tanuk-script/build/CMakeFiles/CMakeTmp']
+  ignore line: [Building CXX object CMakeFiles/cmTC_1fd15.dir/CMakeCXXCompilerABI.cpp.obj]
+  ignore line: [C:\Users\daruma\bin\.gcc\mingw32\bin\g++.exe   -v -o CMakeFiles\cmTC_1fd15.dir\CMakeCXXCompilerABI.cpp.obj -c C:\Users\daruma\bin\.cmake\CMake\share\cmake-3.24\Modules\CMakeCXXCompilerABI.cpp]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=C:\Users\daruma\bin\.gcc\mingw32\bin\g++.exe]
+  ignore line: [Target: i686-w64-mingw32]
+  ignore line: [Configured with: ../../../src/gcc-12.2.0/configure --host=i686-w64-mingw32 --build=i686-w64-mingw32 --target=i686-w64-mingw32 --prefix=/mingw32 --with-sysroot=/c/buildroot/i686-1220-posix-dwarf-rt_v10-rev0/mingw32 --enable-host-shared --disable-multilib --enable-languages=c,c++,fortran,lto --enable-libstdcxx-time=yes --enable-threads=posix --enable-libgomp --enable-libatomic --enable-lto --enable-graphite --enable-checking=release --enable-fully-dynamic-string --enable-version-specific-runtime-libs --enable-libstdcxx-filesystem-ts=yes --disable-sjlj-exceptions --with-dwarf2 --disable-libstdcxx-pch --disable-libstdcxx-debug --enable-bootstrap --disable-rpath --disable-win32-registry --disable-nls --disable-werror --disable-symvers --with-gnu-as --with-gnu-ld --with-arch=i686 --with-tune=generic --with-libiconv --with-system-zlib --with-gmp=/c/buildroot/prerequisites/i686-w64-mingw32-static --with-mpfr=/c/buildroot/prerequisites/i686-w64-mingw32-static --with-mpc=/c/buildroot/prerequisites/i686-w64-mingw32-static --with-isl=/c/buildroot/prerequisites/i686-w64-mingw32-static --with-pkgversion='i686-posix-dwarf-rev0, Built by MinGW-W64 project' --with-bugurl=https://sourceforge.net/projects/mingw-w64 CFLAGS='-O2 -pipe -fno-ident -I/c/buildroot/i686-1220-posix-dwarf-rt_v10-rev0/mingw32/opt/include -I/c/buildroot/prerequisites/i686-zlib-static/include -I/c/buildroot/prerequisites/i686-w64-mingw32-static/include' CXXFLAGS='-O2 -pipe -fno-ident -I/c/buildroot/i686-1220-posix-dwarf-rt_v10-rev0/mingw32/opt/include -I/c/buildroot/prerequisites/i686-zlib-static/include -I/c/buildroot/prerequisites/i686-w64-mingw32-static/include' CPPFLAGS=' -I/c/buildroot/i686-1220-posix-dwarf-rt_v10-rev0/mingw32/opt/include -I/c/buildroot/prerequisites/i686-zlib-static/include -I/c/buildroot/prerequisites/i686-w64-mingw32-static/include' LDFLAGS='-pipe -fno-ident -L/c/buildroot/i686-1220-posix-dwarf-rt_v10-rev0/mingw32/opt/lib -L/c/buildroot/prerequisites/i686-zlib-static/lib -L/c/buildroot/prerequisites/i686-w64-mingw32-static/lib -Wl,--large-address-aware' LD_FOR_TARGET=/c/buildroot/i686-1220-posix-dwarf-rt_v10-rev0/mingw32/bin/ld.exe --with-boot-ldflags=' -Wl,--disable-dynamicbase -static-libstdc++ -static-libgcc']
+  ignore line: [Thread model: posix]
+  ignore line: [Supported LTO compression algorithms: zlib]
+  ignore line: [gcc version 12.2.0 (i686-posix-dwarf-rev0  Built by MinGW-W64 project) ]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\cmTC_1fd15.dir\CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=generic' '-march=i686' '-dumpdir' 'CMakeFiles\cmTC_1fd15.dir\']
+  ignore line: [ C:/Users/daruma/bin/.gcc/mingw32/bin/../libexec/gcc/i686-w64-mingw32/12.2.0/cc1plus.exe -quiet -v -iprefix C:/Users/daruma/bin/.gcc/mingw32/bin/../lib/gcc/i686-w64-mingw32/12.2.0/ -D_REENTRANT C:\Users\daruma\bin\.cmake\CMake\share\cmake-3.24\Modules\CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles\cmTC_1fd15.dir\ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mtune=generic -march=i686 -version -o C:\Users\daruma\AppData\Local\Temp\ccoJmNjX.s]
+  ignore line: [GNU C++17 (i686-posix-dwarf-rev0  Built by MinGW-W64 project) version 12.2.0 (i686-w64-mingw32)]
+  ignore line: [	compiled by GNU C version 12.2.0  GMP version 6.2.1  MPFR version 4.1.0  MPC version 1.2.1  isl version isl-0.25-GMP]
+  ignore line: []
+  ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+  ignore line: [ignoring duplicate directory "C:/Users/daruma/bin/.gcc/mingw32/lib/gcc/../../lib/gcc/i686-w64-mingw32/12.2.0/include/c++"]
+  ignore line: [ignoring duplicate directory "C:/Users/daruma/bin/.gcc/mingw32/lib/gcc/../../lib/gcc/i686-w64-mingw32/12.2.0/include/c++/i686-w64-mingw32"]
+  ignore line: [ignoring duplicate directory "C:/Users/daruma/bin/.gcc/mingw32/lib/gcc/../../lib/gcc/i686-w64-mingw32/12.2.0/include/c++/backward"]
+  ignore line: [ignoring duplicate directory "C:/Users/daruma/bin/.gcc/mingw32/lib/gcc/../../lib/gcc/i686-w64-mingw32/12.2.0/include"]
+  ignore line: [ignoring nonexistent directory "C:/buildroot/i686-1220-posix-dwarf-rt_v10-rev0/mingw32D:/a/_temp/msys64/mingw32/lib/gcc/i686-w64-mingw32/12.2.0/../../../../include"]
+  ignore line: [ignoring duplicate directory "C:/Users/daruma/bin/.gcc/mingw32/lib/gcc/../../lib/gcc/i686-w64-mingw32/12.2.0/include-fixed"]
+  ignore line: [ignoring duplicate directory "C:/Users/daruma/bin/.gcc/mingw32/lib/gcc/../../lib/gcc/i686-w64-mingw32/12.2.0/../../../../i686-w64-mingw32/include"]
+  ignore line: [ignoring nonexistent directory "C:/buildroot/i686-1220-posix-dwarf-rt_v10-rev0/mingw32/mingw/include"]
+  ignore line: [#include "..." search starts here:]
+  ignore line: [#include <...> search starts here:]
+  ignore line: [ C:/Users/daruma/bin/.gcc/mingw32/bin/../lib/gcc/i686-w64-mingw32/12.2.0/include/c++]
+  ignore line: [ C:/Users/daruma/bin/.gcc/mingw32/bin/../lib/gcc/i686-w64-mingw32/12.2.0/include/c++/i686-w64-mingw32]
+  ignore line: [ C:/Users/daruma/bin/.gcc/mingw32/bin/../lib/gcc/i686-w64-mingw32/12.2.0/include/c++/backward]
+  ignore line: [ C:/Users/daruma/bin/.gcc/mingw32/bin/../lib/gcc/i686-w64-mingw32/12.2.0/include]
+  ignore line: [ C:/Users/daruma/bin/.gcc/mingw32/bin/../lib/gcc/i686-w64-mingw32/12.2.0/include-fixed]
+  ignore line: [ C:/Users/daruma/bin/.gcc/mingw32/bin/../lib/gcc/i686-w64-mingw32/12.2.0/../../../../i686-w64-mingw32/include]
+  ignore line: [End of search list.]
+  ignore line: [GNU C++17 (i686-posix-dwarf-rev0  Built by MinGW-W64 project) version 12.2.0 (i686-w64-mingw32)]
+  ignore line: [	compiled by GNU C version 12.2.0  GMP version 6.2.1  MPFR version 4.1.0  MPC version 1.2.1  isl version isl-0.25-GMP]
+  ignore line: []
+  ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+  ignore line: [Compiler executable checksum: b52e162feb19f00eafc34deeb0e4f178]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\cmTC_1fd15.dir\CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=generic' '-march=i686' '-dumpdir' 'CMakeFiles\cmTC_1fd15.dir\']
+  ignore line: [ C:/Users/daruma/bin/.gcc/mingw32/bin/../lib/gcc/i686-w64-mingw32/12.2.0/../../../../i686-w64-mingw32/bin/as.exe -v -o CMakeFiles\cmTC_1fd15.dir\CMakeCXXCompilerABI.cpp.obj C:\Users\daruma\AppData\Local\Temp\ccoJmNjX.s]
+  ignore line: [GNU assembler version 2.38 (i686-w64-mingw32) using BFD version (GNU Binutils) 2.38]
+  ignore line: [COMPILER_PATH=C:/Users/daruma/bin/.gcc/mingw32/bin/../libexec/gcc/i686-w64-mingw32/12.2.0/]
+  ignore line: [C:/Users/daruma/bin/.gcc/mingw32/bin/../libexec/gcc/]
+  ignore line: [C:/Users/daruma/bin/.gcc/mingw32/bin/../lib/gcc/i686-w64-mingw32/12.2.0/../../../../i686-w64-mingw32/bin/]
+  ignore line: [LIBRARY_PATH=C:/Users/daruma/bin/.gcc/mingw32/bin/../lib/gcc/i686-w64-mingw32/12.2.0/]
+  ignore line: [C:/Users/daruma/bin/.gcc/mingw32/bin/../lib/gcc/]
+  ignore line: [C:/Users/daruma/bin/.gcc/mingw32/bin/../lib/gcc/i686-w64-mingw32/12.2.0/../../../../i686-w64-mingw32/lib/../lib/]
+  ignore line: [C:/Users/daruma/bin/.gcc/mingw32/bin/../lib/gcc/i686-w64-mingw32/12.2.0/../../../../lib/]
+  ignore line: [C:/Users/daruma/bin/.gcc/mingw32/bin/../lib/gcc/i686-w64-mingw32/12.2.0/../../../../i686-w64-mingw32/lib/]
+  ignore line: [C:/Users/daruma/bin/.gcc/mingw32/bin/../lib/gcc/i686-w64-mingw32/12.2.0/../../../]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\cmTC_1fd15.dir\CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=generic' '-march=i686' '-dumpdir' 'CMakeFiles\cmTC_1fd15.dir\CMakeCXXCompilerABI.cpp.']
+  ignore line: [Linking CXX executable cmTC_1fd15.exe]
+  ignore line: [C:\Users\daruma\bin\.cmake\CMake\bin\cmake.exe -E cmake_link_script CMakeFiles\cmTC_1fd15.dir\link.txt --verbose=1]
+  ignore line: [C:\Users\daruma\bin\.cmake\CMake\bin\cmake.exe -E rm -f CMakeFiles\cmTC_1fd15.dir/objects.a]
+  ignore line: [C:\Users\daruma\bin\.gcc\mingw32\bin\ar.exe qc CMakeFiles\cmTC_1fd15.dir/objects.a @CMakeFiles\cmTC_1fd15.dir\objects1.rsp]
+  ignore line: [C:\Users\daruma\bin\.gcc\mingw32\bin\g++.exe  -v -Wl --whole-archive CMakeFiles\cmTC_1fd15.dir/objects.a -Wl --no-whole-archive -o cmTC_1fd15.exe -Wl --out-implib libcmTC_1fd15.dll.a -Wl --major-image-version 0 --minor-image-version 0 ]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=C:\Users\daruma\bin\.gcc\mingw32\bin\g++.exe]
+  ignore line: [COLLECT_LTO_WRAPPER=C:/Users/daruma/bin/.gcc/mingw32/bin/../libexec/gcc/i686-w64-mingw32/12.2.0/lto-wrapper.exe]
+  ignore line: [Target: i686-w64-mingw32]
+  ignore line: [Configured with: ../../../src/gcc-12.2.0/configure --host=i686-w64-mingw32 --build=i686-w64-mingw32 --target=i686-w64-mingw32 --prefix=/mingw32 --with-sysroot=/c/buildroot/i686-1220-posix-dwarf-rt_v10-rev0/mingw32 --enable-host-shared --disable-multilib --enable-languages=c,c++,fortran,lto --enable-libstdcxx-time=yes --enable-threads=posix --enable-libgomp --enable-libatomic --enable-lto --enable-graphite --enable-checking=release --enable-fully-dynamic-string --enable-version-specific-runtime-libs --enable-libstdcxx-filesystem-ts=yes --disable-sjlj-exceptions --with-dwarf2 --disable-libstdcxx-pch --disable-libstdcxx-debug --enable-bootstrap --disable-rpath --disable-win32-registry --disable-nls --disable-werror --disable-symvers --with-gnu-as --with-gnu-ld --with-arch=i686 --with-tune=generic --with-libiconv --with-system-zlib --with-gmp=/c/buildroot/prerequisites/i686-w64-mingw32-static --with-mpfr=/c/buildroot/prerequisites/i686-w64-mingw32-static --with-mpc=/c/buildroot/prerequisites/i686-w64-mingw32-static --with-isl=/c/buildroot/prerequisites/i686-w64-mingw32-static --with-pkgversion='i686-posix-dwarf-rev0, Built by MinGW-W64 project' --with-bugurl=https://sourceforge.net/projects/mingw-w64 CFLAGS='-O2 -pipe -fno-ident -I/c/buildroot/i686-1220-posix-dwarf-rt_v10-rev0/mingw32/opt/include -I/c/buildroot/prerequisites/i686-zlib-static/include -I/c/buildroot/prerequisites/i686-w64-mingw32-static/include' CXXFLAGS='-O2 -pipe -fno-ident -I/c/buildroot/i686-1220-posix-dwarf-rt_v10-rev0/mingw32/opt/include -I/c/buildroot/prerequisites/i686-zlib-static/include -I/c/buildroot/prerequisites/i686-w64-mingw32-static/include' CPPFLAGS=' -I/c/buildroot/i686-1220-posix-dwarf-rt_v10-rev0/mingw32/opt/include -I/c/buildroot/prerequisites/i686-zlib-static/include -I/c/buildroot/prerequisites/i686-w64-mingw32-static/include' LDFLAGS='-pipe -fno-ident -L/c/buildroot/i686-1220-posix-dwarf-rt_v10-rev0/mingw32/opt/lib -L/c/buildroot/prerequisites/i686-zlib-static/lib -L/c/buildroot/prerequisites/i686-w64-mingw32-static/lib -Wl,--large-address-aware' LD_FOR_TARGET=/c/buildroot/i686-1220-posix-dwarf-rt_v10-rev0/mingw32/bin/ld.exe --with-boot-ldflags=' -Wl,--disable-dynamicbase -static-libstdc++ -static-libgcc']
+  ignore line: [Thread model: posix]
+  ignore line: [Supported LTO compression algorithms: zlib]
+  ignore line: [gcc version 12.2.0 (i686-posix-dwarf-rev0  Built by MinGW-W64 project) ]
+  ignore line: [COMPILER_PATH=C:/Users/daruma/bin/.gcc/mingw32/bin/../libexec/gcc/i686-w64-mingw32/12.2.0/]
+  ignore line: [C:/Users/daruma/bin/.gcc/mingw32/bin/../libexec/gcc/]
+  ignore line: [C:/Users/daruma/bin/.gcc/mingw32/bin/../lib/gcc/i686-w64-mingw32/12.2.0/../../../../i686-w64-mingw32/bin/]
+  ignore line: [LIBRARY_PATH=C:/Users/daruma/bin/.gcc/mingw32/bin/../lib/gcc/i686-w64-mingw32/12.2.0/]
+  ignore line: [C:/Users/daruma/bin/.gcc/mingw32/bin/../lib/gcc/]
+  ignore line: [C:/Users/daruma/bin/.gcc/mingw32/bin/../lib/gcc/i686-w64-mingw32/12.2.0/../../../../i686-w64-mingw32/lib/../lib/]
+  ignore line: [C:/Users/daruma/bin/.gcc/mingw32/bin/../lib/gcc/i686-w64-mingw32/12.2.0/../../../../lib/]
+  ignore line: [C:/Users/daruma/bin/.gcc/mingw32/bin/../lib/gcc/i686-w64-mingw32/12.2.0/../../../../i686-w64-mingw32/lib/]
+  ignore line: [C:/Users/daruma/bin/.gcc/mingw32/bin/../lib/gcc/i686-w64-mingw32/12.2.0/../../../]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_1fd15.exe' '-shared-libgcc' '-mtune=generic' '-march=i686' '-dumpdir' 'cmTC_1fd15.']
+  link line: [ C:/Users/daruma/bin/.gcc/mingw32/bin/../libexec/gcc/i686-w64-mingw32/12.2.0/collect2.exe -plugin C:/Users/daruma/bin/.gcc/mingw32/bin/../libexec/gcc/i686-w64-mingw32/12.2.0/liblto_plugin.dll -plugin-opt=C:/Users/daruma/bin/.gcc/mingw32/bin/../libexec/gcc/i686-w64-mingw32/12.2.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\Users\daruma\AppData\Local\Temp\ccf8vy4k.res -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-liconv -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 --sysroot=C:/buildroot/i686-1220-posix-dwarf-rt_v10-rev0/mingw32 -m i386pe -Bdynamic -u ___register_frame_info -u ___deregister_frame_info -o cmTC_1fd15.exe C:/Users/daruma/bin/.gcc/mingw32/bin/../lib/gcc/i686-w64-mingw32/12.2.0/../../../../i686-w64-mingw32/lib/../lib/crt2.o C:/Users/daruma/bin/.gcc/mingw32/bin/../lib/gcc/i686-w64-mingw32/12.2.0/crtbegin.o -LC:/Users/daruma/bin/.gcc/mingw32/bin/../lib/gcc/i686-w64-mingw32/12.2.0 -LC:/Users/daruma/bin/.gcc/mingw32/bin/../lib/gcc -LC:/Users/daruma/bin/.gcc/mingw32/bin/../lib/gcc/i686-w64-mingw32/12.2.0/../../../../i686-w64-mingw32/lib/../lib -LC:/Users/daruma/bin/.gcc/mingw32/bin/../lib/gcc/i686-w64-mingw32/12.2.0/../../../../lib -LC:/Users/daruma/bin/.gcc/mingw32/bin/../lib/gcc/i686-w64-mingw32/12.2.0/../../../../i686-w64-mingw32/lib -LC:/Users/daruma/bin/.gcc/mingw32/bin/../lib/gcc/i686-w64-mingw32/12.2.0/../../.. --whole-archive CMakeFiles\cmTC_1fd15.dir/objects.a --no-whole-archive --out-implib libcmTC_1fd15.dll.a --major-image-version 0 --minor-image-version 0 -lstdc++ -lmingw32 -lgcc_s -lgcc -lmoldname -lmingwex -lmsvcrt -lkernel32 -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -liconv -lmingw32 -lgcc_s -lgcc -lmoldname -lmingwex -lmsvcrt -lkernel32 C:/Users/daruma/bin/.gcc/mingw32/bin/../lib/gcc/i686-w64-mingw32/12.2.0/crtend.o]
+    arg [C:/Users/daruma/bin/.gcc/mingw32/bin/../libexec/gcc/i686-w64-mingw32/12.2.0/collect2.exe] ==> ignore
+    arg [-plugin] ==> ignore
+    arg [C:/Users/daruma/bin/.gcc/mingw32/bin/../libexec/gcc/i686-w64-mingw32/12.2.0/liblto_plugin.dll] ==> ignore
+    arg [-plugin-opt=C:/Users/daruma/bin/.gcc/mingw32/bin/../libexec/gcc/i686-w64-mingw32/12.2.0/lto-wrapper.exe] ==> ignore
+    arg [-plugin-opt=-fresolution=C:\Users\daruma\AppData\Local\Temp\ccf8vy4k.res] ==> ignore
+    arg [-plugin-opt=-pass-through=-lmingw32] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lmoldname] ==> ignore
+    arg [-plugin-opt=-pass-through=-lmingwex] ==> ignore
+    arg [-plugin-opt=-pass-through=-lmsvcrt] ==> ignore
+    arg [-plugin-opt=-pass-through=-lkernel32] ==> ignore
+    arg [-plugin-opt=-pass-through=-lpthread] ==> ignore
+    arg [-plugin-opt=-pass-through=-ladvapi32] ==> ignore
+    arg [-plugin-opt=-pass-through=-lshell32] ==> ignore
+    arg [-plugin-opt=-pass-through=-luser32] ==> ignore
+    arg [-plugin-opt=-pass-through=-lkernel32] ==> ignore
+    arg [-plugin-opt=-pass-through=-liconv] ==> ignore
+    arg [-plugin-opt=-pass-through=-lmingw32] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lmoldname] ==> ignore
+    arg [-plugin-opt=-pass-through=-lmingwex] ==> ignore
+    arg [-plugin-opt=-pass-through=-lmsvcrt] ==> ignore
+    arg [-plugin-opt=-pass-through=-lkernel32] ==> ignore
+    arg [--sysroot=C:/buildroot/i686-1220-posix-dwarf-rt_v10-rev0/mingw32] ==> ignore
+    arg [-m] ==> ignore
+    arg [i386pe] ==> ignore
+    arg [-Bdynamic] ==> search dynamic
+    arg [-u] ==> ignore
+    arg [___register_frame_info] ==> ignore
+    arg [-u] ==> ignore
+    arg [___deregister_frame_info] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTC_1fd15.exe] ==> ignore
+    arg [C:/Users/daruma/bin/.gcc/mingw32/bin/../lib/gcc/i686-w64-mingw32/12.2.0/../../../../i686-w64-mingw32/lib/../lib/crt2.o] ==> obj [C:/Users/daruma/bin/.gcc/mingw32/bin/../lib/gcc/i686-w64-mingw32/12.2.0/../../../../i686-w64-mingw32/lib/../lib/crt2.o]
+    arg [C:/Users/daruma/bin/.gcc/mingw32/bin/../lib/gcc/i686-w64-mingw32/12.2.0/crtbegin.o] ==> obj [C:/Users/daruma/bin/.gcc/mingw32/bin/../lib/gcc/i686-w64-mingw32/12.2.0/crtbegin.o]
+    arg [-LC:/Users/daruma/bin/.gcc/mingw32/bin/../lib/gcc/i686-w64-mingw32/12.2.0] ==> dir [C:/Users/daruma/bin/.gcc/mingw32/bin/../lib/gcc/i686-w64-mingw32/12.2.0]
+    arg [-LC:/Users/daruma/bin/.gcc/mingw32/bin/../lib/gcc] ==> dir [C:/Users/daruma/bin/.gcc/mingw32/bin/../lib/gcc]
+    arg [-LC:/Users/daruma/bin/.gcc/mingw32/bin/../lib/gcc/i686-w64-mingw32/12.2.0/../../../../i686-w64-mingw32/lib/../lib] ==> dir [C:/Users/daruma/bin/.gcc/mingw32/bin/../lib/gcc/i686-w64-mingw32/12.2.0/../../../../i686-w64-mingw32/lib/../lib]
+    arg [-LC:/Users/daruma/bin/.gcc/mingw32/bin/../lib/gcc/i686-w64-mingw32/12.2.0/../../../../lib] ==> dir [C:/Users/daruma/bin/.gcc/mingw32/bin/../lib/gcc/i686-w64-mingw32/12.2.0/../../../../lib]
+    arg [-LC:/Users/daruma/bin/.gcc/mingw32/bin/../lib/gcc/i686-w64-mingw32/12.2.0/../../../../i686-w64-mingw32/lib] ==> dir [C:/Users/daruma/bin/.gcc/mingw32/bin/../lib/gcc/i686-w64-mingw32/12.2.0/../../../../i686-w64-mingw32/lib]
+    arg [-LC:/Users/daruma/bin/.gcc/mingw32/bin/../lib/gcc/i686-w64-mingw32/12.2.0/../../..] ==> dir [C:/Users/daruma/bin/.gcc/mingw32/bin/../lib/gcc/i686-w64-mingw32/12.2.0/../../..]
+    arg [--whole-archive] ==> ignore
+    arg [CMakeFiles\cmTC_1fd15.dir/objects.a] ==> ignore
+    arg [--no-whole-archive] ==> ignore
+    arg [--out-implib] ==> ignore
+    arg [libcmTC_1fd15.dll.a] ==> ignore
+    arg [--major-image-version] ==> ignore
+    arg [0] ==> ignore
+    arg [--minor-image-version] ==> ignore
+    arg [0] ==> ignore
+    arg [-lstdc++] ==> lib [stdc++]
+    arg [-lmingw32] ==> lib [mingw32]
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [-lgcc] ==> lib [gcc]
+    arg [-lmoldname] ==> lib [moldname]
+    arg [-lmingwex] ==> lib [mingwex]
+    arg [-lmsvcrt] ==> lib [msvcrt]
+    arg [-lkernel32] ==> lib [kernel32]
+    arg [-lpthread] ==> lib [pthread]
+    arg [-ladvapi32] ==> lib [advapi32]
+    arg [-lshell32] ==> lib [shell32]
+    arg [-luser32] ==> lib [user32]
+    arg [-lkernel32] ==> lib [kernel32]
+    arg [-liconv] ==> lib [iconv]
+    arg [-lmingw32] ==> lib [mingw32]
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [-lgcc] ==> lib [gcc]
+    arg [-lmoldname] ==> lib [moldname]
+    arg [-lmingwex] ==> lib [mingwex]
+    arg [-lmsvcrt] ==> lib [msvcrt]
+    arg [-lkernel32] ==> lib [kernel32]
+    arg [C:/Users/daruma/bin/.gcc/mingw32/bin/../lib/gcc/i686-w64-mingw32/12.2.0/crtend.o] ==> obj [C:/Users/daruma/bin/.gcc/mingw32/bin/../lib/gcc/i686-w64-mingw32/12.2.0/crtend.o]
+  remove lib [msvcrt]
+  remove lib [msvcrt]
+  collapse obj [C:/Users/daruma/bin/.gcc/mingw32/bin/../lib/gcc/i686-w64-mingw32/12.2.0/../../../../i686-w64-mingw32/lib/../lib/crt2.o] ==> [C:/Users/daruma/bin/.gcc/mingw32/i686-w64-mingw32/lib/crt2.o]
+  collapse obj [C:/Users/daruma/bin/.gcc/mingw32/bin/../lib/gcc/i686-w64-mingw32/12.2.0/crtbegin.o] ==> [C:/Users/daruma/bin/.gcc/mingw32/lib/gcc/i686-w64-mingw32/12.2.0/crtbegin.o]
+  collapse obj [C:/Users/daruma/bin/.gcc/mingw32/bin/../lib/gcc/i686-w64-mingw32/12.2.0/crtend.o] ==> [C:/Users/daruma/bin/.gcc/mingw32/lib/gcc/i686-w64-mingw32/12.2.0/crtend.o]
+  collapse library dir [C:/Users/daruma/bin/.gcc/mingw32/bin/../lib/gcc/i686-w64-mingw32/12.2.0] ==> [C:/Users/daruma/bin/.gcc/mingw32/lib/gcc/i686-w64-mingw32/12.2.0]
+  collapse library dir [C:/Users/daruma/bin/.gcc/mingw32/bin/../lib/gcc] ==> [C:/Users/daruma/bin/.gcc/mingw32/lib/gcc]
+  collapse library dir [C:/Users/daruma/bin/.gcc/mingw32/bin/../lib/gcc/i686-w64-mingw32/12.2.0/../../../../i686-w64-mingw32/lib/../lib] ==> [C:/Users/daruma/bin/.gcc/mingw32/i686-w64-mingw32/lib]
+  collapse library dir [C:/Users/daruma/bin/.gcc/mingw32/bin/../lib/gcc/i686-w64-mingw32/12.2.0/../../../../lib] ==> [C:/Users/daruma/bin/.gcc/mingw32/lib]
+  collapse library dir [C:/Users/daruma/bin/.gcc/mingw32/bin/../lib/gcc/i686-w64-mingw32/12.2.0/../../../../i686-w64-mingw32/lib] ==> [C:/Users/daruma/bin/.gcc/mingw32/i686-w64-mingw32/lib]
+  collapse library dir [C:/Users/daruma/bin/.gcc/mingw32/bin/../lib/gcc/i686-w64-mingw32/12.2.0/../../..] ==> [C:/Users/daruma/bin/.gcc/mingw32/lib]
+  implicit libs: [stdc++;mingw32;gcc_s;gcc;moldname;mingwex;kernel32;pthread;advapi32;shell32;user32;kernel32;iconv;mingw32;gcc_s;gcc;moldname;mingwex;kernel32]
+  implicit objs: [C:/Users/daruma/bin/.gcc/mingw32/i686-w64-mingw32/lib/crt2.o;C:/Users/daruma/bin/.gcc/mingw32/lib/gcc/i686-w64-mingw32/12.2.0/crtbegin.o;C:/Users/daruma/bin/.gcc/mingw32/lib/gcc/i686-w64-mingw32/12.2.0/crtend.o]
+  implicit dirs: [C:/Users/daruma/bin/.gcc/mingw32/lib/gcc/i686-w64-mingw32/12.2.0;C:/Users/daruma/bin/.gcc/mingw32/lib/gcc;C:/Users/daruma/bin/.gcc/mingw32/i686-w64-mingw32/lib;C:/Users/daruma/bin/.gcc/mingw32/lib]
+  implicit fwks: []
+
+

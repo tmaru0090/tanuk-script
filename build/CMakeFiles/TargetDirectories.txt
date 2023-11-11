@@ -1,0 +1,3 @@
+C:/Users/daruma/nvim-source/cpp/tanuk-script/build/CMakeFiles/tksc.dir
+C:/Users/daruma/nvim-source/cpp/tanuk-script/build/CMakeFiles/edit_cache.dir
+C:/Users/daruma/nvim-source/cpp/tanuk-script/build/CMakeFiles/rebuild_cache.dir
