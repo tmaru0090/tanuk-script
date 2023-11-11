@@ -1,3 +1,0 @@
-C:\Users\daruma\bin\.cmake\CMake\bin\cmake.exe -E rm -f CMakeFiles\tksc.dir/objects.a
-C:\Users\daruma\bin\.gcc\mingw32\bin\ar.exe qc CMakeFiles\tksc.dir/objects.a @CMakeFiles\tksc.dir\objects1.rsp
-C:\Users\daruma\bin\.gcc\mingw32\bin\g++.exe -g -Wl,--whole-archive CMakeFiles\tksc.dir/objects.a -Wl,--no-whole-archive -o C:\Users\daruma\nvim-source\cpp\tanuk-script\bin\tksc.exe -Wl,--out-implib,libtksc.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\tksc.dir\linklibs.rsp

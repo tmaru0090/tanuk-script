@@ -1,4 +1,2 @@
-if a == 0{
-}
-let test = "";
-let test ["","",""];
+let card_1 ,card_2,card_3 = 0,0,0;
+
