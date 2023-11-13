@@ -1,7 +1,7 @@
 #pragma once
 #include <string>
 #include <vector>
-
+#include <memory>
 #include "ekind.hh"
 
 // トークンを表す構造体
@@ -120,13 +120,9 @@ struct Token {
 // ノードを表す構造体
 struct Node {
   NodeType type;  // ノードの種類
-  Node* left;	  // 左ノード
-  Node* right;	  // 右ノード
-  Node(NodeType type, Node* left, Node* right) {
-    this->type = type;
-    this->left = left;
-    this->right = right;
-  }
+  std::unique_ptr<Node>left;	  // 左ノード
+  std::unique_ptr<Node> right;	  // 右ノード
+  Node(NodeType type, std::unique_ptr<Node>left, std::unique_ptr<Node> right):type(type),left(std::move(left)),right(std::move(right)){}
   std::string nodeTypeToString(const NodeType& type) {
     std::string temp = "";
     switch (type) {
@@ -166,7 +162,9 @@ struct Node {
       case NodeType::Const:
 	temp += "Const";
 	break;
-
+      case NodeType::Root:
+	temp += "Root";
+        break;
       default:
 	temp += "Error";
 	break;

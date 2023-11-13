@@ -23,11 +23,12 @@ int main(int argc, char** argv) {
   }
   // スクリプトを一度に読み込む
   std::string input((std::istreambuf_iterator<char>(inputFile)),
-		    std::istreambuf_iterator<char>());
+		    (std::istreambuf_iterator<char>()));
   inputFile.close();
   #endif 
   #ifdef DEBUG 
-  std::string input = "let a = 1000;let b = 10000;";
+  std::string input = "let a = 1000;\nlet b = 190 = 12121;\n"
+		      "" ;
   #endif
   try {
     // 字句解析
@@ -37,10 +38,10 @@ int main(int argc, char** argv) {
     Parser parser(tokens);
     auto node = parser.parse();
     lexer.printLexerData(tokens);
-    parser.printNodeTree(node);
+    parser.printNodeTree(std::move(node));
     // 実行
     Decoder dec;
-    dec.decode(tokens,node);
+    dec.decode(tokens,std::move(node));
     // 下記エラー処理
   } catch (LexerException& e) {
     std::cerr << e.what() << std::endl;

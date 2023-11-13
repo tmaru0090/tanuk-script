@@ -5,7 +5,7 @@
 
 #include "ekind.hh"
 #include "struct.hh"
-
+#include <memory>
 class Parser {
  public:
   void operator() (std::vector<Token>& tokens);
@@ -13,11 +13,11 @@ class Parser {
   Parser(std::vector<Token>& tokens);
   ~Parser() = default;
   // トークン分けされた文字列をASTに変換
-  Node* parse();
+  std::unique_ptr<Node> parse();
   // 代入文の解析
-  Node* parseAssignment();
+  std::unique_ptr<Node> parseAssignment();
   // 式の解析
-  Node* parseExpr();
+  std::unique_ptr<Node> parseExpr();
   // 現在のリスト上のトークンを進める
   void nextVecToken();
   // 現在のトークンを取得
@@ -27,7 +27,7 @@ class Parser {
   // 現在のトークンの優先度を取得
   ExprPrecedence getPrecedence(TokenType type);
   // ツリー状に現在のASTを表示
-  void printNodeTree(Node* node, int depth = 0);
+  void printNodeTree(std::unique_ptr<Node> node, int depth = 0);
 
  private:
   std::vector<Token>& _tokens;  // 現在のトークン

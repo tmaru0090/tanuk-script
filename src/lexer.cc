@@ -10,11 +10,7 @@ void Lexer::operator()(const std::string& input){
     this->input = input;
 }
 // コンストラクタ
-Lexer::Lexer(const std::string& input) {
-  this->input = input;
-  this->index = 0;
-  this->line = 1;
-  this->column = 1;
+Lexer::Lexer(const std::string& input):input(input),index(0),line(1),column(1) {
 }
 
 // 現在の文字を返すメソッド
@@ -299,9 +295,15 @@ Token Lexer::nextToken() {
 std::vector<Token> Lexer::tokenize() {
   std::vector<Token> tokens;
   Token token = nextToken();
-  while (token.type != TokenType::Eof) {
+  // トークンを一つずつベクターに追加する
+  while (true) {
     tokens.push_back(token);
     token = nextToken();
+    if(token.type == TokenType::Eof){
+      // 最後のトークンを生成して終了
+      tokens.push_back(token);
+      break;
+    }
   }
   return tokens;
 }

@@ -1,4 +1,4 @@
-set(CMAKE_CXX_COMPILER "C:/Users/daruma/bin/.gcc/mingw32/bin/c++.exe")
+set(CMAKE_CXX_COMPILER "C:/Users/daruma/bin/.gcc/mingw32/bin/g++.exe")
 set(CMAKE_CXX_COMPILER_ARG1 "")
 set(CMAKE_CXX_COMPILER_ID "GNU")
 set(CMAKE_CXX_COMPILER_VERSION "12.2.0")

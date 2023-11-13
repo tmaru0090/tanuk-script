@@ -36,6 +36,7 @@ enum class NodeType {
   While,	    // whileキーワード
   Where,	    // whereキーワード
   Ref,		    // refキーワード
+  Root,             // ASTのRootを表す
 };
 
 // シンボルの種類を表す列挙型

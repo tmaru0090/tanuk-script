@@ -4,7 +4,7 @@
 #include <iostream>
 #include <regex>
 #include <string>
-
+#include <memory>
 #include "common.hh"
 #include "define.hh"
 #include "exception.hh"
@@ -35,7 +35,7 @@ class Decoder {
     }
   }
 
-  void decode(std::vector<Token>& tokens,Node* node) {
+  void decode(std::vector<Token>& tokens,std::unique_ptr<Node> node) {
       
    }
 };

@@ -1,2 +1,4 @@
-let card_1 ,card_2,card_3 = 0,0,0;
-
+// Comment1 test1:Int
+let test1 = 100;
+let test2 = 100;
+let test3 = 19;
