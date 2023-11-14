@@ -27,8 +27,10 @@ int main(int argc, char** argv) {
   inputFile.close();
   #endif 
   #ifdef DEBUG 
-  std::string input = "let a = 1000;\nlet b = 190 = 12121;\n"
-		      "" ;
+  std::string input = "// コメント\n"
+		      "// コメント2\n"
+          "let a = 1000;\nlet b = 190 = 12121;\n"
+           ;
   #endif
   try {
     // 字句解析

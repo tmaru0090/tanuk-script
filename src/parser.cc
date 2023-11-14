@@ -19,13 +19,14 @@ std::unique_ptr<Node> Parser::parse() {
       nextVecToken();
     }
     if (currentToken().type == TokenType::Let) {
-      if(!node->right){
-        node = parseAssignment();
-      }else{
-        node->right = parseAssignment();
-      }
-      if(currentToken().type == TokenType::Let){
-        node->right = parseAssignment();
+      if (!node->right) {
+	node->right = parseAssignment();
+      } else {
+	std::unique_ptr<Node> current = std::move(node->right);
+	while (current->right != nullptr) {
+	  current = std::move(current->right);
+	}
+	current->right = parseAssignment();
       }
     }
     nextVecToken();
@@ -38,9 +39,9 @@ std::unique_ptr<Node> Parser::parseExpr() {}
 std::unique_ptr<Node> Parser::parseAssignment() {
   int assignmentCount = 0;
   auto root =
-      std::make_unique<Node>(NodeType::Root, nullptr, nullptr);	 // ルートノード
-  
-  if(currentToken().type == TokenType::Let) {
+      std::make_unique<Node>(NodeType::Let, nullptr, nullptr);	// ルートノード
+
+  if (currentToken().type == TokenType::Let) {
     auto letNode = std::make_unique<Node>(NodeType::Let, nullptr,
 					  nullptr);  // "let" ノード
     nextVecToken();
@@ -73,18 +74,18 @@ std::unique_ptr<Node> Parser::parseAssignment() {
       }
       // ルートノードに "let" ノードを接続
       if (root->left == nullptr) {
-	      root->left = std::move(letNode);
+	root->left = std::move(letNode);
       } else {
-	    // 既にルートノードがある場合、"let"
-	    // ノードを既存のルートノードの右側に接続
-	    auto current = root->left.get();
-	    while (current->right) {
-	      current = current->right.get();
-	    }
-	    current->right = std::move(letNode);
+	// 既にルートノードがある場合、"let"
+	// ノードを既存のルートノードの右側に接続
+	auto current = root->left.get();
+	while (current->right) {
+	  current = current->right.get();
+	}
+	current->right = std::move(letNode);
+      }
     }
   }
-}
 
   if (assignmentCount > 0) {
     std::cout << "代入処理が " << assignmentCount << " 回見つかりました"
@@ -110,6 +111,8 @@ void Parser::printNodeTree(std::unique_ptr<Node> node, int depth) {
   }
 
   // ノードの情報を表示
+  std::cout << colorToPrintString("Parser Results:", PrintColors::Red)
+	    << std::endl;
   std::cout << colorToPrintString("Type: ", PrintColors::Yellow)
 	    << node->nodeTypeToString(node->type) << std::endl;
 
